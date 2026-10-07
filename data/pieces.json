@@ -1,5 +1,106 @@
 [
   {
+    "id": "single-flower-drops",
+    "name": "Single Flower Drops",
+    "category": "Earrings",
+    "price": "$9",
+    "materials": "Enamel flower charms, gold-tone metal, gold french hooks",
+    "story": "One flower on one hook. I lay the charms out on the black felt in every color I have, red daisies, green blossoms, violet petals with a yellow heart, and let the pair choose itself.\n\nThey are the smallest thing I make and the easiest to wear. A little color at the ear, nothing more.",
+    "adHeadline": "One flower, one hook",
+    "adBody": "A single enamel flower charm on a gold french hook, in red, green, violet, pink, and more.",
+    "socialCaption": "The single drops, laid out on the felt. Pick a color; each pair is one small flower on a gold hook.",
+    "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a small red enamel daisy earring on a gold hook.",
+    "image": "/uploads/single-flower-drops.jpg",
+    "createdAt": "2026-10-07T23:55:00.000Z"
+  },
+  {
+    "id": "flower-leaf-cluster-drops",
+    "name": "Flower & Leaf Cluster Drops",
+    "category": "Earrings",
+    "price": "$12",
+    "materials": "Enamel blossoms and leaves, gold-tone links, gold kidney hooks",
+    "story": "These grow downward like a stem. A pale blossom at the top, a green enamel leaf, then a blue daisy at the end of the line. I link them one at a time with the pliers until the drop hangs straight.\n\nThey move when you turn your head, which is the whole point.",
+    "adHeadline": "A stem you can wear",
+    "adBody": "Blossom, leaf, and daisy linked into one gold drop that moves when you do.",
+    "socialCaption": "Cluster drops: white blossom, green leaf, blue daisy, linked by hand on a gold kidney hook.",
+    "altText": "A young woman with long straight dark hair in a pale blue shirt, in profile, wearing a drop earring of white blossoms, green leaves, and blue daisies.",
+    "image": "/uploads/flower-leaf-cluster-drops.jpg",
+    "createdAt": "2026-10-07T23:54:00.000Z"
+  },
+  {
+    "id": "flower-charm-hoops",
+    "name": "Flower Charm Hoops",
+    "category": "Earrings",
+    "price": "$14",
+    "materials": "Gold-tone wire hoops, enamel flower charms",
+    "story": "A thin gold hoop, and a little garden hanging from the bottom of it. Yellow blossom, pink blossom, a violet four-petal flower, a green daisy. No two pairs come out quite the same.\n\nThey are bright on purpose. These are the ones people ask about.",
+    "adHeadline": "A garden on a hoop",
+    "adBody": "Thin gold hoops hung with yellow, pink, violet, and green enamel flowers.",
+    "socialCaption": "Flower charm hoops off the bench. A small garden swinging from each ear.",
+    "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a gold hoop earring hung with yellow, pink, purple, and green enamel flowers.",
+    "image": "/uploads/flower-charm-hoops.jpg",
+    "createdAt": "2026-10-07T23:53:00.000Z"
+  },
+  {
+    "id": "swap-hoops",
+    "name": "Swap Hoops",
+    "category": "Earrings",
+    "priceOptions": [
+      {
+        "label": "Hoops + 1 bead color",
+        "price": "$10"
+      },
+      {
+        "label": "Hoops + 3 bead colors",
+        "price": "$18"
+      },
+      {
+        "label": "Hoops + 5 bead colors (popular)",
+        "price": "$24"
+      },
+      {
+        "label": "Hoops + 10 bead colors",
+        "price": "$35"
+      }
+    ],
+    "materials": "Gold-tone wire hoops, fluted melon beads with gold stripes",
+    "story": "The hoop opens and the bead slides off, so one pair of hoops can be black and gold today and pink tomorrow. I keep the beads in a row on the felt: black, orange, pink, lime, violet, sky blue, green, red, cream.\n\nStart with one color or take the whole set.",
+    "adHeadline": "Change the bead, change the day",
+    "adBody": "Gold hoops with swappable fluted beads, in sets of 1, 3, 5, or 10 colors.",
+    "socialCaption": "Swap hoops with the black bead on, and nine more colors waiting. The five-color set is the one most people pick.",
+    "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a black and gold striped round bead.",
+    "image": "/uploads/swap-hoops.jpg",
+    "createdAt": "2026-10-07T23:52:00.000Z"
+  },
+  {
+    "id": "pumpkin-bead-drops",
+    "name": "Pumpkin Bead Drops",
+    "category": "Earrings",
+    "price": "$12 per pair",
+    "materials": "Fluted melon beads with gold stripes, gold filigree caps, gold french hooks",
+    "story": "A round fluted bead between two gold filigree caps, so it hangs like a small lantern. I make them in green, red, orange, and cream, and every bead has its own gold lines running top to bottom.\n\nThe orange ones always go first in the fall.",
+    "adHeadline": "A small lantern at the ear",
+    "adBody": "A fluted bead capped in gold filigree, in green, red, orange, or cream.",
+    "socialCaption": "Pumpkin bead drops in green, red, orange, and cream. Gold caps top and bottom, gold hook.",
+    "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing an orange fluted bead earring with gold caps.",
+    "image": "/uploads/pumpkin-bead-drops.jpg",
+    "createdAt": "2026-10-07T23:51:00.000Z"
+  },
+  {
+    "id": "tibetan-bead-drops",
+    "name": "Tibetan Bead Drops",
+    "category": "Earrings",
+    "price": "$16 per pair",
+    "materials": "Tibetan-style beads with turquoise and coral inlay, gold-tone wire",
+    "story": "The beads are the heavy, detailed kind: dark centers wrapped in twisted gold wire, set with turquoise and coral. I wire-wrap each one into a loop by hand so it hangs cleanly from the hook.\n\nOne is all blue-green stones in a gold cage. One has red and turquoise dots between gold swirls. Both feel old in the hand.",
+    "adHeadline": "Turquoise in a gold cage",
+    "adBody": "Inlaid Tibetan-style beads, wire-wrapped by hand into a single drop.",
+    "socialCaption": "Tibetan bead drops, wrapped this week. Turquoise, coral, and a lot of twisted gold.",
+    "altText": "A young woman with a dark braid in a maroon top, in profile against a stone wall, wearing a drop earring of a gold bead set with turquoise stones.",
+    "image": "/uploads/tibetan-bead-drops.jpg",
+    "createdAt": "2026-10-07T23:50:00.000Z"
+  },
+  {
     "name": "Throat Blossom",
     "category": "Pendant",
     "materials": "Pink enamel, fine gold chain, a tiny clear stone",

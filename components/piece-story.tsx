@@ -54,6 +54,28 @@ export function PieceStory({ piece }: { piece: Piece }) {
         <p className="mt-5 text-sm uppercase tracking-[0.16em] text-muted">
           {piece.materials}
         </p>
+        {piece.price || piece.priceOptions?.length ? (
+          <div className="mt-8 max-w-lg border-y border-line py-5">
+            {piece.price ? (
+              <p className="font-display text-4xl font-light text-ink">{piece.price}</p>
+            ) : null}
+            {piece.priceOptions?.length ? (
+              <dl className={`space-y-2 ${piece.price ? "mt-4" : ""}`}>
+                {piece.priceOptions.map((option) => (
+                  <div key={option.label} className="flex items-baseline justify-between gap-6">
+                    <dt className="text-base text-ink/80">{option.label}</dt>
+                    <dd className="font-display text-2xl font-light text-ink">
+                      {option.price}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            ) : null}
+            <p className="mt-4 text-[0.72rem] uppercase tracking-[0.2em] text-muted">
+              Handmade · shipping extra
+            </p>
+          </div>
+        ) : null}
         <div className="mt-10 max-w-lg space-y-5 text-lg leading-relaxed">
           {piece.story.split("\n\n").map((paragraph) => (
             <p key={paragraph.slice(0, 32)}>{paragraph}</p>

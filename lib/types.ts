@@ -19,9 +19,51 @@ export const pieceSchema = copySchema.extend({
     .string()
     .regex(/^\/uploads\/[A-Za-z0-9._-]+$/, "Image must live in /uploads"),
   createdAt: z.string().min(1),
+  price: z.string().trim().min(1).max(40).optional(),
+  priceOptions: z
+    .array(
+      z.object({
+        label: z.string().trim().min(1).max(80),
+        price: z.string().trim().min(1).max(40),
+      }),
+    )
+    .max(10)
+    .optional(),
 });
 
 export type Piece = z.infer<typeof pieceSchema>;
+
+const categoryPlurals: Record<string, string> = {
+  Earrings: "Earrings",
+  Necklace: "Necklaces",
+  Pendant: "Pendants",
+  Ring: "Rings",
+  Bracelet: "Bracelets",
+  Craft: "Crafts",
+};
+
+const categoryOrder = Object.keys(categoryPlurals);
+
+export function categoryLabel(category: string): string {
+  return categoryPlurals[category] ?? category;
+}
+
+export function sortedCategories(pieces: Piece[]): string[] {
+  const present = [...new Set(pieces.map((piece) => piece.category))];
+  const rank = (category: string) => {
+    const index = categoryOrder.indexOf(category);
+    return index === -1 ? categoryOrder.length : index;
+  };
+  return present.sort((a, b) => rank(a) - rank(b) || a.localeCompare(b));
+}
+
+export function priceSummary(piece: Piece): string | undefined {
+  if (piece.price) {
+    return piece.price;
+  }
+  const first = piece.priceOptions?.[0];
+  return first ? `from ${first.price}` : undefined;
+}
 
 export const emptyCopy = {
   name: "",

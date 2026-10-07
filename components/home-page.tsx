@@ -2,9 +2,15 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { ScrollCampaign } from "@/components/scroll-campaign";
-import type { Piece } from "@/lib/types";
+import {
+  categoryLabel,
+  priceSummary,
+  sortedCategories,
+  type Piece,
+} from "@/lib/types";
 import { site } from "@/site.config";
 
 const words = ["Blossom", "Gold", "Enamel", "Daisy"];
@@ -35,6 +41,10 @@ function columnSpan(index: number, total: number): string {
 
 export function HomePage({ pieces }: { pieces: Piece[] }) {
   const reduce = useReducedMotion();
+  const [filter, setFilter] = useState("All");
+  const categories = sortedCategories(pieces);
+  const shown =
+    filter === "All" ? pieces : pieces.filter((piece) => piece.category === filter);
   const earrings = pieces.find((piece) => piece.id === "blossom-charms");
   const pendant = pieces.find((piece) => piece.id === "blossom-pendant");
   const campaign = [earrings, pendant].filter(
@@ -110,16 +120,48 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
             Each piece keeps the mark of the hand that made it.
           </p>
         </div>
+        {categories.length > 1 ? (
+          <div
+            role="tablist"
+            aria-label="Filter the collection"
+            className="-mx-5 mb-10 flex gap-2 overflow-x-auto px-5 pb-1 md:mx-0 md:flex-wrap md:px-0"
+          >
+            {["All", ...categories].map((category) => {
+              const active = filter === category;
+              const count =
+                category === "All"
+                  ? pieces.length
+                  : pieces.filter((piece) => piece.category === category).length;
+              return (
+                <button
+                  key={category}
+                  type="button"
+                  role="tab"
+                  aria-selected={active}
+                  onClick={() => setFilter(category)}
+                  className={`shrink-0 rounded-full border px-4 py-2 text-[0.72rem] uppercase tracking-[0.2em] transition-colors ${
+                    active
+                      ? "border-ink bg-ink text-card"
+                      : "border-line text-muted hover:border-ink hover:text-ink"
+                  }`}
+                >
+                  {category === "All" ? "All" : categoryLabel(category)}
+                  <span className="ml-2 opacity-60">{count}</span>
+                </button>
+              );
+            })}
+          </div>
+        ) : null}
         {pieces.length === 0 ? (
           <p className="text-muted">
             The bench is clear. Publish a piece from the studio.
           </p>
         ) : (
           <div className="grid gap-5 md:grid-cols-12">
-            {pieces.map((piece, index) => (
+            {shown.map((piece, index) => (
               <motion.article
                 key={piece.id}
-                className={columnSpan(index, pieces.length)}
+                className={columnSpan(index, shown.length)}
                 initial={reduce ? false : { opacity: 0, y: 28 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-40px" }}
@@ -156,6 +198,11 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
                       <h3 className="mt-1 font-display text-3xl font-light tracking-tight">
                         {piece.name}
                       </h3>
+                      {priceSummary(piece) ? (
+                        <p className="mt-1 text-sm tracking-wide text-card/90">
+                          {priceSummary(piece)}
+                        </p>
+                      ) : null}
                     </div>
                   </div>
                 </Link>
