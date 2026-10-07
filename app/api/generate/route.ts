@@ -44,7 +44,7 @@ export async function POST(request: Request) {
   try {
     const bytes = new Uint8Array(await image.file.arrayBuffer());
     const result = await generateText({
-      model: "openai/gpt-5.4",
+      model: "openai/gpt-5-mini",
       output: Output.object({
         schema: copySchema,
         name: "JewelryAd",

@@ -33,9 +33,9 @@
     "adHeadline": "A stone, still warm",
     "adBody": "Hammered gold and one river stone, made to sit against the collarbone.",
     "socialCaption": "New on the bench: a hammered gold chain and a grey river stone. The links are uneven on purpose.",
-    "altText": "Hammered gold chain necklace with a round grey river-stone pendant on oatmeal linen.",
+    "altText": "A young woman with long black hair in an ivory linen top, wearing a hammered gold chain with a grey river-stone pendant, against a sage-green wall.",
     "id": "linen-necklace",
-    "image": "/uploads/linen-necklace.jpg",
+    "image": "/uploads/linen-necklace-worn.jpg",
     "createdAt": "2026-10-01T15:00:00.000Z"
   },
   {
@@ -46,9 +46,9 @@
     "adHeadline": "Brick and cream",
     "adBody": "Two clay shapes on a brass hook, pressed by hand and left unglazed.",
     "socialCaption": "Unglazed clay earrings in terracotta and cream, with brass hooks. Light enough to forget, until someone asks.",
-    "altText": "Pair of handmade clay earrings with terracotta tops and cream ovals on a textured white surface.",
+    "altText": "A young woman with a short natural afro, in profile, wearing a terracotta and cream clay earring on a brass hook.",
     "id": "clay-earrings",
-    "image": "/uploads/clay-earrings.jpg",
+    "image": "/uploads/clay-earrings-worn.jpg",
     "createdAt": "2026-10-02T15:00:00.000Z"
   },
   {
@@ -59,9 +59,9 @@
     "adHeadline": "Green, left rough",
     "adBody": "A hammered silver ring holding one irregular green stone.",
     "socialCaption": "This ring keeps the stone's uneven edge. Silver, hammered, and a green that looks wet in window light.",
-    "altText": "Hammered silver ring with a rough green stone on dark wood.",
+    "altText": "A young woman with a black bob in a charcoal sweater, holding up her hand to show a hammered silver ring with a rough green stone.",
     "id": "river-ring",
-    "image": "/uploads/river-ring.jpg",
+    "image": "/uploads/river-ring-worn.jpg",
     "createdAt": "2026-10-03T15:00:00.000Z"
   },
   {
@@ -72,9 +72,9 @@
     "adHeadline": "Thread, wound tight",
     "adBody": "Three linen cuffs in ochre, cream, and charcoal, wrapped by hand.",
     "socialCaption": "Three thread cuffs, stacked. The colors are ochre, cream, and charcoal, wound until the fiber shows.",
-    "altText": "Three stacked thread-wrapped bangles in ochre, cream, and charcoal on grey stone.",
+    "altText": "A young woman with wavy copper-red hair in a rust linen shirt, her hand on her shoulder, wearing three stacked ochre, cream, and charcoal thread bangles.",
     "id": "thread-cuff",
-    "image": "/uploads/thread-cuff.jpg",
+    "image": "/uploads/thread-cuff-worn.jpg",
     "createdAt": "2026-10-04T15:00:00.000Z"
   }
 ]
