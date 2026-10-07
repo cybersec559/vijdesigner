@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# vijdesigner
 
-## Getting Started
+Atelier is a handmade jewelry and crafts site. Visitors browse a campaign and a collection. The maker uses a private studio to drop in a photograph, generate ad copy from that image, edit it, and publish the piece onto the site.
 
-First, run the development server:
+This is a showcase. There is no cart and no checkout.
+
+## Run it locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local
+npm run dev -- --hostname 127.0.0.1 --port 3456
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://127.0.0.1:3456](http://127.0.0.1:3456).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Path | What it is |
+| --- | --- |
+| `/` | Scroll campaign, collection, and window |
+| `/pieces/[id]` | One piece, with its photograph and story |
+| `/studio` | Password gate, then the upload board |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Set `STUDIO_PASSWORD` in `.env.local` before signing into the studio. Copy generation also needs `AI_GATEWAY_API_KEY`. Without that key, the studio still lets you type the copy and publish. Generate returns a clear error until the key is present and the dev server is restarted.
 
-## Learn More
+## What a visitor sees
 
-To learn more about Next.js, take a look at the following resources:
+The homepage opens on one pinned photograph. Scrolling crossfades it through the other designs: the pieces worn together, then First Blossom, Throat Blossom, and the rest of the collection. The caption and the link change with the photograph. After the last design, the page continues into the stories, a marquee, the collection grid, and the window.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Each piece page keeps the photograph beside the maker's story and the ad line.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`prefers-reduced-motion` skips the long pinned scroll and shows the first photograph only.
 
-## Deploy on Vercel
+## Studio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Sign in at `/studio`.
+2. Drop one or more photographs. JPEG, PNG, WebP, and GIF are accepted, up to 8 MB.
+3. Generate copy for one image, or generate all. The draft stays editable.
+4. Publish. The image is stored under `public/uploads`, and the piece is written to the front of `data/pieces.json`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Published pieces show up on the homepage without a rebuild.
+
+## Where the code lives
+
+```
+app/page.tsx                 homepage
+app/pieces/[id]/page.tsx     piece story
+app/studio/page.tsx          studio
+app/api/generate/route.ts    vision copy
+app/api/pieces/route.ts      list and publish
+app/api/studio/             login and logout
+components/scroll-campaign.tsx
+components/home-page.tsx
+components/studio-board.tsx
+data/pieces.json             the collection
+public/uploads/              photographs
+lib/pieces.ts                read and write the collection
+lib/uploads.ts               image checks and storage
+lib/studio-auth.ts           studio session
+site.config.ts               name, tagline, navigation
+```
+
+The end-to-end record of how the site was built is in [docs/PROJECT.md](docs/PROJECT.md).
