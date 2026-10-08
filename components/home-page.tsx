@@ -10,13 +10,6 @@ import { site } from "@/site.config";
 
 const words = ["Swap Hoops", "Enamel Flowers", "Pumpkin Beads", "Tibetan Beads"];
 
-function frameClass(id: string): string {
-  if (id === "blossom-charms" || id === "blossom-pendant") {
-    return "object-cover object-[center_42%]";
-  }
-  return "object-cover";
-}
-
 function indexLabel(index: number): string {
   return String(index + 1).padStart(2, "0");
 }
@@ -27,11 +20,6 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
   const categories = sortedCategories(pieces);
   const shown =
     filter === "All" ? pieces : pieces.filter((piece) => piece.category === filter);
-  const earrings = pieces.find((piece) => piece.id === "blossom-charms");
-  const pendant = pieces.find((piece) => piece.id === "blossom-pendant");
-  const campaign = [earrings, pendant].filter(
-    (piece): piece is Piece => piece !== undefined,
-  );
   const hero = pieces[0];
   const story = hero?.story.split("\n\n") ?? [];
 
@@ -39,25 +27,7 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
     <main>
       <ScrollCampaign pieces={pieces} />
 
-      {campaign.length > 0 ? (
-        <section className="mx-auto grid max-w-6xl gap-12 px-5 py-20 md:grid-cols-2 md:px-8 md:py-28">
-          {campaign.map((piece) => (
-            <div key={piece.id}>
-              <p className="text-[0.72rem] uppercase tracking-[0.28em] text-gold">
-                {piece.category}
-              </p>
-              <p className="mt-4 font-display text-4xl font-light italic leading-tight text-ink">
-                {piece.adHeadline}
-              </p>
-              <div className="mt-5 space-y-4 text-lg leading-relaxed text-muted">
-                {piece.story.split("\n\n").map((paragraph) => (
-                  <p key={paragraph.slice(0, 32)}>{paragraph}</p>
-                ))}
-              </div>
-            </div>
-          ))}
-        </section>
-      ) : hero && story.length > 0 ? (
+      {hero && story.length > 0 ? (
         <section className="mx-auto grid max-w-6xl gap-10 px-5 py-20 md:grid-cols-[0.8fr_1.2fr] md:px-8 md:py-28">
           <p className="font-display text-4xl font-light italic leading-tight text-ink md:text-5xl">
             {hero.adHeadline}
@@ -171,7 +141,7 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
                           fill
                           unoptimized
                           sizes="(min-width: 1024px) 31vw, (min-width: 640px) 48vw, 100vw"
-                          className={frameClass(piece.id)}
+                          className="object-cover"
                         />
                       </motion.div>
                       {piece.badge ? (
@@ -284,7 +254,7 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
                       fill
                       unoptimized
                       sizes="(min-width: 768px) 45vw, 100vw"
-                      className={frameClass(piece.id)}
+                      className="object-cover"
                     />
                   </Link>
                   <div className={imageFirst ? "" : "md:order-1"}>

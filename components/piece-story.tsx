@@ -7,13 +7,6 @@ import { motion, useReducedMotion } from "motion/react";
 import type { Piece } from "@/lib/types";
 import { site } from "@/site.config";
 
-function frameClass(id: string): string {
-  if (id === "blossom-charms" || id === "blossom-pendant") {
-    return "object-cover object-[center_42%]";
-  }
-  return "object-cover";
-}
-
 export function PieceStory({ piece }: { piece: Piece }) {
   const reduce = useReducedMotion();
   const [variantName, setVariantName] = useState(piece.variants?.[0]?.name);
@@ -43,7 +36,7 @@ export function PieceStory({ piece }: { piece: Piece }) {
           priority
           unoptimized
           sizes="(min-width: 1024px) 52vw, 100vw"
-          className={`photo-drift ${frameClass(piece.id)}`}
+          className="photo-drift object-cover"
         />
         {thumbs.length > 1 ? (
           <div className="absolute bottom-4 left-4 z-10 flex gap-2">
