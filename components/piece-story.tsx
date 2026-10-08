@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import type { Piece } from "@/lib/types";
+import { site } from "@/site.config";
 
 function frameClass(id: string): string {
   if (id === "blossom-charms" || id === "blossom-pendant") {
@@ -16,9 +17,15 @@ function frameClass(id: string): string {
 export function PieceStory({ piece }: { piece: Piece }) {
   const reduce = useReducedMotion();
   const [variantName, setVariantName] = useState(piece.variants?.[0]?.name);
+  const [photoIndex, setPhotoIndex] = useState<number | null>(null);
   const variant = piece.variants?.find((option) => option.name === variantName);
-  const image = variant?.image ?? piece.image;
-  const altText = variant?.altText ?? piece.altText;
+  const extra = photoIndex === null ? undefined : piece.photos?.[photoIndex];
+  const image = extra?.image ?? variant?.image ?? piece.image;
+  const altText = extra?.altText ?? variant?.altText ?? piece.altText;
+  const thumbs = [
+    { label: "Worn", image: variant?.image ?? piece.image, index: null },
+    ...(piece.photos ?? []).map((photo, index) => ({ ...photo, index })),
+  ];
 
   return (
     <main className="lg:grid lg:min-h-[100svh] lg:grid-cols-[minmax(0,1.05fr)_minmax(22rem,0.95fr)]">
@@ -38,6 +45,29 @@ export function PieceStory({ piece }: { piece: Piece }) {
           sizes="(min-width: 1024px) 52vw, 100vw"
           className={`photo-drift ${frameClass(piece.id)}`}
         />
+        {thumbs.length > 1 ? (
+          <div className="absolute bottom-4 left-4 z-10 flex gap-2">
+            {thumbs.map((thumb) => {
+              const active = thumb.index === photoIndex;
+              return (
+                <button
+                  key={thumb.label}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => setPhotoIndex(thumb.index)}
+                  className={`group relative size-16 overflow-hidden rounded-xl border-2 bg-card shadow-md transition sm:size-20 ${
+                    active ? "border-gold-light" : "border-card/70 opacity-80 hover:opacity-100"
+                  }`}
+                >
+                  <Image src={thumb.image} alt="" fill unoptimized sizes="80px" className="object-cover" />
+                  <span className="absolute inset-x-0 bottom-0 bg-plum/80 py-0.5 text-[0.55rem] uppercase tracking-[0.14em] text-card">
+                    {thumb.label}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        ) : null}
       </motion.div>
       <motion.div
         className="px-5 py-12 md:px-12 md:py-20 lg:py-28"
@@ -54,7 +84,12 @@ export function PieceStory({ piece }: { piece: Piece }) {
         <p className="mt-10 text-[0.72rem] uppercase tracking-[0.28em] text-gold">
           {piece.category}
         </p>
-        <h1 className="mt-4 font-display text-6xl font-light italic leading-[0.95] tracking-tight sm:text-7xl">
+        {piece.badge ? (
+          <span className="mt-4 inline-block rounded-full bg-plum px-3 py-1 text-[0.62rem] uppercase tracking-[0.16em] text-gold-light">
+            {piece.badge}
+          </span>
+        ) : null}
+        <h1 className="mt-4 font-display text-5xl leading-[1] tracking-tight text-ink sm:text-6xl">
           {piece.name}
         </h1>
         <p className="mt-5 text-sm uppercase tracking-[0.16em] text-muted">
@@ -75,7 +110,10 @@ export function PieceStory({ piece }: { piece: Piece }) {
                     aria-pressed={active}
                     aria-label={option.name}
                     title={option.name}
-                    onClick={() => setVariantName(option.name)}
+                    onClick={() => {
+                      setVariantName(option.name);
+                      setPhotoIndex(null);
+                    }}
                     className={`flex items-center gap-2 rounded-full border py-1.5 pl-1.5 pr-4 text-sm transition-colors ${
                       active
                         ? "border-ink text-ink"
@@ -95,24 +133,25 @@ export function PieceStory({ piece }: { piece: Piece }) {
           </fieldset>
         ) : null}
         {piece.price || piece.priceOptions?.length ? (
-          <div className="mt-8 max-w-lg border-y border-line py-5">
-            {piece.price ? (
-              <p className="font-display text-4xl font-light text-ink">{piece.price}</p>
-            ) : null}
-            {piece.priceOptions?.length ? (
-              <dl className={`space-y-2 ${piece.price ? "mt-4" : ""}`}>
-                {piece.priceOptions.map((option) => (
-                  <div key={option.label} className="flex items-baseline justify-between gap-6">
-                    <dt className="text-base text-ink/80">{option.label}</dt>
-                    <dd className="font-display text-2xl font-light text-ink">
-                      {option.price}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            ) : null}
-            <p className="mt-4 text-[0.72rem] uppercase tracking-[0.2em] text-muted">
-              Handmade · shipping extra
+          <div className="mt-8 max-w-lg rounded-2xl border border-line bg-card px-6 py-5">
+            <div className="space-y-2.5">
+              {piece.price ? (
+                <div className="flex items-baseline gap-3">
+                  <span className="text-base text-ink/80">Price</span>
+                  <span className="dot-leader" />
+                  <span className="font-display text-3xl text-ink">{piece.price}</span>
+                </div>
+              ) : null}
+              {piece.priceOptions?.map((option) => (
+                <div key={option.label} className="flex items-baseline gap-3">
+                  <span className="text-base text-ink/80">{option.label}</span>
+                  <span className="dot-leader" />
+                  <span className="font-display text-3xl text-ink">{option.price}</span>
+                </div>
+              ))}
+            </div>
+            <p className="mt-4 border-t border-line pt-3 text-sm text-gold">
+              Handmade · {site.shipping}
             </p>
           </div>
         ) : null}
@@ -122,7 +161,7 @@ export function PieceStory({ piece }: { piece: Piece }) {
           ))}
         </div>
         <blockquote className="mt-12 max-w-lg border-l border-gold pl-6">
-          <p className="font-display text-4xl font-light italic leading-tight">
+          <p className="font-display text-4xl italic leading-tight text-plum">
             {piece.adHeadline}
           </p>
           <p className="mt-4 text-base leading-relaxed text-muted">{piece.adBody}</p>

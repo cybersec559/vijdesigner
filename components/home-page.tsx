@@ -5,15 +5,10 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { ScrollCampaign } from "@/components/scroll-campaign";
-import {
-  categoryLabel,
-  priceSummary,
-  sortedCategories,
-  type Piece,
-} from "@/lib/types";
+import { categoryLabel, sortedCategories, type Piece } from "@/lib/types";
 import { site } from "@/site.config";
 
-const words = ["Blossom", "Gold", "Enamel", "Daisy"];
+const words = ["Swap Hoops", "Enamel Flowers", "Pumpkin Beads", "Tibetan Beads"];
 
 function frameClass(id: string): string {
   if (id === "blossom-charms" || id === "blossom-pendant") {
@@ -24,19 +19,6 @@ function frameClass(id: string): string {
 
 function indexLabel(index: number): string {
   return String(index + 1).padStart(2, "0");
-}
-
-function columnSpan(index: number, total: number): string {
-  if (total === 1) {
-    return "md:col-span-12";
-  }
-  if (index === 0) {
-    return "md:col-span-7";
-  }
-  if (index === 1) {
-    return "md:col-span-5";
-  }
-  return "md:col-span-4";
 }
 
 export function HomePage({ pieces }: { pieces: Piece[] }) {
@@ -88,12 +70,12 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
         </section>
       ) : null}
 
-      <div className="overflow-hidden border-y border-line py-5">
+      <div className="overflow-hidden bg-plum py-5">
         <div className="marquee-track flex w-max gap-12 pr-12">
           {[0, 1].map((copy) => (
             <p
               key={copy}
-              className="flex gap-12 font-display text-3xl font-light italic tracking-tight text-ink/70"
+              className="flex gap-12 font-display text-3xl italic tracking-tight text-gold-light"
               aria-hidden={copy === 1}
             >
               {Array.from({ length: 4 }, () => words)
@@ -106,110 +88,167 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
         </div>
       </div>
 
-      <section id="collection" className="mx-auto max-w-7xl px-5 py-20 md:px-8 md:py-28">
-        <div className="mb-12 flex items-end justify-between gap-6">
-          <div>
-            <p className="text-[0.72rem] uppercase tracking-[0.28em] text-gold">
-              On the bench
-            </p>
-            <h2 className="mt-3 font-display text-5xl font-light tracking-tight">
-              Collection
+      <section id="collection" className="bg-background">
+        <div className="mx-auto max-w-7xl px-5 py-20 md:px-8 md:py-28">
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="font-script text-4xl text-plum md:text-5xl">{site.name}</p>
+            <h2 className="mt-4 font-display text-5xl tracking-tight text-ink md:text-6xl">
+              Earring Catalog
             </h2>
+            <p className="mt-4 text-[0.72rem] uppercase tracking-[0.32em] text-gold">
+              Online prices
+            </p>
+            <div className="mx-auto mt-5 h-px w-20 bg-gold-light" />
+            <p className="mt-5 text-base leading-relaxed text-muted">
+              Handcrafted earrings · changeable hoops · enamel flowers · Tibetan beads.
+              <br className="hidden sm:block" /> Every piece made by hand, one at a time.
+            </p>
+            <p className="mt-4 text-sm font-medium text-gold">{site.shipping}</p>
           </div>
-          <p className="max-w-xs text-sm leading-relaxed text-muted">
-            Each piece keeps the mark of the hand that made it.
-          </p>
-        </div>
-        {categories.length > 1 ? (
-          <div
-            role="tablist"
-            aria-label="Filter the collection"
-            className="-mx-5 mb-10 flex gap-2 overflow-x-auto px-5 pb-1 md:mx-0 md:flex-wrap md:px-0"
-          >
-            {["All", ...categories].map((category) => {
-              const active = filter === category;
-              const count =
-                category === "All"
-                  ? pieces.length
-                  : pieces.filter((piece) => piece.category === category).length;
-              return (
-                <button
-                  key={category}
-                  type="button"
-                  role="tab"
-                  aria-selected={active}
-                  onClick={() => setFilter(category)}
-                  className={`shrink-0 rounded-full border px-4 py-2 text-[0.72rem] uppercase tracking-[0.2em] transition-colors ${
-                    active
-                      ? "border-ink bg-ink text-card"
-                      : "border-line text-muted hover:border-ink hover:text-ink"
-                  }`}
-                >
-                  {category === "All" ? "All" : categoryLabel(category)}
-                  <span className="ml-2 opacity-60">{count}</span>
-                </button>
-              );
-            })}
-          </div>
-        ) : null}
-        {pieces.length === 0 ? (
-          <p className="text-muted">
-            The bench is clear. Publish a piece from the studio.
-          </p>
-        ) : (
-          <div className="grid gap-5 md:grid-cols-12">
-            {shown.map((piece, index) => (
-              <motion.article
-                key={piece.id}
-                className={columnSpan(index, shown.length)}
-                initial={reduce ? false : { opacity: 0, y: 28 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-40px" }}
-                transition={{ duration: 0.6, delay: (index % 3) * 0.06 }}
-              >
-                <Link href={`/pieces/${piece.id}`} className="group block">
-                  <div
-                    className={`relative overflow-hidden rounded-[1.75rem] bg-card ${
-                      index === 0 ? "aspect-[4/5]" : "aspect-[3/4]"
+
+          {categories.length > 1 ? (
+            <div
+              role="tablist"
+              aria-label="Filter the catalog"
+              className="-mx-5 mt-12 mb-10 flex gap-2 overflow-x-auto px-5 pb-1 md:mx-0 md:justify-center md:px-0"
+            >
+              {["All", ...categories].map((category) => {
+                const active = filter === category;
+                const count =
+                  category === "All"
+                    ? pieces.length
+                    : pieces.filter((piece) => piece.category === category).length;
+                return (
+                  <button
+                    key={category}
+                    type="button"
+                    role="tab"
+                    aria-selected={active}
+                    onClick={() => setFilter(category)}
+                    className={`shrink-0 rounded-full border px-4 py-2 text-[0.72rem] uppercase tracking-[0.2em] transition-colors ${
+                      active
+                        ? "border-plum bg-plum text-card"
+                        : "border-line bg-card text-muted hover:border-plum hover:text-plum"
                     }`}
                   >
-                    <motion.div
-                      className="absolute inset-0"
-                      whileHover={reduce ? undefined : { scale: 1.05 }}
-                      transition={{ duration: 0.7 }}
-                    >
-                      <Image
-                        src={piece.image}
-                        alt={piece.altText}
-                        fill
-                        unoptimized
-                        sizes={
-                          index === 0
-                            ? "(min-width: 768px) 58vw, 100vw"
-                            : "(min-width: 768px) 32vw, 100vw"
-                        }
-                        className={frameClass(piece.id)}
-                      />
-                    </motion.div>
-                    <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/75 via-ink/25 to-transparent p-5 text-card">
-                      <p className="text-[0.68rem] uppercase tracking-[0.22em] text-card/80">
-                        {indexLabel(index)} · {piece.category}
-                      </p>
-                      <h3 className="mt-1 font-display text-3xl font-light tracking-tight">
-                        {piece.name}
-                      </h3>
-                      {priceSummary(piece) ? (
-                        <p className="mt-1 text-sm tracking-wide text-card/90">
-                          {priceSummary(piece)}
-                        </p>
+                    {category === "All" ? "All" : categoryLabel(category)}
+                    <span className="ml-2 opacity-60">{count}</span>
+                  </button>
+                );
+              })}
+            </div>
+          ) : (
+            <div className="mt-12" />
+          )}
+
+          {pieces.length === 0 ? (
+            <p className="text-center text-muted">
+              The bench is clear. Publish a piece from the studio.
+            </p>
+          ) : (
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {shown.map((piece, index) => (
+                <motion.article
+                  key={piece.id}
+                  initial={reduce ? false : { opacity: 0, y: 28 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-40px" }}
+                  transition={{ duration: 0.6, delay: (index % 3) * 0.06 }}
+                >
+                  <Link
+                    href={`/pieces/${piece.id}`}
+                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-card shadow-[0_1px_0_rgba(54,28,61,0.04)] transition-shadow hover:shadow-[0_18px_40px_-24px_rgba(54,28,61,0.45)]"
+                  >
+                    <div className="relative aspect-[4/5] overflow-hidden bg-line/40">
+                      <motion.div
+                        className="absolute inset-0"
+                        whileHover={reduce ? undefined : { scale: 1.04 }}
+                        transition={{ duration: 0.7 }}
+                      >
+                        <Image
+                          src={piece.image}
+                          alt={piece.altText}
+                          fill
+                          unoptimized
+                          sizes="(min-width: 1024px) 31vw, (min-width: 640px) 48vw, 100vw"
+                          className={frameClass(piece.id)}
+                        />
+                      </motion.div>
+                      {piece.badge ? (
+                        <span className="absolute top-4 left-4 rounded-full bg-plum px-3 py-1 text-[0.62rem] uppercase tracking-[0.16em] text-gold-light">
+                          {piece.badge}
+                        </span>
+                      ) : null}
+                      {piece.variants?.length ? (
+                        <span className="absolute right-4 bottom-4 flex -space-x-1.5 rounded-full bg-card/90 px-2 py-1.5 backdrop-blur">
+                          {piece.variants.slice(0, 6).map((option) => (
+                            <span
+                              key={option.name}
+                              aria-hidden
+                              className="size-4 rounded-full border-2 border-card"
+                              style={{ backgroundColor: option.swatch }}
+                            />
+                          ))}
+                          {piece.variants.length > 6 ? (
+                            <span className="pl-2.5 text-[0.65rem] leading-4 text-muted">
+                              +{piece.variants.length - 6}
+                            </span>
+                          ) : null}
+                        </span>
                       ) : null}
                     </div>
-                  </div>
-                </Link>
-              </motion.article>
-            ))}
-          </div>
-        )}
+                    <div className="flex flex-1 flex-col px-6 pt-5 pb-6">
+                      <p className="text-[0.65rem] uppercase tracking-[0.24em] text-gold">
+                        {piece.category}
+                      </p>
+                      <h3 className="mt-1.5 font-display text-[1.75rem] leading-tight text-ink">
+                        {piece.name}
+                      </h3>
+                      <p className="mt-2 text-sm leading-relaxed text-muted">{piece.adBody}</p>
+                      {piece.priceOptions?.length || piece.price ? (
+                        <div className="mt-auto pt-5">
+                          <div className="space-y-1.5 border-t border-line pt-4">
+                            {piece.price ? (
+                              <div className="flex items-baseline gap-3">
+                                <span className="text-sm text-ink/80">Price</span>
+                                <span className="dot-leader" />
+                                <span className="font-display text-xl text-ink">{piece.price}</span>
+                              </div>
+                            ) : null}
+                            {piece.priceOptions?.slice(0, 5).map((option) => (
+                              <div key={option.label} className="flex items-baseline gap-3">
+                                <span className="text-sm text-ink/80">{option.label}</span>
+                                <span className="dot-leader" />
+                                <span className="font-display text-xl text-ink">{option.price}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      ) : null}
+                    </div>
+                  </Link>
+                </motion.article>
+              ))}
+            </div>
+          )}
+
+          <figure className="relative mt-16 overflow-hidden rounded-2xl">
+            <Image
+              src="/uploads/real/full-collection.jpg"
+              alt="The full collection laid out on grey felt: enamel flower charms, acrylic blossoms, donut beads, and gold hooks."
+              width={1462}
+              height={760}
+              unoptimized
+              className="h-auto w-full"
+            />
+            <figcaption className="absolute top-4 left-4 rounded-full bg-plum px-4 py-2 text-[0.62rem] uppercase tracking-[0.24em] text-gold-light sm:text-[0.7rem]">
+              The full collection · Mix & match any colors
+            </figcaption>
+          </figure>
+          <p className="mt-6 rounded-2xl bg-plum px-6 py-5 text-center text-sm text-gold-light sm:text-base">
+            {site.shipping} · {site.shippingDetail}
+          </p>
+        </div>
       </section>
 
       <section id="window" className="border-t border-line">
@@ -269,13 +308,19 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
         </div>
       </section>
 
-      <footer className="border-t border-line">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-8 text-sm text-muted md:px-8">
-          <p className="font-display text-xl text-ink">{site.name}</p>
-          <p>{new Date().getFullYear()}</p>
-          <Link href="/studio" className="uppercase tracking-[0.18em] hover:text-ink">
-            Studio
-          </Link>
+      <footer className="bg-plum text-card">
+        <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 px-5 py-12 text-center md:px-8">
+          <p className="font-script text-5xl">{site.name}</p>
+          <p className="text-[0.7rem] uppercase tracking-[0.3em] text-gold-light">
+            Handcrafted earrings
+          </p>
+          <p className="text-sm text-card/70">{site.shipping} · {site.shippingDetail}</p>
+          <div className="mt-4 flex items-center gap-6 text-xs uppercase tracking-[0.2em] text-card/60">
+            <span>{new Date().getFullYear()}</span>
+            <Link href="/studio" className="hover:text-card">
+              Studio
+            </Link>
+          </div>
         </div>
       </footer>
     </main>

@@ -1,14 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f3eee6;
-  --foreground: #1c1612;
-  --muted: #6e645b;
-  --line: #e4d9cc;
-  --gold: #9a7340;
+  --background: #faf6f1;
+  --foreground: #2a1a2e;
+  --muted: #766a78;
+  --line: #e8ddd6;
+  --gold: #a8823f;
+  --gold-light: #d9b878;
   --clay: #b85c38;
-  --card: #fbf7f1;
-  --ink: #14110e;
+  --card: #fffdfa;
+  --ink: #2e1834;
+  --plum: #361c3d;
 }
 
 @theme inline {
@@ -20,8 +22,11 @@
   --color-clay: var(--clay);
   --color-card: var(--card);
   --color-ink: var(--ink);
+  --color-plum: var(--plum);
+  --color-gold-light: var(--gold-light);
   --font-sans: var(--font-outfit), sans-serif;
-  --font-display: var(--font-fraunces), serif;
+  --font-display: var(--font-bodoni), serif;
+  --font-script: var(--font-pinyon), cursive;
 }
 
 body {
@@ -31,7 +36,7 @@ body {
 }
 
 ::selection {
-  background: #f3c3cf;
+  background: #e8d3ec;
   color: var(--ink);
 }
 
@@ -71,4 +76,11 @@ body {
   .photo-drift {
     animation: none;
   }
+}
+
+.dot-leader {
+  flex: 1;
+  min-width: 1.5rem;
+  border-bottom: 2px dotted var(--line);
+  transform: translateY(-0.35em);
 }
