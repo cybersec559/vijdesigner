@@ -1,5 +1,217 @@
 [
   {
+    "id": "single-flower-drops",
+    "name": "Single Flower Drops",
+    "category": "Earrings",
+    "price": "$9",
+    "materials": "Enamel flower charms, gold-tone metal, gold french hooks",
+    "story": "One flower on one hook. I lay the charms out on the black felt in every color I have, red daisies, green blossoms, violet petals with a yellow heart, and let the pair choose itself.\n\nThey are the smallest thing I make and the easiest to wear. A little color at the ear, nothing more.",
+    "adHeadline": "One flower, one hook",
+    "adBody": "A single enamel flower charm on a gold french hook, in red, green, violet, pink, and more.",
+    "socialCaption": "The single drops, laid out on the felt. Pick a color; each pair is one small flower on a gold hook.",
+    "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a small red enamel daisy earring on a gold hook.",
+    "image": "/uploads/single-flower-drops.jpg",
+    "createdAt": "2026-10-07T23:55:00.000Z"
+  },
+  {
+    "id": "flower-leaf-cluster-drops",
+    "name": "Flower & Leaf Cluster Drops",
+    "category": "Earrings",
+    "price": "$12",
+    "materials": "Enamel blossoms and leaves, gold-tone links, gold kidney hooks",
+    "story": "These grow downward like a stem. A pale blossom at the top, a green enamel leaf, then a blue daisy at the end of the line. I link them one at a time with the pliers until the drop hangs straight.\n\nThey move when you turn your head, which is the whole point.",
+    "adHeadline": "A stem you can wear",
+    "adBody": "Blossom, leaf, and daisy linked into one gold drop that moves when you do.",
+    "socialCaption": "Cluster drops: white blossom, green leaf, blue daisy, linked by hand on a gold kidney hook.",
+    "altText": "A young woman with long straight dark hair in a pale blue shirt, in profile, wearing a drop earring of white blossoms, green leaves, and blue daisies.",
+    "image": "/uploads/flower-leaf-cluster-drops.jpg",
+    "createdAt": "2026-10-07T23:54:00.000Z"
+  },
+  {
+    "id": "flower-charm-hoops",
+    "name": "Flower Charm Hoops",
+    "category": "Earrings",
+    "price": "$14",
+    "materials": "Gold-tone wire hoops, interchangeable enamel flower charms",
+    "story": "Thin gold hoops, and a handful of flower charms that slide on and off. Pink blossom today, a yellow one tomorrow, a violet four-petal flower or a green daisy when the mood changes.\n\nOne pair of hoops, a different flower whenever you like. These are the ones people ask about.",
+    "adHeadline": "Pick today’s flower",
+    "adBody": "Gold hoops with swappable enamel flower charms in pink, yellow, violet, and green.",
+    "socialCaption": "Flower charm hoops: one pair of gold hoops, and the charms change. Pink, yellow, violet, green, pick one.",
+    "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm.",
+    "image": "/uploads/flower-charm-hoops.jpg",
+    "createdAt": "2026-10-07T23:53:00.000Z",
+    "variants": [
+      {
+        "name": "Pink",
+        "swatch": "#F2B8C2",
+        "image": "/uploads/flower-charm-hoops.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm."
+      },
+      {
+        "name": "Yellow",
+        "swatch": "#F2C94C",
+        "image": "/uploads/flower-charm-hoops-yellow.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single yellow enamel blossom charm."
+      },
+      {
+        "name": "Purple",
+        "swatch": "#8E5BC9",
+        "image": "/uploads/flower-charm-hoops-purple.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single purple enamel flower charm."
+      },
+      {
+        "name": "Green",
+        "swatch": "#5DBB3F",
+        "image": "/uploads/flower-charm-hoops-green.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single green enamel daisy charm."
+      }
+    ],
+    "variantLabel": "Charm color"
+  },
+  {
+    "id": "swap-hoops",
+    "name": "Swap Hoops",
+    "category": "Earrings",
+    "priceOptions": [
+      {
+        "label": "Hoops + 1 bead color",
+        "price": "$10"
+      },
+      {
+        "label": "Hoops + 3 bead colors",
+        "price": "$18"
+      },
+      {
+        "label": "Hoops + 5 bead colors (popular)",
+        "price": "$24"
+      },
+      {
+        "label": "Hoops + 10 bead colors",
+        "price": "$35"
+      }
+    ],
+    "materials": "Gold-tone wire hoops, fluted melon beads with gold stripes",
+    "story": "The hoop opens and the bead slides off, so one pair of hoops can be orange today and sky blue tomorrow. I keep the beads in a row on the felt: orange, hot pink, lime, purple, pink, sky blue, green, red, cream.\n\nStart with one color or take the whole set.",
+    "adHeadline": "Change the bead, change the day",
+    "adBody": "Gold hoops with swappable fluted beads, in sets of 1, 3, 5, or 10 colors.",
+    "socialCaption": "Swap hoops with nine bead colors waiting. The five-color set is the one most people pick.",
+    "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a orange round bead with gold stripes.",
+    "image": "/uploads/swap-hoops-orange.jpg",
+    "createdAt": "2026-10-07T23:52:00.000Z",
+    "variantLabel": "Bead color",
+    "variants": [
+      {
+        "name": "Orange",
+        "swatch": "#F26B2A",
+        "image": "/uploads/swap-hoops-orange.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a orange round bead with gold stripes."
+      },
+      {
+        "name": "Hot Pink",
+        "swatch": "#E0338A",
+        "image": "/uploads/swap-hoops-hot-pink.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a hot pink round bead with gold stripes."
+      },
+      {
+        "name": "Lime",
+        "swatch": "#A8D82E",
+        "image": "/uploads/swap-hoops-lime.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a lime round bead with gold stripes."
+      },
+      {
+        "name": "Purple",
+        "swatch": "#A97BD9",
+        "image": "/uploads/swap-hoops-purple.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a purple round bead with gold stripes."
+      },
+      {
+        "name": "Pink",
+        "swatch": "#F4A3B8",
+        "image": "/uploads/swap-hoops-pink.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a pink round bead with gold stripes."
+      },
+      {
+        "name": "Sky Blue",
+        "swatch": "#4FB3E8",
+        "image": "/uploads/swap-hoops-sky-blue.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a sky blue round bead with gold stripes."
+      },
+      {
+        "name": "Green",
+        "swatch": "#1FA35B",
+        "image": "/uploads/swap-hoops-green.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a green round bead with gold stripes."
+      },
+      {
+        "name": "Red",
+        "swatch": "#E0362C",
+        "image": "/uploads/swap-hoops-red.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a red round bead with gold stripes."
+      },
+      {
+        "name": "Cream",
+        "swatch": "#F3EAD7",
+        "image": "/uploads/swap-hoops-cream.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a cream round bead with gold stripes."
+      }
+    ]
+  },
+  {
+    "id": "pumpkin-bead-drops",
+    "name": "Pumpkin Bead Drops",
+    "category": "Earrings",
+    "price": "$12 per pair",
+    "materials": "Fluted melon beads with gold stripes, gold filigree caps, gold french hooks",
+    "story": "A round fluted bead between two gold filigree caps, so it hangs like a small lantern. I make them in green, red, orange, and cream, and every bead has its own gold lines running top to bottom.\n\nThe orange ones always go first in the fall.",
+    "adHeadline": "A small lantern at the ear",
+    "adBody": "A fluted bead capped in gold filigree, in green, red, orange, or cream.",
+    "socialCaption": "Pumpkin bead drops in green, red, orange, and cream. Gold caps top and bottom, gold hook.",
+    "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a orange fluted bead earring with gold caps.",
+    "image": "/uploads/pumpkin-bead-drops.jpg",
+    "createdAt": "2026-10-07T23:51:00.000Z",
+    "variantLabel": "Bead color",
+    "variants": [
+      {
+        "name": "Orange",
+        "swatch": "#EE6A2C",
+        "image": "/uploads/pumpkin-bead-drops.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a orange fluted bead earring with gold caps."
+      },
+      {
+        "name": "Green",
+        "swatch": "#2FA35A",
+        "image": "/uploads/pumpkin-bead-drops-green.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a green fluted bead earring with gold caps."
+      },
+      {
+        "name": "Red",
+        "swatch": "#E0362C",
+        "image": "/uploads/pumpkin-bead-drops-red.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a red fluted bead earring with gold caps."
+      },
+      {
+        "name": "Cream",
+        "swatch": "#F1E8D4",
+        "image": "/uploads/pumpkin-bead-drops-cream.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a cream fluted bead earring with gold caps."
+      }
+    ]
+  },
+  {
+    "id": "tibetan-bead-drops",
+    "name": "Tibetan Bead Drops",
+    "category": "Earrings",
+    "price": "$16 per pair",
+    "materials": "Tibetan-style beads with turquoise and coral inlay, gold-tone wire",
+    "story": "The beads are the heavy, detailed kind: dark centers wrapped in twisted gold wire, set with turquoise and coral. I wire-wrap each one into a loop by hand so it hangs cleanly from the hook.\n\nOne is all blue-green stones in a gold cage. One has red and turquoise dots between gold swirls. Both feel old in the hand.",
+    "adHeadline": "Turquoise in a gold cage",
+    "adBody": "Inlaid Tibetan-style beads, wire-wrapped by hand into a single drop.",
+    "socialCaption": "Tibetan bead drops, wrapped this week. Turquoise, coral, and a lot of twisted gold.",
+    "altText": "A young woman with a dark braid in a maroon top, in profile against a stone wall, wearing a drop earring of a gold bead set with turquoise stones.",
+    "image": "/uploads/tibetan-bead-drops.jpg",
+    "createdAt": "2026-10-07T23:50:00.000Z"
+  },
+  {
     "name": "Throat Blossom",
     "category": "Pendant",
     "materials": "Pink enamel, fine gold chain, a tiny clear stone",
@@ -33,9 +245,9 @@
     "adHeadline": "A stone, still warm",
     "adBody": "Hammered gold and one river stone, made to sit against the collarbone.",
     "socialCaption": "New on the bench: a hammered gold chain and a grey river stone. The links are uneven on purpose.",
-    "altText": "Hammered gold chain necklace with a round grey river-stone pendant on oatmeal linen.",
+    "altText": "A young woman with long black hair in an ivory linen top, wearing a hammered gold chain with a grey river-stone pendant, against a sage-green wall.",
     "id": "linen-necklace",
-    "image": "/uploads/linen-necklace.jpg",
+    "image": "/uploads/linen-necklace-worn.jpg",
     "createdAt": "2026-10-01T15:00:00.000Z"
   },
   {
@@ -46,9 +258,9 @@
     "adHeadline": "Brick and cream",
     "adBody": "Two clay shapes on a brass hook, pressed by hand and left unglazed.",
     "socialCaption": "Unglazed clay earrings in terracotta and cream, with brass hooks. Light enough to forget, until someone asks.",
-    "altText": "Pair of handmade clay earrings with terracotta tops and cream ovals on a textured white surface.",
+    "altText": "A young woman with a short natural afro, in profile, wearing a terracotta and cream clay earring on a brass hook.",
     "id": "clay-earrings",
-    "image": "/uploads/clay-earrings.jpg",
+    "image": "/uploads/clay-earrings-worn.jpg",
     "createdAt": "2026-10-02T15:00:00.000Z"
   },
   {
@@ -59,9 +271,9 @@
     "adHeadline": "Green, left rough",
     "adBody": "A hammered silver ring holding one irregular green stone.",
     "socialCaption": "This ring keeps the stone's uneven edge. Silver, hammered, and a green that looks wet in window light.",
-    "altText": "Hammered silver ring with a rough green stone on dark wood.",
+    "altText": "A young woman with a black bob in a charcoal sweater, holding up her hand to show a hammered silver ring with a rough green stone.",
     "id": "river-ring",
-    "image": "/uploads/river-ring.jpg",
+    "image": "/uploads/river-ring-worn.jpg",
     "createdAt": "2026-10-03T15:00:00.000Z"
   },
   {
@@ -72,9 +284,9 @@
     "adHeadline": "Thread, wound tight",
     "adBody": "Three linen cuffs in ochre, cream, and charcoal, wrapped by hand.",
     "socialCaption": "Three thread cuffs, stacked. The colors are ochre, cream, and charcoal, wound until the fiber shows.",
-    "altText": "Three stacked thread-wrapped bangles in ochre, cream, and charcoal on grey stone.",
+    "altText": "A young woman with wavy copper-red hair in a rust linen shirt, her hand on her shoulder, wearing three stacked ochre, cream, and charcoal thread bangles.",
     "id": "thread-cuff",
-    "image": "/uploads/thread-cuff.jpg",
+    "image": "/uploads/thread-cuff-worn.jpg",
     "createdAt": "2026-10-04T15:00:00.000Z"
   }
 ]
