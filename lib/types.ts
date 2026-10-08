@@ -29,6 +29,20 @@ export const pieceSchema = copySchema.extend({
     )
     .max(10)
     .optional(),
+  variantLabel: z.string().trim().min(1).max(40).optional(),
+  variants: z
+    .array(
+      z.object({
+        name: z.string().trim().min(1).max(40),
+        swatch: z.string().regex(/^#[0-9a-fA-F]{6}$/, "Swatch must be a hex color"),
+        image: z
+          .string()
+          .regex(/^\/uploads\/[A-Za-z0-9._-]+$/, "Image must live in /uploads"),
+        altText: z.string().trim().min(1).max(240),
+      }),
+    )
+    .max(12)
+    .optional(),
 });
 
 export type Piece = z.infer<typeof pieceSchema>;

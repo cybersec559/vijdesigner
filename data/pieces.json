@@ -39,7 +39,34 @@
     "socialCaption": "Flower charm hoops: one pair of gold hoops, and the charms change. Pink, yellow, violet, green, pick one.",
     "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm.",
     "image": "/uploads/flower-charm-hoops.jpg",
-    "createdAt": "2026-10-07T23:53:00.000Z"
+    "createdAt": "2026-10-07T23:53:00.000Z",
+    "variants": [
+      {
+        "name": "Pink",
+        "swatch": "#F2B8C2",
+        "image": "/uploads/flower-charm-hoops.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm."
+      },
+      {
+        "name": "Yellow",
+        "swatch": "#F2C94C",
+        "image": "/uploads/flower-charm-hoops-yellow.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single yellow enamel blossom charm."
+      },
+      {
+        "name": "Purple",
+        "swatch": "#8E5BC9",
+        "image": "/uploads/flower-charm-hoops-purple.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single purple enamel flower charm."
+      },
+      {
+        "name": "Green",
+        "swatch": "#5DBB3F",
+        "image": "/uploads/flower-charm-hoops-green.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single green enamel daisy charm."
+      }
+    ],
+    "variantLabel": "Charm color"
   },
   {
     "id": "swap-hoops",
@@ -64,13 +91,70 @@
       }
     ],
     "materials": "Gold-tone wire hoops, fluted melon beads with gold stripes",
-    "story": "The hoop opens and the bead slides off, so one pair of hoops can be black and gold today and pink tomorrow. I keep the beads in a row on the felt: black, orange, pink, lime, violet, sky blue, green, red, cream.\n\nStart with one color or take the whole set.",
+    "story": "The hoop opens and the bead slides off, so one pair of hoops can be orange today and sky blue tomorrow. I keep the beads in a row on the felt: orange, hot pink, lime, purple, pink, sky blue, green, red, cream.\n\nStart with one color or take the whole set.",
     "adHeadline": "Change the bead, change the day",
     "adBody": "Gold hoops with swappable fluted beads, in sets of 1, 3, 5, or 10 colors.",
-    "socialCaption": "Swap hoops with the black bead on, and nine more colors waiting. The five-color set is the one most people pick.",
-    "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a black and gold striped round bead.",
-    "image": "/uploads/swap-hoops.jpg",
-    "createdAt": "2026-10-07T23:52:00.000Z"
+    "socialCaption": "Swap hoops with nine bead colors waiting. The five-color set is the one most people pick.",
+    "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a orange round bead with gold stripes.",
+    "image": "/uploads/swap-hoops-orange.jpg",
+    "createdAt": "2026-10-07T23:52:00.000Z",
+    "variantLabel": "Bead color",
+    "variants": [
+      {
+        "name": "Orange",
+        "swatch": "#F26B2A",
+        "image": "/uploads/swap-hoops-orange.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a orange round bead with gold stripes."
+      },
+      {
+        "name": "Hot Pink",
+        "swatch": "#E0338A",
+        "image": "/uploads/swap-hoops-hot-pink.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a hot pink round bead with gold stripes."
+      },
+      {
+        "name": "Lime",
+        "swatch": "#A8D82E",
+        "image": "/uploads/swap-hoops-lime.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a lime round bead with gold stripes."
+      },
+      {
+        "name": "Purple",
+        "swatch": "#A97BD9",
+        "image": "/uploads/swap-hoops-purple.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a purple round bead with gold stripes."
+      },
+      {
+        "name": "Pink",
+        "swatch": "#F4A3B8",
+        "image": "/uploads/swap-hoops-pink.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a pink round bead with gold stripes."
+      },
+      {
+        "name": "Sky Blue",
+        "swatch": "#4FB3E8",
+        "image": "/uploads/swap-hoops-sky-blue.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a sky blue round bead with gold stripes."
+      },
+      {
+        "name": "Green",
+        "swatch": "#1FA35B",
+        "image": "/uploads/swap-hoops-green.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a green round bead with gold stripes."
+      },
+      {
+        "name": "Red",
+        "swatch": "#E0362C",
+        "image": "/uploads/swap-hoops-red.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a red round bead with gold stripes."
+      },
+      {
+        "name": "Cream",
+        "swatch": "#F3EAD7",
+        "image": "/uploads/swap-hoops-cream.jpg",
+        "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a cream round bead with gold stripes."
+      }
+    ]
   },
   {
     "id": "pumpkin-bead-drops",
@@ -82,9 +166,36 @@
     "adHeadline": "A small lantern at the ear",
     "adBody": "A fluted bead capped in gold filigree, in green, red, orange, or cream.",
     "socialCaption": "Pumpkin bead drops in green, red, orange, and cream. Gold caps top and bottom, gold hook.",
-    "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing an orange fluted bead earring with gold caps.",
+    "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a orange fluted bead earring with gold caps.",
     "image": "/uploads/pumpkin-bead-drops.jpg",
-    "createdAt": "2026-10-07T23:51:00.000Z"
+    "createdAt": "2026-10-07T23:51:00.000Z",
+    "variantLabel": "Bead color",
+    "variants": [
+      {
+        "name": "Orange",
+        "swatch": "#EE6A2C",
+        "image": "/uploads/pumpkin-bead-drops.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a orange fluted bead earring with gold caps."
+      },
+      {
+        "name": "Green",
+        "swatch": "#2FA35A",
+        "image": "/uploads/pumpkin-bead-drops-green.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a green fluted bead earring with gold caps."
+      },
+      {
+        "name": "Red",
+        "swatch": "#E0362C",
+        "image": "/uploads/pumpkin-bead-drops-red.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a red fluted bead earring with gold caps."
+      },
+      {
+        "name": "Cream",
+        "swatch": "#F1E8D4",
+        "image": "/uploads/pumpkin-bead-drops-cream.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a cream fluted bead earring with gold caps."
+      }
+    ]
   },
   {
     "id": "tibetan-bead-drops",
