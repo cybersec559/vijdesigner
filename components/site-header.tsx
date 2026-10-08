@@ -35,18 +35,18 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
     <header
       className={`inset-x-0 top-0 z-30 transition-colors duration-300 ${
         overlay ? "fixed" : "sticky"
-      } ${solid ? "border-b border-line/80 bg-background/85 backdrop-blur-md" : "bg-transparent"}`}
+      } ${solid ? "bg-plum/95 shadow-sm backdrop-blur-md" : "bg-gradient-to-b from-plum/70 to-transparent"}`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
-        <Link href="/" className="font-display text-2xl tracking-tight text-ink">
+        <Link href="/" className="font-script text-3xl leading-none text-card md:text-4xl">
           {site.name}
         </Link>
-        <nav className="flex items-center gap-6 text-[0.72rem] uppercase tracking-[0.22em] text-ink/70">
+        <nav className="flex items-center gap-4 text-[0.68rem] uppercase tracking-[0.24em] text-gold-light sm:gap-6">
           {site.nav.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="transition-colors hover:text-ink"
+              className="transition-colors hover:text-card"
             >
               {item.label}
             </Link>

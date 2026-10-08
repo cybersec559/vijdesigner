@@ -1,103 +1,120 @@
 [
   {
-    "id": "single-flower-drops",
-    "name": "Single Flower Drops",
+    "story": "One pair of thin gold hoops and a little pile of donut beads beside them: hot pink, cherry red, sunny yellow, turquoise, a black-and-white marble.\n\nThe bead slides on and off the hoop, so the earrings change with whatever you are wearing.",
+    "adHeadline": "A new color every morning",
+    "socialCaption": "Swap donut hoops: one pair of hoops, a handful of bead colors. Mix and match any colors.",
+    "id": "swap-donut-hoops",
+    "name": "Swap Donut Hoops",
     "category": "Earrings",
-    "price": "$9",
-    "materials": "Enamel flower charms, gold-tone metal, gold french hooks",
-    "story": "One flower on one hook. I lay the charms out on the black felt in every color I have, red daisies, green blossoms, violet petals with a yellow heart, and let the pair choose itself.\n\nThey are the smallest thing I make and the easiest to wear. A little color at the ear, nothing more.",
-    "adHeadline": "One flower, one hook",
-    "adBody": "A single enamel flower charm on a gold french hook, in red, green, violet, pink, and more.",
-    "socialCaption": "The single drops, laid out on the felt. Pick a color; each pair is one small flower on a gold hook.",
-    "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a small red enamel daisy earring on a gold hook.",
-    "image": "/uploads/single-flower-drops.jpg",
-    "createdAt": "2026-10-07T23:55:00.000Z"
-  },
-  {
-    "id": "flower-leaf-cluster-drops",
-    "name": "Flower & Leaf Cluster Drops",
-    "category": "Earrings",
-    "price": "$12",
-    "materials": "Enamel blossoms and leaves, gold-tone links, gold kidney hooks",
-    "story": "These grow downward like a stem. A pale blossom at the top, a green enamel leaf, then a blue daisy at the end of the line. I link them one at a time with the pliers until the drop hangs straight.\n\nThey move when you turn your head, which is the whole point.",
-    "adHeadline": "A stem you can wear",
-    "adBody": "Blossom, leaf, and daisy linked into one gold drop that moves when you do.",
-    "socialCaption": "Cluster drops: white blossom, green leaf, blue daisy, linked by hand on a gold kidney hook.",
-    "altText": "A young woman with long straight dark hair in a pale blue shirt, in profile, wearing a drop earring of white blossoms, green leaves, and blue daisies.",
-    "image": "/uploads/flower-leaf-cluster-drops.jpg",
-    "createdAt": "2026-10-07T23:54:00.000Z"
-  },
-  {
-    "id": "flower-charm-hoops",
-    "name": "Flower Charm Hoops",
-    "category": "Earrings",
-    "price": "$14",
-    "materials": "Gold-tone wire hoops, interchangeable enamel flower charms",
-    "story": "Thin gold hoops, and a handful of flower charms that slide on and off. Pink blossom today, a yellow one tomorrow, a violet four-petal flower or a green daisy when the mood changes.\n\nOne pair of hoops, a different flower whenever you like. These are the ones people ask about.",
-    "adHeadline": "Pick today’s flower",
-    "adBody": "Gold hoops with swappable enamel flower charms in pink, yellow, violet, and green.",
-    "socialCaption": "Flower charm hoops: one pair of gold hoops, and the charms change. Pink, yellow, violet, green, pick one.",
-    "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm.",
-    "image": "/uploads/flower-charm-hoops.jpg",
-    "createdAt": "2026-10-07T23:53:00.000Z",
+    "badge": "Changeable",
+    "materials": "Gold-tone wire hoops, colorful donut beads",
+    "adBody": "One pair of gold hoops plus colorful donut beads that slide on and off. Change the color with the outfit.",
+    "altText": "A young woman with a brown bob and a white tank top, smiling, wearing a thin gold hoop with a small hot-pink donut bead.",
+    "image": "/uploads/swap-donut-hoops.jpg",
+    "priceOptions": [
+      {
+        "label": "1 color",
+        "price": "$5.99"
+      },
+      {
+        "label": "2 colors",
+        "price": "$7.99"
+      },
+      {
+        "label": "3 colors",
+        "price": "$8.99"
+      },
+      {
+        "label": "5 colors",
+        "price": "$10.99"
+      }
+    ],
+    "photos": [
+      {
+        "label": "Real photo",
+        "image": "/uploads/real/swap-donut-hoops.jpg",
+        "altText": "The real donut hoops and beads, photographed on the bench."
+      }
+    ],
+    "createdAt": "2026-10-08T22:00:00.000Z",
+    "variantLabel": "Bead color",
     "variants": [
       {
-        "name": "Pink",
-        "swatch": "#F2B8C2",
-        "image": "/uploads/flower-charm-hoops.jpg",
-        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm."
+        "name": "Hot Pink",
+        "swatch": "#E3428E",
+        "image": "/uploads/swap-donut-hoops.jpg",
+        "altText": "A young woman with a brown bob and a white tank top, smiling, wearing a thin gold hoop with a small hot-pink donut bead."
+      },
+      {
+        "name": "Red",
+        "swatch": "#D7262E",
+        "image": "/uploads/swap-donut-hoops-red.jpg",
+        "altText": "A young woman with a brown bob and a white tank top, smiling, wearing a thin gold hoop with a small red donut bead."
+      },
+      {
+        "name": "Orange",
+        "swatch": "#F07A22",
+        "image": "/uploads/swap-donut-hoops-orange.jpg",
+        "altText": "A young woman with a brown bob and a white tank top, smiling, wearing a thin gold hoop with a small orange donut bead."
       },
       {
         "name": "Yellow",
-        "swatch": "#F2C94C",
-        "image": "/uploads/flower-charm-hoops-yellow.jpg",
-        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single yellow enamel blossom charm."
+        "swatch": "#F5C928",
+        "image": "/uploads/swap-donut-hoops-yellow.jpg",
+        "altText": "A young woman with a brown bob and a white tank top, smiling, wearing a thin gold hoop with a small yellow donut bead."
       },
       {
-        "name": "Purple",
-        "swatch": "#8E5BC9",
-        "image": "/uploads/flower-charm-hoops-purple.jpg",
-        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single purple enamel flower charm."
+        "name": "Turquoise",
+        "swatch": "#2EB8C4",
+        "image": "/uploads/swap-donut-hoops-turquoise.jpg",
+        "altText": "A young woman with a brown bob and a white tank top, smiling, wearing a thin gold hoop with a small turquoise donut bead."
       },
       {
-        "name": "Green",
-        "swatch": "#5DBB3F",
-        "image": "/uploads/flower-charm-hoops-green.jpg",
-        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single green enamel daisy charm."
+        "name": "White Marble",
+        "swatch": "#ECEAE6",
+        "image": "/uploads/swap-donut-hoops-white-marble.jpg",
+        "altText": "A young woman with a brown bob and a white tank top, smiling, wearing a thin gold hoop with a small white marbled donut bead."
       }
-    ],
-    "variantLabel": "Charm color"
+    ]
   },
   {
     "id": "swap-hoops",
-    "name": "Swap Hoops",
+    "name": "Swap Pumpkin Hoops",
     "category": "Earrings",
     "priceOptions": [
       {
-        "label": "Hoops + 1 bead color",
-        "price": "$10"
+        "label": "1 color",
+        "price": "$5.99"
       },
       {
-        "label": "Hoops + 3 bead colors",
-        "price": "$18"
+        "label": "2 colors",
+        "price": "$7.99"
       },
       {
-        "label": "Hoops + 5 bead colors (popular)",
-        "price": "$24"
+        "label": "3 colors",
+        "price": "$8.99"
       },
       {
-        "label": "Hoops + 10 bead colors",
-        "price": "$35"
+        "label": "5 colors",
+        "price": "$10.99"
+      },
+      {
+        "label": "7 colors",
+        "price": "$12.99"
+      },
+      {
+        "label": "All 9 colors",
+        "price": "$15.99"
       }
     ],
     "materials": "Gold-tone wire hoops, fluted melon beads with gold stripes",
     "story": "The hoop opens and the bead slides off, so one pair of hoops can be orange today and sky blue tomorrow. I keep the beads in a row on the felt: orange, hot pink, lime, purple, pink, sky blue, green, red, cream.\n\nStart with one color or take the whole set.",
     "adHeadline": "Change the bead, change the day",
-    "adBody": "Gold hoops with swappable fluted beads, in sets of 1, 3, 5, or 10 colors.",
+    "adBody": "Gold hoops with wired, gold-capped pumpkin beads in many colors. Swap beads anytime.",
     "socialCaption": "Swap hoops with nine bead colors waiting. The five-color set is the one most people pick.",
     "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a orange round bead with gold stripes.",
     "image": "/uploads/swap-hoops-orange.jpg",
-    "createdAt": "2026-10-07T23:52:00.000Z",
+    "createdAt": "2026-10-08T21:59:00.000Z",
     "variantLabel": "Bead color",
     "variants": [
       {
@@ -154,21 +171,195 @@
         "image": "/uploads/swap-hoops-cream.jpg",
         "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a cream round bead with gold stripes."
       }
+    ],
+    "badge": "Changeable"
+  },
+  {
+    "story": "The Tibetan beads are the heavy, detailed kind: brass wrapped in twisted wire, set with turquoise and coral. On a thin gold hoop, one bead is enough.\n\nThey slide off like the other swap beads, so one pair of hoops can carry them all.",
+    "adHeadline": "Turquoise on a gold hoop",
+    "socialCaption": "Swap Tibetan hoops: handcrafted brass beads with turquoise and coral, on gold hoops you can change.",
+    "id": "swap-tibetan-hoops",
+    "name": "Swap Tibetan Hoops",
+    "category": "Earrings",
+    "badge": "Changeable",
+    "materials": "Gold-tone wire hoops, Tibetan brass beads with turquoise and coral inlay",
+    "adBody": "Gold hoops with handcrafted Tibetan brass beads inlaid with turquoise & coral.",
+    "altText": "A young woman with a dark low bun in a mustard top, in profile against a terracotta wall, wearing a gold hoop with a turquoise Tibetan bead at the bottom.",
+    "image": "/uploads/swap-tibetan-hoops.jpg",
+    "priceOptions": [
+      {
+        "label": "Single",
+        "price": "$5.00"
+      },
+      {
+        "label": "1 pair",
+        "price": "$9.00"
+      },
+      {
+        "label": "2 pairs",
+        "price": "$15.99"
+      }
+    ],
+    "photos": [
+      {
+        "label": "Real photo",
+        "image": "/uploads/real/swap-tibetan-hoops.jpg",
+        "altText": "The real Tibetan beads, photographed on the bench."
+      }
+    ],
+    "createdAt": "2026-10-08T21:58:00.000Z"
+  },
+  {
+    "id": "single-flower-drops",
+    "name": "Single Flower Drops",
+    "category": "Earrings",
+    "materials": "Enamel flower charms, gold-tone metal, gold french hooks",
+    "story": "One flower on one hook. I lay the charms out on the black felt in every color I have, red daisies, green blossoms, violet petals with a yellow heart, and let the pair choose itself.\n\nThey are the smallest thing I make and the easiest to wear. A little color at the ear, nothing more.",
+    "adHeadline": "One flower, one hook",
+    "adBody": "Gold hook earrings with one enamel flower charm. Light, everyday wear.",
+    "socialCaption": "The single drops, laid out on the felt. Pick a color; each pair is one small flower on a gold hook.",
+    "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a small red enamel daisy earring on a gold hook.",
+    "image": "/uploads/single-flower-drops.jpg",
+    "createdAt": "2026-10-08T21:57:00.000Z",
+    "priceOptions": [
+      {
+        "label": "1 pair",
+        "price": "$5.99"
+      },
+      {
+        "label": "2 pairs",
+        "price": "$10.99"
+      },
+      {
+        "label": "3 pairs",
+        "price": "$15.99"
+      }
+    ],
+    "photos": [
+      {
+        "label": "Real photo",
+        "image": "/uploads/real/single-flower-drops.jpg",
+        "altText": "The real single flower drops, photographed on the bench."
+      }
+    ],
+    "variantLabel": "Flower color",
+    "variants": [
+      {
+        "name": "Red",
+        "swatch": "#D9302B",
+        "image": "/uploads/single-flower-drops.jpg",
+        "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a small red enamel daisy earring on a gold hook."
+      },
+      {
+        "name": "Black & Gold",
+        "swatch": "#1E1A1A",
+        "image": "/uploads/single-flower-drops-black-gold.jpg",
+        "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a black and gold enamel flower earring."
+      },
+      {
+        "name": "Pink",
+        "swatch": "#F2A7BC",
+        "image": "/uploads/single-flower-drops-pink.jpg",
+        "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a pink enamel flower earring."
+      },
+      {
+        "name": "Green",
+        "swatch": "#3DB54A",
+        "image": "/uploads/single-flower-drops-green.jpg",
+        "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a green enamel flower earring."
+      },
+      {
+        "name": "Purple",
+        "swatch": "#7B4FC4",
+        "image": "/uploads/single-flower-drops-purple.jpg",
+        "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a purple enamel flower earring."
+      },
+      {
+        "name": "Yellow",
+        "swatch": "#F5C928",
+        "image": "/uploads/single-flower-drops-yellow.jpg",
+        "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a yellow enamel flower earring."
+      }
+    ]
+  },
+  {
+    "id": "flower-charm-hoops",
+    "name": "Flower Charm Hoops",
+    "category": "Earrings",
+    "materials": "Gold-tone wire hoops, interchangeable enamel flower charms",
+    "story": "Thin gold hoops, and a handful of flower charms that slide on and off. Pink blossom today, a yellow one tomorrow, a violet four-petal flower or a green daisy when the mood changes.\n\nOne pair of hoops, a different flower whenever you like. These are the ones people ask about.",
+    "adHeadline": "Pick today’s flower",
+    "adBody": "Gold hoops with swappable enamel flower charms. Pick today’s flower.",
+    "socialCaption": "Flower charm hoops: one pair of gold hoops, and the charms change. Pink, yellow, violet, green, pick one.",
+    "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm.",
+    "image": "/uploads/flower-charm-hoops.jpg",
+    "createdAt": "2026-10-08T21:55:00.000Z",
+    "variants": [
+      {
+        "name": "Pink",
+        "swatch": "#F2B8C2",
+        "image": "/uploads/flower-charm-hoops.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm."
+      },
+      {
+        "name": "Yellow",
+        "swatch": "#F2C94C",
+        "image": "/uploads/flower-charm-hoops-yellow.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single yellow enamel blossom charm."
+      },
+      {
+        "name": "Purple",
+        "swatch": "#8E5BC9",
+        "image": "/uploads/flower-charm-hoops-purple.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single purple enamel flower charm."
+      },
+      {
+        "name": "Green",
+        "swatch": "#5DBB3F",
+        "image": "/uploads/flower-charm-hoops-green.jpg",
+        "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single green enamel daisy charm."
+      }
+    ],
+    "variantLabel": "Charm color",
+    "badge": "Changeable",
+    "priceOptions": [
+      {
+        "label": "1 pair",
+        "price": "$4.00"
+      },
+      {
+        "label": "2 pairs",
+        "price": "$6.99"
+      },
+      {
+        "label": "3 pairs",
+        "price": "$7.99"
+      },
+      {
+        "label": "4 pairs",
+        "price": "$8.99"
+      }
+    ],
+    "photos": [
+      {
+        "label": "Real photo",
+        "image": "/uploads/real/flower-charm-hoops.jpg",
+        "altText": "The real flower charms and hoops, photographed on the bench."
+      }
     ]
   },
   {
     "id": "pumpkin-bead-drops",
     "name": "Pumpkin Bead Drops",
     "category": "Earrings",
-    "price": "$12 per pair",
     "materials": "Fluted melon beads with gold stripes, gold filigree caps, gold french hooks",
     "story": "A round fluted bead between two gold filigree caps, so it hangs like a small lantern. I make them in green, red, orange, and cream, and every bead has its own gold lines running top to bottom.\n\nThe orange ones always go first in the fall.",
     "adHeadline": "A small lantern at the ear",
-    "adBody": "A fluted bead capped in gold filigree, in green, red, orange, or cream.",
+    "adBody": "Gold hooks with a ribbed pumpkin bead between filigree gold caps.",
     "socialCaption": "Pumpkin bead drops in green, red, orange, and cream. Gold caps top and bottom, gold hook.",
     "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a orange fluted bead earring with gold caps.",
     "image": "/uploads/pumpkin-bead-drops.jpg",
-    "createdAt": "2026-10-07T23:51:00.000Z",
+    "createdAt": "2026-10-08T21:54:00.000Z",
     "variantLabel": "Bead color",
     "variants": [
       {
@@ -194,99 +385,221 @@
         "swatch": "#F1E8D4",
         "image": "/uploads/pumpkin-bead-drops-cream.jpg",
         "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a cream fluted bead earring with gold caps."
+      },
+      {
+        "name": "Yellow",
+        "swatch": "#F2C230",
+        "image": "/uploads/pumpkin-bead-drops-yellow.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a yellow fluted bead earring with gold caps."
+      },
+      {
+        "name": "Purple",
+        "swatch": "#A985D6",
+        "image": "/uploads/pumpkin-bead-drops-purple.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a purple fluted bead earring with gold caps."
+      },
+      {
+        "name": "Sky Blue",
+        "swatch": "#6EC1E8",
+        "image": "/uploads/pumpkin-bead-drops-sky-blue.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a sky blue fluted bead earring with gold caps."
+      },
+      {
+        "name": "Pink",
+        "swatch": "#F4A9C0",
+        "image": "/uploads/pumpkin-bead-drops-pink.jpg",
+        "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a pink fluted bead earring with gold caps."
+      }
+    ],
+    "priceOptions": [
+      {
+        "label": "1 pair",
+        "price": "$5.99"
+      },
+      {
+        "label": "2 pairs",
+        "price": "$10.99"
+      },
+      {
+        "label": "3 pairs",
+        "price": "$15.99"
+      }
+    ],
+    "photos": [
+      {
+        "label": "Real photo",
+        "image": "/uploads/real/pumpkin-bead-drops.jpg",
+        "altText": "The real green pumpkin bead drops, photographed on the bench."
+      }
+    ]
+  },
+  {
+    "story": "One bead, wire-wrapped into a loop by hand. It hangs from a fine chain at the collarbone, or slides onto your swap hoops.\n\nSmall enough to forget about, until the light catches the gold.",
+    "adHeadline": "One bead, many ways",
+    "socialCaption": "Tibetan bead pendants: handcrafted brass and turquoise. Wear it on a chain or on your swap hoops.",
+    "id": "tibetan-bead-pendants",
+    "name": "Tibetan Bead Pendants",
+    "category": "Pendant",
+    "materials": "Tibetan brass bead with turquoise and coral inlay, gold-tone wire loop",
+    "adBody": "A single wired Tibetan brass bead with turquoise & coral inlay. Hang it on your swap hoops or a chain.",
+    "altText": "A young woman with long wavy black hair in an ivory top, wearing a small Tibetan bead pendant with red and turquoise inlay on a fine gold chain.",
+    "image": "/uploads/tibetan-bead-pendants.jpg",
+    "priceOptions": [
+      {
+        "label": "1 pendant",
+        "price": "$4.00"
+      },
+      {
+        "label": "2 pendants",
+        "price": "$8.00"
+      },
+      {
+        "label": "3 pendants",
+        "price": "$12.00"
+      }
+    ],
+    "photos": [
+      {
+        "label": "Real photo",
+        "image": "/uploads/real/tibetan-bead-pendants.jpg",
+        "altText": "The real Tibetan bead pendant, photographed on the bench."
+      }
+    ],
+    "createdAt": "2026-10-08T21:53:00.000Z",
+    "variantLabel": "Bead style",
+    "variants": [
+      {
+        "name": "Coral & Turquoise",
+        "swatch": "#B5423A",
+        "image": "/uploads/tibetan-bead-pendants.jpg",
+        "altText": "A young woman with long wavy black hair in an ivory top, wearing a small Tibetan bead pendant with red and turquoise inlay on a fine gold chain."
+      },
+      {
+        "name": "Turquoise",
+        "swatch": "#36B5AE",
+        "image": "/uploads/tibetan-bead-pendants-turquoise.jpg",
+        "altText": "A young woman with long wavy black hair in an ivory top, wearing a Tibetan pendant with turquoise stones on a fine gold chain."
+      },
+      {
+        "name": "Lapis Blue",
+        "swatch": "#23408E",
+        "image": "/uploads/tibetan-bead-pendants-lapis.jpg",
+        "altText": "A young woman with long wavy black hair in an ivory top, wearing a lapis-blue Tibetan pendant on a fine gold chain."
       }
     ]
   },
   {
     "id": "tibetan-bead-drops",
-    "name": "Tibetan Bead Drops",
+    "name": "Tibetan Bead Drop Earrings",
     "category": "Earrings",
-    "price": "$16 per pair",
     "materials": "Tibetan-style beads with turquoise and coral inlay, gold-tone wire",
     "story": "The beads are the heavy, detailed kind: dark centers wrapped in twisted gold wire, set with turquoise and coral. I wire-wrap each one into a loop by hand so it hangs cleanly from the hook.\n\nOne is all blue-green stones in a gold cage. One has red and turquoise dots between gold swirls. Both feel old in the hand.",
     "adHeadline": "Turquoise in a gold cage",
-    "adBody": "Inlaid Tibetan-style beads, wire-wrapped by hand into a single drop.",
+    "adBody": "Gold hooks with a statement Tibetan brass bead, turquoise & coral inlay.",
     "socialCaption": "Tibetan bead drops, wrapped this week. Turquoise, coral, and a lot of twisted gold.",
     "altText": "A young woman with a dark braid in a maroon top, in profile against a stone wall, wearing a drop earring of a gold bead set with turquoise stones.",
     "image": "/uploads/tibetan-bead-drops.jpg",
-    "createdAt": "2026-10-07T23:50:00.000Z"
+    "createdAt": "2026-10-08T21:52:00.000Z",
+    "priceOptions": [
+      {
+        "label": "1 pair",
+        "price": "$6.99"
+      },
+      {
+        "label": "2 pairs",
+        "price": "$10.99"
+      }
+    ],
+    "photos": [
+      {
+        "label": "Real photo",
+        "image": "/uploads/real/tibetan-bead-drops.jpg",
+        "altText": "The real Tibetan bead drop, photographed on the bench."
+      }
+    ],
+    "variantLabel": "Bead style",
+    "variants": [
+      {
+        "name": "Turquoise",
+        "swatch": "#36B5AE",
+        "image": "/uploads/tibetan-bead-drops.jpg",
+        "altText": "A young woman with a dark braid in a maroon top, in profile against a stone wall, wearing a drop earring of a gold bead set with turquoise stones."
+      },
+      {
+        "name": "Coral & Turquoise",
+        "swatch": "#B5423A",
+        "image": "/uploads/tibetan-bead-drops-coral-turquoise.jpg",
+        "altText": "A young woman with a dark braid in a maroon top, in profile against a stone wall, wearing a Tibetan bead drop earring with coral and turquoise."
+      },
+      {
+        "name": "Lapis Blue",
+        "swatch": "#23408E",
+        "image": "/uploads/tibetan-bead-drops-lapis.jpg",
+        "altText": "A young woman with a dark braid in a maroon top, in profile against a stone wall, wearing a lapis-blue Tibetan bead drop earring."
+      }
+    ]
   },
   {
-    "name": "Throat Blossom",
-    "category": "Pendant",
-    "materials": "Pink enamel, fine gold chain, a tiny clear stone",
-    "story": "The clasp was already on when I lifted it from the bench. A fine gold chain, and the blossom rests at the hollow of the throat. Pink enamel, gold along every petal, a tiny stone at the heart.\n\nIt is light on purpose. One flower, close to the skin, so an ordinary day has a single bright thing at the collarbone.",
-    "adHeadline": "A flower at the throat",
-    "adBody": "A pink enamel blossom on a fine gold chain, worn close to the skin.",
-    "socialCaption": "The pendant, worn. One blossom, gold at the edge, sitting at the hollow of the throat.",
-    "altText": "A young woman in a cream silk blouse wearing a pink enamel blossom pendant on a fine gold chain.",
-    "id": "blossom-pendant",
-    "image": "/uploads/blossom-pendant.jpg",
-    "createdAt": "2026-10-05T19:26:00.000Z"
-  },
-  {
-    "name": "First Blossom",
+    "story": "Soft acrylic blossoms, a little see-through, like sea glass. Lavender, blush, sky blue, pale yellow, milky white.\n\nEach one hangs from a gold hook with a tiny flower cap on top.",
+    "adHeadline": "A soft little blossom",
+    "socialCaption": "Acrylic flower drops in lavender, blush, sky blue, yellow, and white. Light as anything.",
+    "id": "acrylic-flower-drops",
+    "name": "Acrylic Flower Drops",
     "category": "Earrings",
-    "materials": "Pink enamel, gold-tone metal, a tiny clear stone",
-    "story": "They were still loose on the white bench when the morning light found them. Three pink blossoms, each petal edged in gold. Two hold a tiny clear stone at the heart. One already wears its clasp, ready for a chain. At the edge of the table, a pale daisy the color of the inside of a shell.\n\nI make them small on purpose. A flower you can close your hand around, then wear at the throat on an ordinary Tuesday, so the day has one bright thing in it.",
-    "adHeadline": "A blossom you can hold",
-    "adBody": "Pink enamel, gold at every edge, and a pale daisy waiting beside them.",
-    "socialCaption": "On the bench this morning: three pink blossoms and a pale daisy. One clasp is already on.",
-    "altText": "A young woman in a cream silk blouse wearing a small pink enamel blossom earring edged in gold.",
-    "id": "blossom-charms",
-    "image": "/uploads/blossom-worn.jpg",
-    "createdAt": "2026-10-05T17:41:00.000Z"
-  },
-  {
-    "name": "River Link",
-    "category": "Necklace",
-    "materials": "Hammered gold chain, river stone",
-    "story": "I hammered each link until the gold went matte, then hung a stone I picked up still warm from the bank. It sits low, a small weight you notice when you turn your head.",
-    "adHeadline": "A stone, still warm",
-    "adBody": "Hammered gold and one river stone, made to sit against the collarbone.",
-    "socialCaption": "New on the bench: a hammered gold chain and a grey river stone. The links are uneven on purpose.",
-    "altText": "A young woman with long black hair in an ivory linen top, wearing a hammered gold chain with a grey river-stone pendant, against a sage-green wall.",
-    "id": "linen-necklace",
-    "image": "/uploads/linen-necklace-worn.jpg",
-    "createdAt": "2026-10-01T15:00:00.000Z"
-  },
-  {
-    "name": "Two Clays",
-    "category": "Earrings",
-    "materials": "Terracotta clay, cream clay, brass hooks",
-    "story": "The top is the color of a brick after rain. The bottom is the cream clay I keep for quiet shapes. I left the surface a little dry so it catches light like plaster.",
-    "adHeadline": "Brick and cream",
-    "adBody": "Two clay shapes on a brass hook, pressed by hand and left unglazed.",
-    "socialCaption": "Unglazed clay earrings in terracotta and cream, with brass hooks. Light enough to forget, until someone asks.",
-    "altText": "A young woman with a short natural afro, in profile, wearing a terracotta and cream clay earring on a brass hook.",
-    "id": "clay-earrings",
-    "image": "/uploads/clay-earrings-worn.jpg",
-    "createdAt": "2026-10-02T15:00:00.000Z"
-  },
-  {
-    "name": "Moss Setting",
-    "category": "Ring",
-    "materials": "Hammered silver, green stone",
-    "story": "The band is silver I hammered until the marks stayed. The stone is a rough green, set in a bezel that follows its edges instead of forcing a circle.",
-    "adHeadline": "Green, left rough",
-    "adBody": "A hammered silver ring holding one irregular green stone.",
-    "socialCaption": "This ring keeps the stone's uneven edge. Silver, hammered, and a green that looks wet in window light.",
-    "altText": "A young woman with a black bob in a charcoal sweater, holding up her hand to show a hammered silver ring with a rough green stone.",
-    "id": "river-ring",
-    "image": "/uploads/river-ring-worn.jpg",
-    "createdAt": "2026-10-03T15:00:00.000Z"
-  },
-  {
-    "name": "Three Turns",
-    "category": "Bracelet",
-    "materials": "Ochre, cream, and charcoal linen thread",
-    "story": "I wound three bands of linen thread until the stack held its own shape. Ochre, cream, charcoal. They sit together like a small landscape on the wrist.",
-    "adHeadline": "Thread, wound tight",
-    "adBody": "Three linen cuffs in ochre, cream, and charcoal, wrapped by hand.",
-    "socialCaption": "Three thread cuffs, stacked. The colors are ochre, cream, and charcoal, wound until the fiber shows.",
-    "altText": "A young woman with wavy copper-red hair in a rust linen shirt, her hand on her shoulder, wearing three stacked ochre, cream, and charcoal thread bangles.",
-    "id": "thread-cuff",
-    "image": "/uploads/thread-cuff-worn.jpg",
-    "createdAt": "2026-10-04T15:00:00.000Z"
+    "materials": "Frosted acrylic blossoms, gold flower caps, gold french hooks",
+    "adBody": "Gold hooks with a soft, gold-edged acrylic blossom and a tiny flower cap.",
+    "altText": "A young woman with long wavy hair in a sage cardigan, smiling, wearing a small lavender acrylic flower earring on a gold hook.",
+    "image": "/uploads/acrylic-flower-drops.jpg",
+    "priceOptions": [
+      {
+        "label": "1 pair",
+        "price": "$5.99"
+      },
+      {
+        "label": "2 pairs",
+        "price": "$10.99"
+      }
+    ],
+    "photos": [
+      {
+        "label": "Real photo",
+        "image": "/uploads/real/acrylic-flower-drops.jpg",
+        "altText": "The real acrylic blossoms, photographed on the bench."
+      }
+    ],
+    "createdAt": "2026-10-08T21:51:00.000Z",
+    "variantLabel": "Flower color",
+    "variants": [
+      {
+        "name": "Lavender",
+        "swatch": "#B79AE0",
+        "image": "/uploads/acrylic-flower-drops.jpg",
+        "altText": "A young woman with long wavy hair in a sage cardigan, smiling, wearing a small lavender acrylic flower earring on a gold hook."
+      },
+      {
+        "name": "Pink",
+        "swatch": "#F4B6C8",
+        "image": "/uploads/acrylic-flower-drops-pink.jpg",
+        "altText": "A young woman with long wavy hair in a sage cardigan, smiling, wearing a pink acrylic flower earring."
+      },
+      {
+        "name": "Sky Blue",
+        "swatch": "#9CD3EE",
+        "image": "/uploads/acrylic-flower-drops-sky-blue.jpg",
+        "altText": "A young woman with long wavy hair in a sage cardigan, smiling, wearing a sky-blue acrylic flower earring."
+      },
+      {
+        "name": "Yellow",
+        "swatch": "#F4E48C",
+        "image": "/uploads/acrylic-flower-drops-yellow.jpg",
+        "altText": "A young woman with long wavy hair in a sage cardigan, smiling, wearing a pale yellow acrylic flower earring."
+      },
+      {
+        "name": "White",
+        "swatch": "#F3F1EC",
+        "image": "/uploads/acrylic-flower-drops-white.jpg",
+        "altText": "A young woman with long wavy hair in a sage cardigan, smiling, wearing a milky white acrylic flower earring."
+      }
+    ]
   }
 ]

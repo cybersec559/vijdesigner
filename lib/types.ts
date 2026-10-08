@@ -29,6 +29,19 @@ export const pieceSchema = copySchema.extend({
     )
     .max(10)
     .optional(),
+  badge: z.string().trim().min(1).max(30).optional(),
+  photos: z
+    .array(
+      z.object({
+        label: z.string().trim().min(1).max(40),
+        image: z
+          .string()
+          .regex(/^\/uploads\/[A-Za-z0-9._\/-]+$/, "Image must live in /uploads"),
+        altText: z.string().trim().min(1).max(240),
+      }),
+    )
+    .max(6)
+    .optional(),
   variantLabel: z.string().trim().min(1).max(40).optional(),
   variants: z
     .array(

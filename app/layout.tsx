@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Fraunces, Outfit } from "next/font/google";
+import { Bodoni_Moda, Outfit, Pinyon_Script } from "next/font/google";
 import { site } from "@/site.config";
 import "./globals.css";
 
-const display = Fraunces({
+const display = Bodoni_Moda({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  variable: "--font-bodoni",
+});
+
+const script = Pinyon_Script({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-pinyon",
 });
 
 const sans = Outfit({
@@ -23,7 +29,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable} h-full`}>
+    <html lang="en" className={`${display.variable} ${script.variable} ${sans.variable} h-full`}>
       <body className="min-h-full bg-background text-foreground antialiased">
         {children}
       </body>

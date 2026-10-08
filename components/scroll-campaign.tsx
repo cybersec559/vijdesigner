@@ -31,41 +31,7 @@ function pieceSlide(piece: Piece, frame: string): Slide {
 }
 
 function campaignSlides(pieces: Piece[]): Slide[] {
-  const earrings = pieces.find((piece) => piece.id === "blossom-charms");
-  const pendant = pieces.find((piece) => piece.id === "blossom-pendant");
-  const rest = pieces.filter(
-    (piece) => piece.id !== "blossom-charms" && piece.id !== "blossom-pendant",
-  );
-  const slides: Slide[] = [
-    {
-      key: "together",
-      name: "Worn together",
-      category: "First Blossom · Throat Blossom",
-      line: "Come in. Worn together.",
-      image: "/uploads/blossom-together.jpg",
-      alt: "A young woman wearing the pink blossom earring and the matching pendant.",
-      frame: "object-cover object-[center_42%]",
-      links: [
-        earrings
-          ? { href: `/pieces/${earrings.id}`, label: earrings.name }
-          : undefined,
-        pendant
-          ? { href: `/pieces/${pendant.id}`, label: pendant.name }
-          : undefined,
-      ].filter((link): link is { href: string; label: string } => link !== undefined),
-    },
-  ];
-
-  if (earrings) {
-    slides.push(pieceSlide(earrings, "object-cover object-[center_30%]"));
-  }
-  if (pendant) {
-    slides.push(pieceSlide(pendant, "object-cover object-[center_40%]"));
-  }
-  for (const piece of rest) {
-    slides.push(pieceSlide(piece, "object-cover object-center"));
-  }
-  return slides;
+  return pieces.map((piece) => pieceSlide(piece, "object-cover object-center"));
 }
 
 export function ScrollCampaign({ pieces }: { pieces: Piece[] }) {
