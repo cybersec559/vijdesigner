@@ -3,6 +3,13 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import {
+  frameForCategory,
+  frameIds,
+  frames,
+  isFrameId,
+  type FrameId,
+} from "@/lib/frames";
 import { copySchema, emptyCopy, type CopyFields, type Piece } from "@/lib/types";
 
 const fields = [
@@ -24,10 +31,16 @@ type DraftStatus =
   | "published"
   | "error";
 
+type ShowcaseStatus = "idle" | "working" | "ready" | "error";
+
 type Draft = {
   localId: string;
   file: File;
   previewUrl: string;
+  frame: FrameId;
+  showcaseFile?: File;
+  showcaseUrl?: string;
+  showcaseStatus: ShowcaseStatus;
   status: DraftStatus;
   error?: string;
   piece?: Piece;
@@ -46,6 +59,33 @@ function errorFromBody(body: unknown, fallback: string): string {
   return fallback;
 }
 
+function fileFromPortrait(base64: string, mediaType: string): File | undefined {
+  let extension: "png" | "jpg" | "webp";
+  switch (mediaType) {
+    case "image/png":
+      extension = "png";
+      break;
+    case "image/jpeg":
+      extension = "jpg";
+      break;
+    case "image/webp":
+      extension = "webp";
+      break;
+    default:
+      return undefined;
+  }
+  try {
+    const binary = atob(base64);
+    const bytes = new Uint8Array(binary.length);
+    for (let index = 0; index < binary.length; index += 1) {
+      bytes[index] = binary.charCodeAt(index);
+    }
+    return new File([bytes], `showcase.${extension}`, { type: mediaType });
+  } catch {
+    return undefined;
+  }
+}
+
 export function StudioBoard() {
   const router = useRouter();
   const [drafts, setDrafts] = useState<Draft[]>([]);
@@ -61,6 +101,9 @@ export function StudioBoard() {
     return () => {
       for (const draft of draftsRef.current) {
         URL.revokeObjectURL(draft.previewUrl);
+        if (draft.showcaseUrl) {
+          URL.revokeObjectURL(draft.showcaseUrl);
+        }
       }
     };
   }, []);
@@ -78,6 +121,8 @@ export function StudioBoard() {
           localId: crypto.randomUUID(),
           file,
           previewUrl: URL.createObjectURL(file),
+          frame: "earrings" as const,
+          showcaseStatus: "idle" as const,
           status: "idle" as const,
           fields: { ...emptyCopy },
         })),
@@ -135,7 +180,80 @@ export function StudioBoard() {
       });
       return;
     }
-    patchDraft(localId, { status: "ready", fields: copy.data, error: undefined });
+    patchDraft(localId, {
+      status: "ready",
+      fields: copy.data,
+      frame:
+        draft.showcaseStatus === "ready"
+          ? draft.frame
+          : frameForCategory(copy.data.category),
+      error: undefined,
+    });
+  }
+
+  async function showcaseDraft(localId: string) {
+    const draft = draftsRef.current.find((item) => item.localId === localId);
+    if (
+      !draft ||
+      draft.showcaseStatus === "working" ||
+      draft.status === "published"
+    ) {
+      return;
+    }
+    patchDraft(localId, { showcaseStatus: "working", error: undefined });
+    const body = new FormData();
+    body.set("image", draft.file);
+    body.set("frame", draft.frame);
+    const response = await fetch("/api/showcase", { method: "POST", body });
+    const payload: unknown = await response.json().catch(() => null);
+    if (!response.ok) {
+      patchDraft(localId, {
+        showcaseStatus: "error",
+        error: errorFromBody(payload, "Could not place this piece on the model."),
+      });
+      return;
+    }
+    const mediaType =
+      payload &&
+      typeof payload === "object" &&
+      "mediaType" in payload &&
+      typeof payload.mediaType === "string"
+        ? payload.mediaType
+        : "";
+    const image =
+      payload &&
+      typeof payload === "object" &&
+      "image" in payload &&
+      typeof payload.image === "string"
+        ? payload.image
+        : "";
+    const portrait = fileFromPortrait(image, mediaType);
+    if (!portrait) {
+      patchDraft(localId, {
+        showcaseStatus: "error",
+        error: "The portrait came back in a format the studio cannot keep.",
+      });
+      return;
+    }
+    if (draft.showcaseUrl) {
+      URL.revokeObjectURL(draft.showcaseUrl);
+    }
+    patchDraft(localId, {
+      showcaseStatus: "ready",
+      showcaseFile: portrait,
+      showcaseUrl: URL.createObjectURL(portrait),
+      error: undefined,
+    });
+  }
+
+  async function showcaseAll() {
+    const pending = draftsRef.current.filter(
+      (draft) =>
+        draft.status !== "published" && draft.showcaseStatus !== "working",
+    );
+    for (const draft of pending) {
+      await showcaseDraft(draft.localId);
+    }
   }
 
   async function generateAll() {
@@ -162,7 +280,7 @@ export function StudioBoard() {
     }
     patchDraft(localId, { status: "publishing", error: undefined });
     const body = new FormData();
-    body.set("image", draft.file);
+    body.set("image", draft.showcaseFile ?? draft.file);
     for (const [key] of fields) {
       body.set(key, copy.data[key]);
     }
@@ -194,8 +312,9 @@ export function StudioBoard() {
             Drop the pieces
           </h1>
           <p className="mt-3 max-w-xl text-muted">
-            Add several photos at once. Generate writes the ad from the jewelry,
-            then publish puts it on the gallery.
+            Add several photos at once. Generate writes the ad. Showcase places
+            the piece on the model in the frame you pick, then publish uses
+            that portrait.
           </p>
         </div>
         <button
@@ -252,6 +371,13 @@ export function StudioBoard() {
           >
             Generate all
           </button>
+          <button
+            type="button"
+            onClick={() => void showcaseAll()}
+            className="rounded-full border border-line px-5 py-3 text-sm"
+          >
+            Showcase all
+          </button>
         </div>
       ) : null}
 
@@ -265,12 +391,41 @@ export function StudioBoard() {
               {/* blob: previews are not valid next/image sources */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={draft.previewUrl}
-                alt={draft.fields.altText || "Uploaded jewelry photo"}
+                src={draft.showcaseUrl ?? draft.previewUrl}
+                alt={
+                  draft.showcaseUrl
+                    ? draft.fields.altText || "Piece worn on the model"
+                    : "Uploaded jewelry photo"
+                }
                 className="h-full w-full object-cover"
               />
+              {draft.showcaseStatus === "working" ? (
+                <p className="absolute inset-x-3 bottom-3 rounded-full bg-ink/80 px-3 py-2 text-center text-xs text-card">
+                  Placing it on the model…
+                </p>
+              ) : null}
             </div>
             <div>
+              <label className="mb-3 block text-sm">
+                Frame
+                <select
+                  value={draft.frame}
+                  disabled={draft.status === "published"}
+                  onChange={(event) => {
+                    const value = event.target.value;
+                    if (isFrameId(value)) {
+                      patchDraft(draft.localId, { frame: value });
+                    }
+                  }}
+                  className="mt-1 w-full rounded-2xl border border-line bg-background px-3 py-2"
+                >
+                  {frameIds.map((id) => (
+                    <option key={id} value={id}>
+                      {frames[id].label}
+                    </option>
+                  ))}
+                </select>
+              </label>
               <div className="grid gap-3 sm:grid-cols-2">
                 {fields.map(([key, label]) => {
                   const long = key === "story" || key === "socialCaption";
@@ -326,6 +481,21 @@ export function StudioBoard() {
                   className="rounded-full border border-line px-4 py-2 text-sm disabled:opacity-50"
                 >
                   {draft.status === "generating" ? "Writing…" : "Generate"}
+                </button>
+                <button
+                  type="button"
+                  disabled={
+                    draft.showcaseStatus === "working" ||
+                    draft.status === "published"
+                  }
+                  onClick={() => void showcaseDraft(draft.localId)}
+                  className="rounded-full border border-line px-4 py-2 text-sm disabled:opacity-50"
+                >
+                  {draft.showcaseStatus === "working"
+                    ? "Placing…"
+                    : draft.showcaseStatus === "ready"
+                      ? "Showcase again"
+                      : "Showcase"}
                 </button>
                 <button
                   type="button"

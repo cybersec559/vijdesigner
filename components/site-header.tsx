@@ -38,7 +38,12 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
       } ${solid ? "border-b border-line/80 bg-background/85 backdrop-blur-md" : "bg-transparent"}`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
-        <Link href="/" className="font-display text-2xl tracking-tight text-ink">
+        <Link
+          href="/"
+          className={`font-display text-2xl tracking-tight text-ink ${
+            overlay && !solid ? "[text-shadow:0_0_12px_rgba(246,241,234,0.95)]" : ""
+          }`}
+        >
           {site.name}
         </Link>
         <nav className="flex items-center gap-6 text-[0.72rem] uppercase tracking-[0.22em] text-ink/70">

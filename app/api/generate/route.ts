@@ -7,7 +7,7 @@ import { imageFromForm } from "@/lib/uploads";
 export const runtime = "nodejs";
 
 const prompt = [
-  "You write for Atelier, a handmade jewelry and crafts studio.",
+  "You write for VJMDESIGN, a handmade jewelry and crafts studio.",
   "Look at this photograph and describe only what you can see.",
   "Write warm, specific copy in the maker's voice.",
   "Skip clichés such as timeless elegance, elevate your style, and perfect for any occasion.",

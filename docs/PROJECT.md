@@ -1,4 +1,4 @@
-# Atelier, end to end
+# VJMDESIGN, end to end
 
 This is the record of the vijdesigner site: what it is for, what was built, and how a photograph becomes a published piece.
 
@@ -6,7 +6,7 @@ This is the record of the vijdesigner site: what it is for, what was built, and 
 
 The site is a storefront for handmade jewelry and crafts, built to feel like walking into the shop rather than paging through a catalog. Motion carries the visit. The studio exists so a new photograph can become a named piece, with a story and an ad, without leaving the project.
 
-The brand on the site is Atelier. The line is "Handmade jewelry and crafts, shaped by hand."
+The brand on the site is VJMDESIGN. The line is "Handmade jewelry and crafts, shaped by hand."
 
 There is no checkout. The site shows the work and tells the story of each piece. Buying is out of scope.
 

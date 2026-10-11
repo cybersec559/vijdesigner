@@ -1,6 +1,6 @@
 # vijdesigner
 
-Atelier is a handmade jewelry and crafts site. Visitors browse a campaign and a collection. The maker uses a private studio to drop in a photograph, generate ad copy from that image, edit it, and publish the piece onto the site.
+VJMDESIGN is a handmade jewelry and crafts site. Visitors browse a campaign and a collection. The maker uses a private studio to drop in a photograph, generate ad copy from that image, edit it, and publish the piece onto the site.
 
 This is a showcase. There is no cart and no checkout.
 

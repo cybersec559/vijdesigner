@@ -1,5 +1,5 @@
 export const site = {
-  name: "Atelier",
+  name: "VJMDESIGN",
   tagline: "Handmade jewelry and crafts, shaped by hand.",
   description:
     "Come in. The first flowers are pink enamel, edged in gold, still loose on the bench.",
