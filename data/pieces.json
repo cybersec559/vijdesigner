@@ -1,5 +1,57 @@
 [
   {
+    "id": "coral-pearl-strand",
+    "name": "Coral Pearl Strand",
+    "category": "Necklace",
+    "materials": "Red coral barrels, white pearls, gold shell charms, gold clasp",
+    "story": "I strung this one bead at a time: a white pearl, a red coral barrel, then a small gold shell that hangs a little lower than the strand. The clasp is gold, and the ends finish with a few small pearls so it sits quietly at the back of the neck.\n\nIt is meant to be seen at the collarbone. Coral, pearl, and gold, nothing else.",
+    "adHeadline": "Coral, pearl, and gold",
+    "adBody": "A gold strand of red coral barrels, white pearls, and small shell charms, worn at the collarbone.",
+    "socialCaption": "New on the bench: red coral, white pearls, and gold shells on one strand. Worn close, clasp at the side.",
+    "altText": "An adult Indian woman in an ivory silk blouse wearing a necklace of red coral barrels, white pearls, and gold shell charms.",
+    "image": "/uploads/coral-pearl-strand-ivory.jpg",
+    "createdAt": "2026-10-17T14:30:00.000Z",
+    "variantLabel": "Portrait",
+    "variants": [
+      {
+        "name": "Gold",
+        "swatch": "#C4A265",
+        "image": "/uploads/coral-pearl-strand-gold.jpg",
+        "altText": "An adult woman with deep brown skin in a gold silk blouse, wearing a necklace of red coral, white pearls, and gold shell charms."
+      },
+      {
+        "name": "Ivory",
+        "swatch": "#F3E6C8",
+        "image": "/uploads/coral-pearl-strand-ivory.jpg",
+        "altText": "An adult Indian woman with her hair in a braid, wearing an ivory silk blouse and a necklace of red coral, white pearls, and gold shell charms."
+      },
+      {
+        "name": "Maroon",
+        "swatch": "#7A2436",
+        "image": "/uploads/coral-pearl-strand-maroon.jpg",
+        "altText": "An adult Indian woman in a maroon silk blouse wearing a necklace of red coral barrels, white pearls, and gold shell charms."
+      },
+      {
+        "name": "Champagne",
+        "swatch": "#E6D3B8",
+        "image": "/uploads/coral-pearl-strand-champagne.jpg",
+        "altText": "An adult East Asian woman in a champagne silk blouse wearing a necklace of red coral, white pearls, and gold shell charms."
+      },
+      {
+        "name": "Blush",
+        "swatch": "#E7C8BE",
+        "image": "/uploads/coral-pearl-strand-blush.jpg",
+        "altText": "An adult woman with fair skin in a pale blush silk blouse wearing a necklace of red coral, white pearls, and gold shell charms."
+      },
+      {
+        "name": "Cream",
+        "swatch": "#F6F1EA",
+        "image": "/uploads/coral-pearl-strand.jpg",
+        "altText": "An adult woman in a cream silk blouse wearing a necklace of red coral barrels, white pearls, and gold shell charms."
+      }
+    ]
+  },
+  {
     "id": "single-flower-drops",
     "name": "Single Flower Drops",
     "category": "Earrings",
@@ -251,19 +303,6 @@
     "createdAt": "2026-10-01T15:00:00.000Z"
   },
   {
-    "name": "Two Clays",
-    "category": "Earrings",
-    "materials": "Terracotta clay, cream clay, brass hooks",
-    "story": "The top is the color of a brick after rain. The bottom is the cream clay I keep for quiet shapes. I left the surface a little dry so it catches light like plaster.",
-    "adHeadline": "Brick and cream",
-    "adBody": "Two clay shapes on a brass hook, pressed by hand and left unglazed.",
-    "socialCaption": "Unglazed clay earrings in terracotta and cream, with brass hooks. Light enough to forget, until someone asks.",
-    "altText": "A young woman with a short natural afro, in profile, wearing a terracotta and cream clay earring on a brass hook.",
-    "id": "clay-earrings",
-    "image": "/uploads/clay-earrings-worn.jpg",
-    "createdAt": "2026-10-02T15:00:00.000Z"
-  },
-  {
     "name": "Moss Setting",
     "category": "Ring",
     "materials": "Hammered silver, green stone",
@@ -275,18 +314,5 @@
     "id": "river-ring",
     "image": "/uploads/river-ring-worn.jpg",
     "createdAt": "2026-10-03T15:00:00.000Z"
-  },
-  {
-    "name": "Three Turns",
-    "category": "Bracelet",
-    "materials": "Ochre, cream, and charcoal linen thread",
-    "story": "I wound three bands of linen thread until the stack held its own shape. Ochre, cream, charcoal. They sit together like a small landscape on the wrist.",
-    "adHeadline": "Thread, wound tight",
-    "adBody": "Three linen cuffs in ochre, cream, and charcoal, wrapped by hand.",
-    "socialCaption": "Three thread cuffs, stacked. The colors are ochre, cream, and charcoal, wound until the fiber shows.",
-    "altText": "A young woman with wavy copper-red hair in a rust linen shirt, her hand on her shoulder, wearing three stacked ochre, cream, and charcoal thread bangles.",
-    "id": "thread-cuff",
-    "image": "/uploads/thread-cuff-worn.jpg",
-    "createdAt": "2026-10-04T15:00:00.000Z"
   }
 ]
