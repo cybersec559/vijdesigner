@@ -11,7 +11,7 @@ import {
   sortedCategories,
   type Piece,
 } from "@/lib/types";
-import { site } from "@/site.config";
+import { Logo } from "@/components/logo";
 
 const words = ["Blossom", "Gold", "Enamel", "Daisy"];
 
@@ -271,7 +271,9 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
 
       <footer className="border-t border-line">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-8 text-sm text-muted md:px-8">
-          <p className="font-display text-xl text-ink">{site.name}</p>
+          <Link href="/">
+            <Logo className="h-16 w-auto" />
+          </Link>
           <p>{new Date().getFullYear()}</p>
           <Link href="/studio" className="uppercase tracking-[0.18em] hover:text-ink">
             Studio

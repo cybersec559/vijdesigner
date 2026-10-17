@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { Logo } from "@/components/logo";
 import { site } from "@/site.config";
 
 export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
@@ -17,7 +18,7 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
       frame = requestAnimationFrame(() => {
         const campaign = document.getElementById("campaign");
         if (campaign) {
-          setSolid(campaign.getBoundingClientRect().bottom <= 72);
+          setSolid(campaign.getBoundingClientRect().bottom <= 96);
           return;
         }
         setSolid(window.scrollY > 12);
@@ -38,13 +39,11 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
       } ${solid ? "border-b border-line/80 bg-background/85 backdrop-blur-md" : "bg-transparent"}`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
-        <Link
-          href="/"
-          className={`font-display text-2xl tracking-tight text-ink ${
-            overlay && !solid ? "[text-shadow:0_0_12px_rgba(246,241,234,0.95)]" : ""
-          }`}
-        >
-          {site.name}
+        <Link href="/" className="shrink-0">
+          <Logo
+            tone={overlay && !solid ? "dark" : "light"}
+            className="h-14 w-auto sm:h-16"
+          />
         </Link>
         <nav className="flex items-center gap-6 text-[0.72rem] uppercase tracking-[0.22em] text-ink/70">
           {site.nav.map((item) => (
