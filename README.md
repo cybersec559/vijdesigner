@@ -2,7 +2,7 @@
 
 VJMDESIGN is a handmade jewelry and crafts site. Visitors browse a campaign and a collection. The maker uses a private studio to drop in a photograph, generate ad copy from that image, edit it, and publish the piece onto the site.
 
-This is a showcase. There is no cart and no checkout.
+Priced pieces can be bought through Shopify checkout. Cart lives at `/cart`.
 
 ## Run it locally
 
@@ -18,7 +18,10 @@ Open [http://127.0.0.1:3456](http://127.0.0.1:3456).
 | --- | --- |
 | `/` | Scroll campaign, collection, and window |
 | `/pieces/[id]` | One piece, with its photograph and story |
+| `/cart` | Bag and Shopify checkout |
 | `/studio` | Password gate, then the upload board |
+
+Shopify env vars come from the Vercel Marketplace integration (`SHOPIFY_STORE_DOMAIN`, `SHOPIFY_STOREFRONT_ACCESS_TOKEN`). Pull them with `vercel env pull`.
 
 Set `STUDIO_PASSWORD` in `.env.local` before signing into the studio. Copy generation also needs `AI_GATEWAY_API_KEY`. Without that key, the studio still lets you type the copy and publish. Generate returns a clear error until the key is present and the dev server is restarted.
 

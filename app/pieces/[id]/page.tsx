@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { PieceStory } from "@/components/piece-story";
 import { SiteHeader } from "@/components/site-header";
 import { findPiece } from "@/lib/pieces";
+import { getProductByHandle } from "@/lib/shopify-products";
 
 export const dynamic = "force-dynamic";
 
@@ -33,10 +34,15 @@ export default async function PiecePage({
     notFound();
   }
 
+  const product =
+    piece.price || piece.priceOptions?.length
+      ? await getProductByHandle(piece.id)
+      : null;
+
   return (
     <>
       <SiteHeader />
-      <PieceStory piece={piece} />
+      <PieceStory piece={piece} product={product} />
     </>
   );
 }

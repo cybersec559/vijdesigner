@@ -4,7 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
+import { PieceBuy } from "@/components/piece-buy";
+import type { Product } from "@/lib/shopify-types";
 import type { Piece } from "@/lib/types";
+import { site } from "@/site.config";
 
 function frameClass(id: string): string {
   if (id === "blossom-charms" || id === "blossom-pendant") {
@@ -13,7 +16,13 @@ function frameClass(id: string): string {
   return "object-cover";
 }
 
-export function PieceStory({ piece }: { piece: Piece }) {
+export function PieceStory({
+  piece,
+  product,
+}: {
+  piece: Piece;
+  product?: Product | null;
+}) {
   const reduce = useReducedMotion();
   const [variantName, setVariantName] = useState(piece.variants?.[0]?.name);
   const variant = piece.variants?.find((option) => option.name === variantName);
@@ -112,8 +121,9 @@ export function PieceStory({ piece }: { piece: Piece }) {
               </dl>
             ) : null}
             <p className="mt-4 text-[0.72rem] uppercase tracking-[0.2em] text-muted">
-              Handmade · shipping extra
+              Handmade · {site.shippingNote}
             </p>
+            {product ? <PieceBuy piece={piece} product={product} /> : null}
           </div>
         ) : null}
         <div className="mt-10 max-w-lg space-y-5 text-lg leading-relaxed">
