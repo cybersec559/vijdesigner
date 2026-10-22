@@ -10,7 +10,8 @@
     "adBody": "Tiny faceted black beads with a single white pearl and gold accents at the front. Adjustable with an extender chain.",
     "altText": "A fine necklace of tiny faceted black beads laid on grey satin, with one white pearl and small gold beads at the front and a gold clasp and extender chain.",
     "image": "/uploads/black-spinel-pearl-necklace.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$11"
   },
   {
     "story": "Oval gold links, each one filled with glossy black enamel and joined by small gold rings.\n\nIt sits at the collarbone and reads bold from across the room.",
@@ -23,7 +24,8 @@
     "adBody": "Chunky oval gold links filled with black enamel. A statement chain that sits at the collarbone.",
     "altText": "A gold chain of oval links filled with black enamel, displayed on a black necklace bust.",
     "image": "/uploads/black-enamel-link-chain.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$11"
   },
   {
     "story": "A fine flat gold chain that flashes as it moves, with little drops of black enamel set along it.\n\nLight enough to forget you are wearing it.",
@@ -36,7 +38,8 @@
     "adBody": "Flat gold links that catch the light, dotted with black enamel. Fine, light, and easy to layer.",
     "altText": "A fine flat gold chain dotted with small black enamel beads, displayed on a black necklace bust.",
     "image": "/uploads/black-enamel-dot-chain.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$11"
   },
   {
     "story": "Long leaf-shaped gold links, each one stamped flat, with a small black bead between every pair.\n\nIt lies flat around the neck and shines when it turns.",
@@ -49,7 +52,8 @@
     "adBody": "Long leaf-shaped gold links joined by tiny black beads. A flat, shiny chain for every day.",
     "altText": "A gold chain of long leaf-shaped links with small black beads between them, on a black necklace bust.",
     "image": "/uploads/black-enamel-leaf-chain.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$11"
   },
   {
     "story": "Small faceted black cubes, each one wired on by hand to a fine gold chain, with a little gold bead on either side.\n\nThe cubes turn as you move and flash at the corners.",
@@ -62,7 +66,8 @@
     "adBody": "Faceted black cube beads wired by hand onto a fine gold chain. Clean, modern, and light.",
     "altText": "A fine gold chain with faceted black cube beads wired along it, on a black necklace bust.",
     "image": "/uploads/black-cube-bead-chain.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$11"
   },
   {
     "story": "Round faceted black beads, each one wire-wrapped and linked to the next in gold, rosary style.\n\nEvery bead is turned by hand, one loop at a time.",
@@ -75,7 +80,8 @@
     "adBody": "Faceted black beads wire-wrapped one by one into a gold rosary-style chain.",
     "altText": "A rosary-style necklace of round faceted black beads linked with gold wire, on a black necklace bust.",
     "image": "/uploads/black-bead-rosary-chain.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$11"
   },
   {
     "story": "Faceted green beads and round gold balls take turns along a very fine gold chain.\n\nThe green is soft and minty, and the gold keeps it bright.",
@@ -88,7 +94,8 @@
     "adBody": "Faceted green beads and gold balls spaced along a fine gold chain. Fresh and easy to wear.",
     "altText": "A fine gold chain with faceted mint-green beads alternating with round gold beads, on a black necklace bust.",
     "image": "/uploads/green-aventurine-station-necklace.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$11"
   },
   {
     "story": "Rough little chips of natural stone, no two alike, each one held between two gold beads on a fine chain.\n\nGreen, cream, honey, and moss: the colors of a riverbed.",
@@ -101,7 +108,8 @@
     "adBody": "Natural stone chips in green, cream, and amber, spaced along a fine gold chain.",
     "altText": "A fine gold chain with irregular natural stone chips in green, cream, and amber, each between two gold beads, on a black necklace bust.",
     "image": "/uploads/stone-chip-station-necklace.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$11"
   },
   {
     "story": "Five strands of small faceted navy beads, gathered into gold end caps and finished with a soft gold cord.\n\nLittle stone-set flowers sit across the strands like a brooch.",
@@ -135,7 +143,8 @@
         "image": "/uploads/navy-bead-strand.jpg",
         "altText": "A strand of round navy beads with small gold accents near the clasp, on white damask."
       }
-    ]
+    ],
+    "price": "$11"
   },
   {
     "story": "Two strands of glossy black beads that come together at a round gold coin.\n\nA classic shape, strung by hand.",
@@ -148,7 +157,8 @@
     "adBody": "Glossy black bead strands finished with a round gold coin pendant.",
     "altText": "A black bead necklace laid on a white damask cloth, with a round gold coin pendant at the bottom.",
     "image": "/uploads/black-bead-coin-necklace.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$11"
   },
   {
     "story": "Bunches of bead strands, each color its own necklace: coral, green, purple, sky blue, and orange.\n\nEach one is gathered into gold caps and tied off with silk cord and a tassel.",
@@ -182,7 +192,8 @@
         "image": "/uploads/layered-bead-strands-coral.jpg",
         "altText": "An orange multistrand bead necklace with a gold clasp, next to green beads and a tassel on the work table."
       }
-    ]
+    ],
+    "price": "$11"
   },
   {
     "story": "A chain so fine it disappears on the skin, with tiny gold beads set along it, far apart, like stars.\n\nI make it as a necklace and as a matching invisible bracelet, so you can wear them together.",
@@ -222,7 +233,8 @@
         "image": "/uploads/invisible-chain-in-hand.jpg",
         "altText": "An invisible chain with gold beads held up by one end."
       }
-    ]
+    ],
+    "price": "$11"
   },
   {
     "story": "Round beads in the old nine-gem colors, ruby, emerald, black, coral, and pearl, each one wrapped in a gold filigree cap.\n\nThey hang from a bail, so they slip onto any chain.",
