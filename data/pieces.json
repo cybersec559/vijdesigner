@@ -1,5 +1,353 @@
 [
   {
+    "story": "A long run of tiny faceted black beads, so small they catch the light like a fine chain.\n\nAt the front, one white pearl sits between gold beads, with two more gold beads spaced out on each side.",
+    "adHeadline": "One pearl, a line of black",
+    "socialCaption": "Black bead necklace with one pearl in the middle. Simple enough for every day.",
+    "id": "black-spinel-pearl-necklace",
+    "name": "Black Bead & Pearl Necklace",
+    "category": "Necklace",
+    "materials": "Faceted black beads, gold-tone spacer beads, one white pearl, gold-tone clasp and extender",
+    "adBody": "Tiny faceted black beads with a single white pearl and gold accents at the front. Adjustable with an extender chain.",
+    "altText": "A fine necklace of tiny faceted black beads laid on grey satin, with one white pearl and small gold beads at the front and a gold clasp and extender chain.",
+    "image": "/uploads/black-spinel-pearl-necklace.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "Oval gold links, each one filled with glossy black enamel and joined by small gold rings.\n\nIt sits at the collarbone and reads bold from across the room.",
+    "adHeadline": "Gold and black, link by link",
+    "socialCaption": "Black enamel link chain. Bold, glossy, and easy to wear with anything.",
+    "id": "black-enamel-link-chain",
+    "name": "Black Enamel Link Chain",
+    "category": "Necklace",
+    "materials": "Gold-tone oval links filled with black enamel",
+    "adBody": "Chunky oval gold links filled with black enamel. A statement chain that sits at the collarbone.",
+    "altText": "A gold chain of oval links filled with black enamel, displayed on a black necklace bust.",
+    "image": "/uploads/black-enamel-link-chain.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "A fine flat gold chain that flashes as it moves, with little drops of black enamel set along it.\n\nLight enough to forget you are wearing it.",
+    "adHeadline": "A fine chain with a little ink",
+    "socialCaption": "Fine gold chain with black enamel dots. Wear it alone or layer it.",
+    "id": "black-enamel-dot-chain",
+    "name": "Black Enamel Dot Chain",
+    "category": "Necklace",
+    "materials": "Flat gold-tone links with small black enamel dots",
+    "adBody": "Flat gold links that catch the light, dotted with black enamel. Fine, light, and easy to layer.",
+    "altText": "A fine flat gold chain dotted with small black enamel beads, displayed on a black necklace bust.",
+    "image": "/uploads/black-enamel-dot-chain.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "Long leaf-shaped gold links, each one stamped flat, with a small black bead between every pair.\n\nIt lies flat around the neck and shines when it turns.",
+    "adHeadline": "Leaf links in gold and black",
+    "socialCaption": "Leaf-link gold chain with black beads. Flat, shiny, everyday.",
+    "id": "black-enamel-leaf-chain",
+    "name": "Black Enamel Leaf Chain",
+    "category": "Necklace",
+    "materials": "Gold-tone marquise links with black enamel beads between them",
+    "adBody": "Long leaf-shaped gold links joined by tiny black beads. A flat, shiny chain for every day.",
+    "altText": "A gold chain of long leaf-shaped links with small black beads between them, on a black necklace bust.",
+    "image": "/uploads/black-enamel-leaf-chain.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "Small faceted black cubes, each one wired on by hand to a fine gold chain, with a little gold bead on either side.\n\nThe cubes turn as you move and flash at the corners.",
+    "adHeadline": "Little black cubes on gold",
+    "socialCaption": "Hand-wired black cube bead chain on fine gold.",
+    "id": "black-cube-bead-chain",
+    "name": "Black Cube Bead Chain",
+    "category": "Necklace",
+    "materials": "Faceted black cube beads, fine gold-tone wire chain",
+    "adBody": "Faceted black cube beads wired by hand onto a fine gold chain. Clean, modern, and light.",
+    "altText": "A fine gold chain with faceted black cube beads wired along it, on a black necklace bust.",
+    "image": "/uploads/black-cube-bead-chain.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "Round faceted black beads, each one wire-wrapped and linked to the next in gold, rosary style.\n\nEvery bead is turned by hand, one loop at a time.",
+    "adHeadline": "Every bead looped by hand",
+    "socialCaption": "Rosary-style chain: black beads, gold wire, looped by hand.",
+    "id": "black-bead-rosary-chain",
+    "name": "Black Bead Rosary Chain",
+    "category": "Necklace",
+    "materials": "Faceted black beads, gold-tone wire links",
+    "adBody": "Faceted black beads wire-wrapped one by one into a gold rosary-style chain.",
+    "altText": "A rosary-style necklace of round faceted black beads linked with gold wire, on a black necklace bust.",
+    "image": "/uploads/black-bead-rosary-chain.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "Faceted green beads and round gold balls take turns along a very fine gold chain.\n\nThe green is soft and minty, and the gold keeps it bright.",
+    "adHeadline": "Mint green and gold, taking turns",
+    "socialCaption": "Green and gold station necklace. A little color for every day.",
+    "id": "green-aventurine-station-necklace",
+    "name": "Green Bead Station Necklace",
+    "category": "Necklace",
+    "materials": "Faceted green stone beads, gold-tone ball beads, fine gold-tone chain",
+    "adBody": "Faceted green beads and gold balls spaced along a fine gold chain. Fresh and easy to wear.",
+    "altText": "A fine gold chain with faceted mint-green beads alternating with round gold beads, on a black necklace bust.",
+    "image": "/uploads/green-aventurine-station-necklace.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "Rough little chips of natural stone, no two alike, each one held between two gold beads on a fine chain.\n\nGreen, cream, honey, and moss: the colors of a riverbed.",
+    "adHeadline": "No two stones the same",
+    "socialCaption": "Stone chip necklace. Every chip is a different shape and color.",
+    "id": "stone-chip-station-necklace",
+    "name": "Stone Chip Station Necklace",
+    "category": "Necklace",
+    "materials": "Natural stone chips in green, cream, and amber, gold-tone beads, fine gold-tone chain",
+    "adBody": "Natural stone chips in green, cream, and amber, spaced along a fine gold chain.",
+    "altText": "A fine gold chain with irregular natural stone chips in green, cream, and amber, each between two gold beads, on a black necklace bust.",
+    "image": "/uploads/stone-chip-station-necklace.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "Five strands of small faceted navy beads, gathered into gold end caps and finished with a soft gold cord.\n\nLittle stone-set flowers sit across the strands like a brooch.",
+    "adHeadline": "Five strands of midnight",
+    "socialCaption": "Navy multistrand necklace with sparkling flower spacers.",
+    "id": "navy-multistrand-necklace",
+    "name": "Navy Multistrand Necklace",
+    "category": "Necklace",
+    "materials": "Faceted navy glass beads, stone-set flower spacers, gold-tone clasps, gold cord with pearl accents",
+    "adBody": "Five strands of faceted navy beads with stone-set flower spacers and a gold cord tie. Made for festive days.",
+    "altText": "Close-up of a five-strand necklace of faceted navy beads with stone-set flower spacers and gold end caps, on a white damask cloth.",
+    "image": "/uploads/navy-multistrand-necklace.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "variantLabel": "Photo",
+    "variants": [
+      {
+        "name": "Five strands",
+        "swatch": "#1F2A5A",
+        "image": "/uploads/navy-multistrand-necklace.jpg",
+        "altText": "Close-up of a five-strand necklace of faceted navy beads with stone-set flower spacers and gold end caps, on a white damask cloth."
+      },
+      {
+        "name": "Long strand",
+        "swatch": "#2B3A78",
+        "image": "/uploads/navy-long-strand.jpg",
+        "altText": "A long navy bead necklace laid straight on a white damask cloth."
+      },
+      {
+        "name": "Close up",
+        "swatch": "#3A4A8C",
+        "image": "/uploads/navy-bead-strand.jpg",
+        "altText": "A strand of round navy beads with small gold accents near the clasp, on white damask."
+      }
+    ]
+  },
+  {
+    "story": "Two strands of glossy black beads that come together at a round gold coin.\n\nA classic shape, strung by hand.",
+    "adHeadline": "A gold coin on black beads",
+    "socialCaption": "Black bead necklace with a gold coin pendant.",
+    "id": "black-bead-coin-necklace",
+    "name": "Black Bead Coin Necklace",
+    "category": "Necklace",
+    "materials": "Black glass beads, gold-tone coin pendant, gold-tone clasp",
+    "adBody": "Glossy black bead strands finished with a round gold coin pendant.",
+    "altText": "A black bead necklace laid on a white damask cloth, with a round gold coin pendant at the bottom.",
+    "image": "/uploads/black-bead-coin-necklace.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "Bunches of bead strands, each color its own necklace: coral, green, purple, sky blue, and orange.\n\nEach one is gathered into gold caps and tied off with silk cord and a tassel.",
+    "adHeadline": "Pick your color, layer the rest",
+    "socialCaption": "Layered bead strands in five colors. Wear one or stack them.",
+    "id": "layered-bead-strands",
+    "name": "Layered Bead Strands",
+    "category": "Necklace",
+    "materials": "Glass and stone beads in coral, green, and purple, gold-tone caps, silk cord ties",
+    "adBody": "Multistrand bead necklaces in coral, green, purple, sky blue, and orange, finished with silk cord ties.",
+    "altText": "Three multistrand bead necklaces in coral, green, and purple laid out on a white cloth on the work table.",
+    "image": "/uploads/layered-bead-strands.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "variantLabel": "Photo",
+    "variants": [
+      {
+        "name": "Coral, green, purple",
+        "swatch": "#E8735A",
+        "image": "/uploads/layered-bead-strands.jpg",
+        "altText": "Three multistrand bead necklaces in coral, green, and purple laid out on a white cloth on the work table."
+      },
+      {
+        "name": "Sky blue",
+        "swatch": "#4FA9D6",
+        "image": "/uploads/layered-bead-strands-blue.jpg",
+        "altText": "A sky-blue multistrand bead necklace and black bead cords on a white damask cloth."
+      },
+      {
+        "name": "Orange",
+        "swatch": "#E0803A",
+        "image": "/uploads/layered-bead-strands-coral.jpg",
+        "altText": "An orange multistrand bead necklace with a gold clasp, next to green beads and a tassel on the work table."
+      }
+    ]
+  },
+  {
+    "story": "A chain so fine it disappears on the skin, with tiny gold beads set along it, far apart, like stars.\n\nI make it as a necklace and as a matching invisible bracelet, so you can wear them together.",
+    "adHeadline": "Gold that floats at your neck",
+    "socialCaption": "Invisible chain necklace: the chain disappears, the gold beads float.",
+    "id": "invisible-chain-necklace",
+    "name": "Invisible Chain Necklace",
+    "category": "Necklace",
+    "materials": "Fine, near-invisible chain, tiny gold-tone beads, gold-tone clasp",
+    "adBody": "An invisible chain necklace: tiny gold beads on a chain so fine they look like they float. Matching bracelet too.",
+    "altText": "An invisible chain necklace with tiny gold beads spaced along a very fine chain, laid in a circle on grey felt.",
+    "image": "/uploads/invisible-chain-necklace.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "variantLabel": "Photo",
+    "variants": [
+      {
+        "name": "Necklace",
+        "swatch": "#C9A45C",
+        "image": "/uploads/invisible-chain-necklace.jpg",
+        "altText": "An invisible chain necklace with tiny gold beads spaced along a very fine chain, laid in a circle on grey felt."
+      },
+      {
+        "name": "Bracelet",
+        "swatch": "#B8914A",
+        "image": "/uploads/invisible-chain-bracelet.jpg",
+        "altText": "The matching invisible bracelet: tiny gold beads on a very fine chain with a gold clasp, on grey felt."
+      },
+      {
+        "name": "Set",
+        "swatch": "#A47E3B",
+        "image": "/uploads/invisible-chain-set.jpg",
+        "altText": "Two invisible chains with tiny gold beads, held up over grey felt."
+      },
+      {
+        "name": "In hand",
+        "swatch": "#8F6B2E",
+        "image": "/uploads/invisible-chain-in-hand.jpg",
+        "altText": "An invisible chain with gold beads held up by one end."
+      }
+    ]
+  },
+  {
+    "story": "Round beads in the old nine-gem colors, ruby, emerald, black, coral, and pearl, each one wrapped in a gold filigree cap.\n\nThey hang from a bail, so they slip onto any chain.",
+    "adHeadline": "Gem colors in gold lace",
+    "socialCaption": "Nine gem bead drops in gold filigree. Traditional colors, made by hand.",
+    "id": "navaratna-bead-drops",
+    "name": "Nine Gem Bead Drops",
+    "category": "Pendant",
+    "materials": "Glass beads in ruby, emerald, onyx, coral, and pearl colors, gold-tone filigree caps, gold-tone bails",
+    "adBody": "Ruby, emerald, black, coral, and pearl beads in gold filigree caps. Slips onto any chain.",
+    "altText": "Three bead drops held in a palm: black, ruby, green, coral, and pearl beads stacked in gold filigree caps with gold bails.",
+    "image": "/uploads/navaratna-bead-drops.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "A carved gold bead in the temple style, with a round cream pearl hanging below it.\n\nSmall enough for a fine chain, rich enough for a festival.",
+    "adHeadline": "Temple gold, one pearl",
+    "socialCaption": "Temple pearl pendant: carved gold and a cream pearl.",
+    "id": "temple-pearl-pendant",
+    "name": "Temple Pearl Pendant",
+    "category": "Pendant",
+    "materials": "Gold-tone temple-style bead, cream pearl, gold-tone bail",
+    "adBody": "A carved temple-style gold bead with a cream pearl drop. Small, rich, and festive.",
+    "altText": "A small pendant held in a palm: a carved gold temple-style bead with a cream pearl below it.",
+    "image": "/uploads/temple-pearl-pendant.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
+    "story": "A big round cream pearl, capped in gold lace and hung from a simple gold hook.\n\nThe kind of earring that goes with a sari and with a t-shirt.",
+    "adHeadline": "A pearl in a gold lace cap",
+    "socialCaption": "Pearl filigree drops. Classic pearls, a little gold lace.",
+    "id": "pearl-filigree-drops",
+    "name": "Pearl Filigree Drops",
+    "category": "Earrings",
+    "materials": "Cream pearl beads, gold-tone filigree caps, gold-tone hooks",
+    "adBody": "Round cream pearls under gold filigree caps on gold hooks. Classic and easy.",
+    "altText": "Close-up of a round cream pearl with a gold filigree cap on a gold hook, held in a hand.",
+    "image": "/uploads/pearl-filigree-drops.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "variantLabel": "Photo",
+    "variants": [
+      {
+        "name": "In hand",
+        "swatch": "#EFE3C8",
+        "image": "/uploads/pearl-filigree-drops.jpg",
+        "altText": "Close-up of a round cream pearl with a gold filigree cap on a gold hook, held in a hand."
+      },
+      {
+        "name": "On the hook",
+        "swatch": "#C9A45C",
+        "image": "/uploads/pearl-filigree-drops-hook.jpg",
+        "altText": "A pearl filigree drop earring held up by its gold hook."
+      }
+    ]
+  },
+  {
+    "story": "Gold wire wrapped around a little cluster of red and pink beads, with two pale pink pearls at the tips.\n\nIt looks like a bunch of berries on your finger.",
+    "adHeadline": "A bunch of berries on your finger",
+    "socialCaption": "Berry bead wire ring, wrapped by hand.",
+    "id": "berry-bead-wire-ring",
+    "name": "Berry Bead Wire Ring",
+    "category": "Ring",
+    "materials": "Gold-tone wire, red and pink glass beads, pale pink pearl beads",
+    "adBody": "A hand-wrapped gold wire ring with a cluster of red and pink beads.",
+    "altText": "A gold wire ring with a cluster of red and pink beads and pale pink pearls, resting on an open palm.",
+    "image": "/uploads/berry-bead-wire-ring.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "variantLabel": "Photo",
+    "variants": [
+      {
+        "name": "In hand",
+        "swatch": "#D7263D",
+        "image": "/uploads/berry-bead-wire-ring.jpg",
+        "altText": "A gold wire ring with a cluster of red and pink beads and pale pink pearls, resting on an open palm."
+      },
+      {
+        "name": "Side",
+        "swatch": "#E58FA8",
+        "image": "/uploads/berry-bead-wire-ring-side.jpg",
+        "altText": "The berry bead wire ring held from the side, showing the gold wire band."
+      }
+    ]
+  },
+  {
+    "story": "One bead, two small gold beads beside it, on a cord so fine it disappears on the skin.\n\nOn the wrist, the bead looks like it is floating. Pick the color you like.",
+    "adHeadline": "A bead that floats on your wrist",
+    "socialCaption": "Invisible bracelet in green or red. The bead floats, the cord disappears.",
+    "id": "invisible-bracelet",
+    "name": "Invisible Bracelet",
+    "category": "Bracelet",
+    "materials": "Fine, near-invisible cord, one glass bead, gold-tone beads and clasp",
+    "adBody": "An invisible bracelet: one colored bead between two gold beads on a cord so fine you barely see it.",
+    "altText": "An invisible bracelet: one green bead between two gold beads on a very fine cord, on grey felt.",
+    "image": "/uploads/invisible-bracelet-green.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "variantLabel": "Bead color",
+    "variants": [
+      {
+        "name": "Green",
+        "swatch": "#1F8A6E",
+        "image": "/uploads/invisible-bracelet-green.jpg",
+        "altText": "An invisible bracelet: one green bead between two gold beads on a very fine cord, on grey felt."
+      },
+      {
+        "name": "Red",
+        "swatch": "#C8352B",
+        "image": "/uploads/invisible-bracelet-red.jpg",
+        "altText": "An invisible bracelet: one red bead between two pale beads on a very fine cord, on grey felt."
+      }
+    ]
+  },
+  {
+    "story": "A slim gold bangle with a pearl set in the middle and small stones on either side.\n\nIt sits neatly on the wrist and goes with everything.",
+    "adHeadline": "Gold at the wrist, a pearl in the middle",
+    "socialCaption": "Pearl bar bangle, worn every day.",
+    "id": "pearl-bar-bangle",
+    "name": "Pearl Bar Bangle",
+    "category": "Bracelet",
+    "materials": "Gold-tone bangle, pearl and stone accents",
+    "adBody": "A slim gold bangle with a pearl at the center. Everyday gold that goes with everything.",
+    "altText": "A slim gold bangle with a pearl in the center, worn on a wrist.",
+    "image": "/uploads/pearl-bar-bangle.jpg",
+    "createdAt": "2026-10-22T18:00:00.000Z"
+  },
+  {
     "id": "coral-pearl-strand",
     "name": "Coral Pearl Strand",
     "category": "Necklace",
