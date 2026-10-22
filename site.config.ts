@@ -1,8 +1,8 @@
 export const site = {
   name: "Handmade by Vj",
-  tagline: "Handcrafted earrings, made by hand, one at a time.",
+  tagline: "Handcrafted jewelry, made by hand, one at a time.",
   description:
-    "Handcrafted earrings: changeable hoops, enamel flowers, pumpkin beads, and Tibetan beads. Every piece made by hand, one at a time.",
+    "Handcrafted jewelry: changeable hoops, beaded necklaces, pearl drops, bracelets, and Tibetan beads. Every piece made by hand, one at a time.",
   shipping: "+ $7 shipping & packaging per order",
   shippingDetail: "One flat charge for any number of pairs.",
   nav: [

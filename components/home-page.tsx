@@ -63,14 +63,14 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
           <div className="mx-auto max-w-2xl text-center">
             <p className="font-script text-4xl text-plum md:text-5xl">{site.name}</p>
             <h2 className="mt-4 font-display text-5xl tracking-tight text-ink md:text-6xl">
-              Earring Catalog
+              Jewelry Catalog
             </h2>
             <p className="mt-4 text-[0.72rem] uppercase tracking-[0.32em] text-gold">
               Online prices
             </p>
             <div className="mx-auto mt-5 h-px w-20 bg-gold-light" />
             <p className="mt-5 text-base leading-relaxed text-muted">
-              Handcrafted earrings · changeable hoops · enamel flowers · Tibetan beads.
+              Handcrafted jewelry · earrings · necklaces · bracelets · Tibetan beads.
               <br className="hidden sm:block" /> Every piece made by hand, one at a time.
             </p>
             <p className="mt-4 text-sm font-medium text-gold">{site.shipping}</p>
@@ -282,7 +282,7 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 px-5 py-12 text-center md:px-8">
           <p className="font-script text-5xl">{site.name}</p>
           <p className="text-[0.7rem] uppercase tracking-[0.3em] text-gold-light">
-            Handcrafted earrings
+            Handcrafted jewelry
           </p>
           <p className="text-sm text-card/70">{site.shipping} · {site.shippingDetail}</p>
           <div className="mt-4 flex items-center gap-6 text-xs uppercase tracking-[0.2em] text-card/60">
