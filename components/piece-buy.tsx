@@ -66,7 +66,7 @@ export function PieceBuy({
       <BuyButton
         variantId={variant.id}
         availableForSale={variant.availableForSale && product.availableForSale}
-        label={options.length ? "Add set to cart" : "Add to cart"}
+        label="Add to cart"
       />
     </div>
   );

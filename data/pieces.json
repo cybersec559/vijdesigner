@@ -1,24 +1,28 @@
 [
   {
-    "story": "A fine gold wire hasli (choker) with a clear stone flower, blue at its center, and a deep blue stone drop below it.\n\nThe matching blue drop earrings come with it. Take the whole set, or pick the earrings, pendant, or bracelet on their own.",
+    "story": "A fine gold wire hasli (choker) with a clear stone flower, blue at its center, and a deep blue stone drop below it.\n\nThe earrings are $7, the bracelet is $7, and the hasli chain is $10.",
     "adHeadline": "Blue stone, gold wire, a flower at the throat",
-    "socialCaption": "Blue pendant set: $20 for the set, or $7 to $15 a piece.",
+    "socialCaption": "Blue pendant set: earrings $7, bracelet $7, hasli chain $10.",
     "id": "blue-stone-pendant-set",
     "name": "Blue Stone Pendant Set",
     "category": "Pendant",
     "materials": "Gold PVD steel wire choker, deep blue stone drops, clear stone flower, non-tarnish",
-    "adBody": "A gold wire choker with a stone flower and blue drop pendant, plus matching blue drop earrings. $20 for the set.",
+    "adBody": "A gold wire choker with a stone flower and blue drop pendant, plus matching blue drop earrings. Earrings $7, bracelet $7, hasli chain $10.",
     "altText": "A gold wire choker with a clear stone flower and a blue stone drop, with matching blue drop earrings on grey felt.",
     "image": "/uploads/blue-stone-pendant-set.jpg",
     "createdAt": "2026-10-23T18:00:00.000Z",
     "priceOptions": [
       {
-        "label": "Full set",
-        "price": "$20"
+        "label": "Earrings",
+        "price": "$7"
       },
       {
-        "label": "Earrings, pendant, or bracelet on its own",
-        "price": "$7 – $15"
+        "label": "Bracelet",
+        "price": "$7"
+      },
+      {
+        "label": "Hasli Chain",
+        "price": "$10"
       }
     ],
     "variantLabel": "Option",
