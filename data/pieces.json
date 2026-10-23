@@ -44,12 +44,6 @@
         "swatch": "#1E1E1E",
         "image": "/uploads/black-bead-station-chain.jpg",
         "altText": "The blue stone pendant on a gold chain with black beads, with the matching drop earrings beside it."
-      },
-      {
-        "name": "Stud drop earrings",
-        "swatch": "#3A4A8C",
-        "image": "/uploads/blue-stone-stud-drop-earrings.jpg",
-        "altText": "A square gold stud earring with a blue stone and a blue drop, held in a hand next to the bead chain and pendant."
       }
     ]
   },
@@ -215,8 +209,8 @@
     "category": "Necklace",
     "materials": "Gold PVD steel chain, black glass beads, gold PVD steel clasp, non-tarnish",
     "adBody": "A fine gold chain with spaced black beads. Wear it plain or hang a blue stone pendant from it.",
-    "altText": "A fine gold chain with spaced black beads and a blue stone pendant, laid on grey felt.",
-    "image": "/uploads/black-bead-station-chain-pendant.jpg",
+    "altText": "A fine gold chain with spaced black beads and a blue stone pendant, with blue drop earrings beside it on grey felt.",
+    "image": "/uploads/black-bead-station-chain.jpg",
     "createdAt": "2026-10-23T19:00:00.000Z",
     "price": "$11"
   },
