@@ -24,6 +24,33 @@
         "label": "Earrings, pendant, or bracelet on its own",
         "price": "$7 – $15"
       }
+    ],
+    "variantLabel": "Option",
+    "variants": [
+      {
+        "name": "Hasli set",
+        "swatch": "#C9A45C",
+        "image": "/uploads/blue-stone-pendant-set.jpg",
+        "altText": "A gold wire choker with a clear stone flower and a blue stone drop, with matching blue drop earrings on grey felt."
+      },
+      {
+        "name": "Drop earrings & pendant",
+        "swatch": "#2B3A9C",
+        "image": "/uploads/blue-stone-drop-earrings-pendant.jpg",
+        "altText": "A pair of blue stone drop earrings on gold hooks and a matching blue stone pendant, on grey felt."
+      },
+      {
+        "name": "Pendant on bead chain",
+        "swatch": "#1E1E1E",
+        "image": "/uploads/black-bead-station-chain.jpg",
+        "altText": "The blue stone pendant on a gold chain with black beads, with the matching drop earrings beside it."
+      },
+      {
+        "name": "Stud drop earrings",
+        "swatch": "#3A4A8C",
+        "image": "/uploads/blue-stone-stud-drop-earrings.jpg",
+        "altText": "A square gold stud earring with a blue stone and a blue drop, held in a hand next to the bead chain and pendant."
+      }
     ]
   },
   {
@@ -180,6 +207,20 @@
     "price": "$11"
   },
   {
+    "story": "A fine gold chain with small black beads spaced along it, wired on one by one.\n\nIt is made for the blue stone pendant, but any of the drops can hang from it.",
+    "adHeadline": "Black beads, spaced out on gold",
+    "socialCaption": "Black bead station chain. Hang a blue drop or wear it plain.",
+    "id": "black-bead-station-chain",
+    "name": "Black Bead Station Chain",
+    "category": "Necklace",
+    "materials": "Gold PVD steel chain, black glass beads, gold PVD steel clasp, non-tarnish",
+    "adBody": "A fine gold chain with spaced black beads. Wear it plain or hang a blue stone pendant from it.",
+    "altText": "A fine gold chain with spaced black beads and a blue stone pendant, laid on grey felt.",
+    "image": "/uploads/black-bead-station-chain-pendant.jpg",
+    "createdAt": "2026-10-23T19:00:00.000Z",
+    "price": "$11"
+  },
+  {
     "story": "Round beads in the old nine-gem colors, ruby, emerald, black, coral, and pearl, each one wrapped in a gold filigree cap.\n\nThey hang from a bail, so they slip onto any chain.",
     "adHeadline": "Gem colors in gold lace",
     "socialCaption": "Nine gem bead drops in gold filigree. Traditional colors, made by hand.",
@@ -268,7 +309,7 @@
   {
     "story": "One bead, two small gold beads beside it, on a cord so fine it disappears on the skin.\n\nOn the wrist, the bead looks like it is floating. Pick the color you like.",
     "adHeadline": "A bead that floats on your wrist",
-    "socialCaption": "Invisible bracelet in green or red. The bead floats, the cord disappears.",
+    "socialCaption": "Invisible bracelet in green, red, or blue. The bead floats, the cord disappears.",
     "id": "invisible-bracelet",
     "name": "Invisible Bracelet",
     "category": "Bracelet",
@@ -290,6 +331,12 @@
         "swatch": "#C8352B",
         "image": "/uploads/invisible-bracelet-red.jpg",
         "altText": "An invisible bracelet: one red bead between two pale beads on a very fine cord, on grey felt."
+      },
+      {
+        "name": "Blue",
+        "swatch": "#2B3A9C",
+        "image": "/uploads/invisible-bracelet-blue.jpg",
+        "altText": "An invisible bracelet: one deep blue stone bead with gold caps on a very fine cord with a gold clasp, on grey felt."
       }
     ],
     "price": "$6 each"
