@@ -1,5 +1,33 @@
 [
   {
+    "story": "A fine gold wire choker with a clear stone flower, blue at its center, and a deep blue stone drop below it.\n\nIt comes with matching jhumka earrings, the same flower and blue stone over a bell of tiny pearls, plus loose blue drops so the set can change.",
+    "adHeadline": "Blue stone, gold wire, a flower at the throat",
+    "socialCaption": "Blue pendant set: choker, flower pendant, and matching jhumkas.",
+    "id": "blue-stone-pendant-set",
+    "name": "Blue Stone Pendant Set",
+    "category": "Pendant",
+    "materials": "Gold PVD steel wire choker, deep blue stone drops, clear stone flower, pearl jhumka earrings, non-tarnish",
+    "adBody": "A gold wire choker with a stone flower and blue drop pendant, with matching blue jhumka earrings.",
+    "altText": "A gold wire choker with a clear stone flower and a blue stone drop, matching jhumka earrings held in a hand, and loose blue drops on grey felt.",
+    "image": "/uploads/blue-stone-pendant-set.jpg",
+    "createdAt": "2026-10-23T18:00:00.000Z",
+    "variantLabel": "Photo",
+    "variants": [
+      {
+        "name": "Set",
+        "swatch": "#2B3A9C",
+        "image": "/uploads/blue-stone-pendant-set.jpg",
+        "altText": "A gold wire choker with a clear stone flower and a blue stone drop, matching jhumka earrings held in a hand, and loose blue drops on grey felt."
+      },
+      {
+        "name": "On the bench",
+        "swatch": "#C9A45C",
+        "image": "/uploads/blue-stone-pendant-set-bench.jpg",
+        "altText": "The blue pendant set laid out on grey felt with other charms, chains, and a gold flower earring."
+      }
+    ]
+  },
+  {
     "story": "A long run of tiny faceted black beads, so small they catch the light like a fine chain.\n\nAt the front, one white pearl sits between gold beads, with two more gold beads spaced out on each side.",
     "adHeadline": "One pearl, a line of black",
     "socialCaption": "Black bead necklace with one pearl in the middle. Simple enough for every day.",
@@ -288,11 +316,26 @@
     "materials": "PVD steel, non-tarnish",
     "story": "These grow downward like a stem. A pale blossom at the top, a green enamel leaf, then a blue daisy at the end of the line. I link them one at a time with the pliers until the drop hangs straight.\n\nThey move when you turn your head, which is the whole point.",
     "adHeadline": "A stem you can wear",
-    "adBody": "Blossom, leaf, and daisy linked into one gold drop that moves when you do. Sold as individual, changeable charms.",
+    "adBody": "Blossom, leaf, and daisy linked into one gold drop that moves when you do. Sold as individual, changeable charms. Can also be worn on an invisible chain.",
     "socialCaption": "Cluster drops: white blossom, green leaf, blue daisy, linked by hand on a gold kidney hook.",
     "altText": "A young woman with long straight dark hair in a pale blue shirt, in profile, wearing a drop earring of white blossoms, green leaves, and blue daisies.",
     "image": "/uploads/flower-leaf-cluster-drops.jpg",
-    "createdAt": "2026-10-07T23:54:00.000Z"
+    "createdAt": "2026-10-07T23:54:00.000Z",
+    "variantLabel": "Charm",
+    "variants": [
+      {
+        "name": "Classic",
+        "swatch": "#C9A45C",
+        "image": "/uploads/flower-leaf-cluster-drops.jpg",
+        "altText": "A young woman with long straight dark hair in a pale blue shirt, in profile, wearing a drop earring of white blossoms, green leaves, and blue daisies."
+      },
+      {
+        "name": "Invisible chain",
+        "swatch": "#C9A45C",
+        "image": "/uploads/invisible-chain-necklace.jpg",
+        "altText": "The invisible chain the charm can hang on: a very fine chain with tiny gold beads, laid in a circle on grey felt."
+      }
+    ]
   },
   {
     "id": "flower-charm-hoops",
@@ -302,7 +345,7 @@
     "materials": "PVD steel, non-tarnish",
     "story": "Thin gold hoops, and a handful of flower charms that slide on and off. Pink blossom today, a yellow one tomorrow, a violet four-petal flower or a green daisy when the mood changes.\n\nOne pair of hoops, a different flower whenever you like. These are the ones people ask about.",
     "adHeadline": "Pick today’s flower",
-    "adBody": "Gold hoops with swappable enamel flower charms in pink, yellow, violet, and green. Sold as individual, changeable charms.",
+    "adBody": "Gold hoops with swappable enamel flower charms in pink, yellow, violet, and green. Sold as individual, changeable charms. Can also be worn on an invisible chain.",
     "socialCaption": "Flower charm hoops: one pair of gold hoops, and the charms change. Pink, yellow, violet, green, pick one.",
     "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm.",
     "image": "/uploads/flower-charm-hoops.jpg",
@@ -331,6 +374,12 @@
         "swatch": "#5DBB3F",
         "image": "/uploads/flower-charm-hoops-green.jpg",
         "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single green enamel daisy charm."
+      },
+      {
+        "name": "Invisible chain",
+        "swatch": "#C9A45C",
+        "image": "/uploads/invisible-chain-necklace.jpg",
+        "altText": "The invisible chain the charm can hang on: a very fine chain with tiny gold beads, laid in a circle on grey felt."
       }
     ],
     "variantLabel": "Charm color"
@@ -342,7 +391,7 @@
     "materials": "PVD steel, non-tarnish",
     "story": "The hoop opens and the bead slides off, so one pair of hoops can be orange today and sky blue tomorrow. I keep the beads in a row on the felt: orange, hot pink, lime, purple, pink, sky blue, green, red, cream.\n\nStart with one color or take the whole set.",
     "adHeadline": "Change the bead, change the day",
-    "adBody": "Gold hoops with swappable fluted beads, in sets of 1, 3, 5, or 10 colors. Sold as individual, changeable charms.",
+    "adBody": "Gold hoops with swappable fluted beads, in sets of 1, 3, 5, or 10 colors. Sold as individual, changeable charms. Can also be worn on an invisible chain.",
     "socialCaption": "Swap hoops with nine bead colors waiting. The five-color set is the one most people pick.",
     "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a orange round bead with gold stripes.",
     "image": "/uploads/swap-hoops-orange.jpg",
@@ -402,6 +451,18 @@
         "swatch": "#F3EAD7",
         "image": "/uploads/swap-hoops-cream.jpg",
         "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a cream round bead with gold stripes."
+      },
+      {
+        "name": "Pearl drop",
+        "swatch": "#EFE3C8",
+        "image": "/uploads/pearl-filigree-drops-hook.jpg",
+        "altText": "A cream pearl charm with a gold filigree cap, one of the charms that can go on the hoops."
+      },
+      {
+        "name": "Invisible chain",
+        "swatch": "#C9A45C",
+        "image": "/uploads/invisible-chain-necklace.jpg",
+        "altText": "The invisible chain the charm can hang on: a very fine chain with tiny gold beads, laid in a circle on grey felt."
       }
     ],
     "price": "$3 – $10"
@@ -414,7 +475,7 @@
     "materials": "PVD steel, non-tarnish",
     "story": "A round fluted bead between two gold filigree caps, so it hangs like a small lantern. I make them in green, red, orange, and cream, and every bead has its own gold lines running top to bottom.\n\nThe orange ones always go first in the fall.",
     "adHeadline": "A small lantern at the ear",
-    "adBody": "A fluted bead capped in gold filigree, in green, red, orange, or cream. Sold as individual, changeable charms.",
+    "adBody": "A fluted bead capped in gold filigree, in green, red, orange, or cream. Sold as individual, changeable charms. Can also be worn on an invisible chain.",
     "socialCaption": "Pumpkin bead drops in green, red, orange, and cream. Gold caps top and bottom, gold hook.",
     "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a orange fluted bead earring with gold caps.",
     "image": "/uploads/pumpkin-bead-drops.jpg",
@@ -444,6 +505,24 @@
         "swatch": "#F1E8D4",
         "image": "/uploads/pumpkin-bead-drops-cream.jpg",
         "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a cream fluted bead earring with gold caps."
+      },
+      {
+        "name": "All colors",
+        "swatch": "#8E5BB5",
+        "image": "/uploads/pumpkin-bead-drops-all-colors.jpg",
+        "altText": "Pumpkin bead charms in orange, green, purple, yellow, pink, and black-and-gold hanging on a black stand."
+      },
+      {
+        "name": "Mixed set",
+        "swatch": "#E0803A",
+        "image": "/uploads/pumpkin-bead-drops-mixed-set.jpg",
+        "altText": "Pumpkin bead charms mixed in bright colors, hanging in rows on black."
+      },
+      {
+        "name": "Invisible chain",
+        "swatch": "#C9A45C",
+        "image": "/uploads/invisible-chain-necklace.jpg",
+        "altText": "The invisible chain the charm can hang on: a very fine chain with tiny gold beads, laid in a circle on grey felt."
       }
     ]
   },
@@ -455,11 +534,38 @@
     "materials": "PVD steel, non-tarnish",
     "story": "The beads are the heavy, detailed kind: dark centers wrapped in twisted gold wire, set with turquoise and coral. I wire-wrap each one into a loop by hand so it hangs cleanly from the hook.\n\nOne is all blue-green stones in a gold cage. One has red and turquoise dots between gold swirls. Both feel old in the hand.",
     "adHeadline": "Turquoise in a gold cage",
-    "adBody": "Inlaid Tibetan-style beads, wire-wrapped by hand into a single drop. Sold as individual, changeable charms.",
+    "adBody": "Inlaid Tibetan-style beads, wire-wrapped by hand into a single drop. Sold as individual, changeable charms. Can also be worn on an invisible chain.",
     "socialCaption": "Tibetan bead drops, wrapped this week. Turquoise, coral, and a lot of twisted gold.",
     "altText": "A young woman with a dark braid in a maroon top, in profile against a stone wall, wearing a drop earring of a gold bead set with turquoise stones.",
     "image": "/uploads/tibetan-bead-drops.jpg",
-    "createdAt": "2026-10-07T23:50:00.000Z"
+    "createdAt": "2026-10-07T23:50:00.000Z",
+    "variantLabel": "Charm",
+    "variants": [
+      {
+        "name": "Classic",
+        "swatch": "#B5453A",
+        "image": "/uploads/tibetan-bead-drops.jpg",
+        "altText": "A young woman with a dark braid in a maroon top, in profile against a stone wall, wearing a drop earring of a gold bead set with turquoise stones."
+      },
+      {
+        "name": "Coral & turquoise",
+        "swatch": "#2EB8C4",
+        "image": "/uploads/tibetan-bead-drops-coral-turquoise.jpg",
+        "altText": "Two Tibetan bead charms in a palm: one red coral with gold, one turquoise and coral with gold bands."
+      },
+      {
+        "name": "Bead box",
+        "swatch": "#B5453A",
+        "image": "/uploads/tibetan-bead-drops-bead-box.jpg",
+        "altText": "A box of Tibetan bead charms in turquoise, coral, black, and brass to choose from."
+      },
+      {
+        "name": "Invisible chain",
+        "swatch": "#C9A45C",
+        "image": "/uploads/invisible-chain-necklace.jpg",
+        "altText": "The invisible chain the charm can hang on: a very fine chain with tiny gold beads, laid in a circle on grey felt."
+      }
+    ]
   },
   {
     "name": "Throat Blossom",
@@ -467,13 +573,28 @@
     "materials": "PVD steel, non-tarnish",
     "story": "The clasp was already on when I lifted it from the bench. A fine gold chain, and the blossom rests at the hollow of the throat. Pink enamel, gold along every petal, a tiny stone at the heart.\n\nIt is light on purpose. One flower, close to the skin, so an ordinary day has a single bright thing at the collarbone.",
     "adHeadline": "A flower at the throat",
-    "adBody": "A pink enamel blossom on a fine gold chain, worn close to the skin. Sold as individual, changeable charms.",
+    "adBody": "A pink enamel blossom on a fine gold chain, worn close to the skin. Sold as individual, changeable charms. Can also be worn on an invisible chain.",
     "socialCaption": "The pendant, worn. One blossom, gold at the edge, sitting at the hollow of the throat.",
     "altText": "A young woman in a cream silk blouse wearing a pink enamel blossom pendant on a fine gold chain.",
     "id": "blossom-pendant",
     "image": "/uploads/blossom-pendant.jpg",
     "createdAt": "2026-10-05T19:26:00.000Z",
-    "price": "$3 – $10"
+    "price": "$3 – $10",
+    "variantLabel": "Charm",
+    "variants": [
+      {
+        "name": "Classic",
+        "swatch": "#C9A45C",
+        "image": "/uploads/blossom-pendant.jpg",
+        "altText": "A young woman in a cream silk blouse wearing a pink enamel blossom pendant on a fine gold chain."
+      },
+      {
+        "name": "Invisible chain",
+        "swatch": "#C9A45C",
+        "image": "/uploads/invisible-chain-necklace.jpg",
+        "altText": "The invisible chain the charm can hang on: a very fine chain with tiny gold beads, laid in a circle on grey felt."
+      }
+    ]
   },
   {
     "name": "First Blossom",
