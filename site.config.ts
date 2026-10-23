@@ -1,8 +1,8 @@
 export const site = {
   name: "VJMDESIGN",
-  tagline: "Handmade jewelry and crafts, shaped by hand.",
+  tagline: "Simple, trendy jewelry at affordable prices.",
   description:
-    "Come in. The first flowers are pink enamel, edged in gold, still loose on the bench.",
+    "Simple, trendy jewelry at affordable prices, from $3 to $15. Necklaces, pendants, bracelets, and changeable charms, made by hand in non-tarnish PVD steel.",
   /** Product prices are item-only; shipping is always charged at checkout. */
   shippingNote: "Shipping extra on every order",
   nav: [

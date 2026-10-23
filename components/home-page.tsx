@@ -12,6 +12,7 @@ import {
   type Piece,
 } from "@/lib/types";
 import { Logo } from "@/components/logo";
+import { site } from "@/site.config";
 
 const words = ["Blossom", "Gold", "Enamel", "Daisy"];
 
@@ -117,7 +118,7 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
             </h2>
           </div>
           <p className="max-w-xs text-sm leading-relaxed text-muted">
-            Each piece keeps the mark of the hand that made it.
+            {site.description}
           </p>
         </div>
         {categories.length > 1 ? (
@@ -274,7 +275,9 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
           <Link href="/">
             <Logo className="h-16 w-auto" />
           </Link>
-          <p>{new Date().getFullYear()}</p>
+          <p>
+            {site.tagline} {new Date().getFullYear()}
+          </p>
           <Link href="/studio" className="uppercase tracking-[0.18em] hover:text-ink">
             Studio
           </Link>
