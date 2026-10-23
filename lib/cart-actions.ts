@@ -20,12 +20,21 @@ type CartPayload = {
 
 async function getCartId(): Promise<string | undefined> {
   const cookieStore = await cookies();
-  return cookieStore.get(CART_COOKIE)?.value;
+  const raw = cookieStore.get(CART_COOKIE)?.value;
+  if (!raw) {
+    return undefined;
+  }
+  // Cart IDs include ?key=… — encode so cookie parsers do not split on "=".
+  try {
+    return decodeURIComponent(raw);
+  } catch {
+    return raw;
+  }
 }
 
 async function setCartId(cartId: string) {
   const cookieStore = await cookies();
-  cookieStore.set(CART_COOKIE, cartId, {
+  cookieStore.set(CART_COOKIE, encodeURIComponent(cartId), {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",

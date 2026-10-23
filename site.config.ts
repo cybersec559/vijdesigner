@@ -6,6 +6,11 @@ export const site = {
   setsNote: "Matching sets for $20 or less.",
   /** Product prices are item-only; shipping is always charged at checkout. */
   shippingNote: "Shipping extra on every order",
+  /**
+   * Public address for orders, returns, privacy requests, and security reports.
+   * A store that takes payment needs a real inbox here, or set CONTACT_EMAIL.
+   */
+  contactEmail: "",
   nav: [
     { href: "/#collection", label: "Collection" },
     { href: "/#window", label: "Window" },

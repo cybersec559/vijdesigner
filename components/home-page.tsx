@@ -11,10 +11,9 @@ import {
   sortedCategories,
   type Piece,
 } from "@/lib/types";
-import { Logo } from "@/components/logo";
 import { site } from "@/site.config";
 
-const words = ["Blossom", "Gold", "Enamel", "Daisy"];
+const words = ["Blossom", "Steel", "Enamel", "Daisy"];
 
 function frameClass(id: string): string {
   if (id === "blossom-charms" || id === "blossom-pendant") {
@@ -273,19 +272,6 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
         </div>
       </section>
 
-      <footer className="border-t border-line">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-8 text-sm text-muted md:px-8">
-          <Link href="/">
-            <Logo className="h-16 w-auto" />
-          </Link>
-          <p>
-            {site.tagline} {new Date().getFullYear()}
-          </p>
-          <Link href="/studio" className="uppercase tracking-[0.18em] hover:text-ink">
-            Studio
-          </Link>
-        </div>
-      </footer>
     </main>
   );
 }

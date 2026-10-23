@@ -1,4 +1,5 @@
 import { HomePage } from "@/components/home-page";
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { readPieces } from "@/lib/pieces";
 
@@ -10,6 +11,7 @@ export default async function Page() {
     <>
       <SiteHeader overlay />
       <HomePage pieces={pieces} />
+      <SiteFooter />
     </>
   );
 }

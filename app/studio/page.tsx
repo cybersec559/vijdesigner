@@ -1,3 +1,4 @@
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { StudioBoard } from "@/components/studio-board";
 import { StudioGate } from "@/components/studio-gate";
@@ -11,6 +12,7 @@ export default async function StudioPage() {
     <>
       <SiteHeader />
       {authed ? <StudioBoard /> : <StudioGate configured={studioConfigured()} />}
+      <SiteFooter />
     </>
   );
 }

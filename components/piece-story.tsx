@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
+import { MaterialsNote, PurchaseDisclosures } from "@/components/purchase-disclosures";
 import { PieceBuy } from "@/components/piece-buy";
 import type { Product } from "@/lib/shopify-types";
 import type { Piece } from "@/lib/types";
@@ -69,6 +70,7 @@ export function PieceStory({
         <p className="mt-5 text-sm uppercase tracking-[0.16em] text-muted">
           {piece.materials}
         </p>
+        <MaterialsNote />
         {piece.variants?.length ? (
           <fieldset className="mt-8">
             <legend className="text-[0.72rem] uppercase tracking-[0.22em] text-muted">
@@ -123,6 +125,7 @@ export function PieceStory({
             <p className="mt-4 text-[0.72rem] uppercase tracking-[0.2em] text-muted">
               Handmade · {site.shippingNote}
             </p>
+            <PurchaseDisclosures />
             {product ? <PieceBuy piece={piece} product={product} /> : null}
           </div>
         ) : null}

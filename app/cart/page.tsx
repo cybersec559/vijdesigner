@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CartLineItem } from "@/components/cart-line-item";
+import { PurchaseDisclosures } from "@/components/purchase-disclosures";
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getCart } from "@/lib/cart-actions";
-import { site } from "@/site.config";
-
+import {
+  isTrustedCheckoutUrl,
+  resolveCheckoutUrl,
+} from "@/lib/shopify-checkout";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
@@ -25,6 +29,7 @@ function formatMoney(amount: string, currencyCode: string) {
 export default async function CartPage() {
   const cart = await getCart();
   const lines = cart?.lines.nodes ?? [];
+  const checkoutUrl = cart ? resolveCheckoutUrl(cart) : null;
 
   return (
     <>
@@ -54,6 +59,7 @@ export default async function CartPage() {
                 <CartLineItem key={line.id} line={line} />
               ))}
             </ul>
+            <PurchaseDisclosures />
             <div className="mt-10 flex flex-wrap items-end justify-between gap-6 border-t border-line pt-8">
               <p className="text-sm uppercase tracking-[0.16em] text-muted">
                 Subtotal{" "}
@@ -64,21 +70,10 @@ export default async function CartPage() {
                   )}
                 </span>
               </p>
-              {(() => {
-                try {
-                  const host = new URL(cart.checkoutUrl).hostname;
-                  return (
-                    host.endsWith(".myshopify.com") ||
-                    host === "checkout.shopify.com" ||
-                    host === "shopify.com" ||
-                    host.endsWith(".shopify.com")
-                  );
-                } catch {
-                  return false;
-                }
-              })() ? (
+              {checkoutUrl && isTrustedCheckoutUrl(checkoutUrl) ? (
                 <a
-                  href={cart.checkoutUrl}
+                  href={checkoutUrl}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex border border-ink bg-ink px-8 py-3 text-[0.72rem] uppercase tracking-[0.22em] text-background transition-colors hover:bg-transparent hover:text-ink"
                 >
@@ -88,10 +83,6 @@ export default async function CartPage() {
                 <p className="text-sm text-muted">Checkout is unavailable.</p>
               )}
             </div>
-            <p className="mt-6 text-sm text-muted">
-              {site.shippingNote}. Calculated at Shopify checkout — not included
-              in the piece price.
-            </p>
             <Link
               href="/#collection"
               className="mt-8 inline-block text-[0.72rem] uppercase tracking-[0.2em] text-muted hover:text-ink"
@@ -101,6 +92,7 @@ export default async function CartPage() {
           </div>
         )}
       </main>
+      <SiteFooter />
     </>
   );
 }

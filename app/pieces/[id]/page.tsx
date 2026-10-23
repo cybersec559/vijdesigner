@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PieceStory } from "@/components/piece-story";
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { findPiece } from "@/lib/pieces";
 import { getProductByHandle } from "@/lib/shopify-products";
@@ -43,6 +44,7 @@ export default async function PiecePage({
     <>
       <SiteHeader />
       <PieceStory piece={piece} product={product} />
+      <SiteFooter />
     </>
   );
 }
