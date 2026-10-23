@@ -1,31 +1,16 @@
 [
   {
-    "story": "A fine gold wire choker with a clear stone flower, blue at its center, and a deep blue stone drop below it.\n\nIt comes with matching jhumka earrings, the same flower and blue stone over a bell of tiny pearls, plus loose blue drops so the set can change.",
+    "story": "A fine gold wire choker with a clear stone flower, blue at its center, and a deep blue stone drop below it.\n\nLoose blue drops come with it, so the pendant can change.",
     "adHeadline": "Blue stone, gold wire, a flower at the throat",
-    "socialCaption": "Blue pendant set: choker, flower pendant, and matching jhumkas.",
+    "socialCaption": "Blue pendant set: gold wire choker, flower pendant, and blue drops.",
     "id": "blue-stone-pendant-set",
     "name": "Blue Stone Pendant Set",
     "category": "Pendant",
-    "materials": "Gold PVD steel wire choker, deep blue stone drops, clear stone flower, pearl jhumka earrings, non-tarnish",
-    "adBody": "A gold wire choker with a stone flower and blue drop pendant, with matching blue jhumka earrings.",
-    "altText": "A gold wire choker with a clear stone flower and a blue stone drop, matching jhumka earrings held in a hand, and loose blue drops on grey felt.",
+    "materials": "Gold PVD steel wire choker, deep blue stone drops, clear stone flower, non-tarnish",
+    "adBody": "A gold wire choker with a stone flower and a blue drop pendant, plus loose blue drops to change it.",
+    "altText": "A gold wire choker with a clear stone flower and a blue stone drop, with loose blue drops beside it on grey felt.",
     "image": "/uploads/blue-stone-pendant-set.jpg",
-    "createdAt": "2026-10-23T18:00:00.000Z",
-    "variantLabel": "Photo",
-    "variants": [
-      {
-        "name": "Set",
-        "swatch": "#2B3A9C",
-        "image": "/uploads/blue-stone-pendant-set.jpg",
-        "altText": "A gold wire choker with a clear stone flower and a blue stone drop, matching jhumka earrings held in a hand, and loose blue drops on grey felt."
-      },
-      {
-        "name": "On the bench",
-        "swatch": "#C9A45C",
-        "image": "/uploads/blue-stone-pendant-set-bench.jpg",
-        "altText": "The blue pendant set laid out on grey felt with other charms, chains, and a gold flower earring."
-      }
-    ]
+    "createdAt": "2026-10-23T18:00:00.000Z"
   },
   {
     "story": "A long run of tiny faceted black beads, so small they catch the light like a fine chain.\n\nAt the front, one white pearl sits between gold beads, with two more gold beads spaced out on each side.",
