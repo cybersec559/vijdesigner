@@ -204,32 +204,33 @@
     "price": "$15"
   },
   {
-    "story": "A big round cream pearl, capped in gold lace and hung from a simple gold hook.\n\nThe kind of earring that goes with a sari and with a t-shirt.",
+    "story": "A big round cream pearl, capped in gold lace. On a loop it is a pendant; on a simple gold hook it is an earring.\n\nTake the earrings and pendant together as a set, or choose one on its own.",
     "adHeadline": "A pearl in a gold lace cap",
-    "socialCaption": "Pearl filigree drops. Classic pearls, a little gold lace.",
-    "id": "pearl-filigree-drops",
-    "name": "Pearl Filigree Drops",
-    "category": "Earrings",
+    "socialCaption": "Pearl filigree earrings and pendant. Buy the set or one piece, $5 to $8.",
+    "id": "pearl-filigree-set",
+    "name": "Pearl Filigree Earrings & Pendant",
+    "category": "Pendant",
     "materials": "Cream pearl beads, gold PVD steel filigree caps, gold PVD steel hooks, non-tarnish",
-    "adBody": "Round cream pearls under gold filigree caps on gold hooks. Classic and easy.",
+    "adBody": "Cream pearls under gold filigree caps, as a pendant, earrings, or the full set.",
     "altText": "Close-up of a round cream pearl with a gold filigree cap on a gold hook, held in a hand.",
     "image": "/uploads/pearl-filigree-drops.jpg",
     "createdAt": "2026-10-22T18:00:00.000Z",
-    "variantLabel": "Photo",
+    "variantLabel": "Option",
     "variants": [
       {
-        "name": "In hand",
+        "name": "Pendant",
         "swatch": "#EFE3C8",
         "image": "/uploads/pearl-filigree-drops.jpg",
-        "altText": "Close-up of a round cream pearl with a gold filigree cap on a gold hook, held in a hand."
+        "altText": "A cream pearl pendant with a gold filigree cap on a fine gold loop, held in a hand."
       },
       {
-        "name": "On the hook",
+        "name": "Earrings",
         "swatch": "#C9A45C",
         "image": "/uploads/pearl-filigree-drops-hook.jpg",
-        "altText": "A pearl filigree drop earring held up by its gold hook."
+        "altText": "A cream pearl earring with a gold filigree cap on a gold hook, held up in a hand."
       }
-    ]
+    ],
+    "price": "$5 – $8"
   },
   {
     "story": "Gold wire wrapped around a little cluster of red and pink beads, with two pale pink pearls at the tips.\n\nOn the wrist it looks like a small bunch of berries.",
