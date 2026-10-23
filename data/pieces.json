@@ -6,7 +6,7 @@
     "id": "black-spinel-pearl-necklace",
     "name": "Black Bead & Pearl Necklace",
     "category": "Necklace",
-    "materials": "Faceted black beads, gold-tone spacer beads, one white pearl, gold-tone clasp and extender",
+    "materials": "Faceted black beads, gold PVD steel spacer beads, one white pearl, gold PVD steel clasp and extender, non-tarnish",
     "adBody": "Tiny faceted black beads with a single white pearl and gold accents at the front. Adjustable with an extender chain.",
     "altText": "A fine necklace of tiny faceted black beads laid on grey satin, with one white pearl and small gold beads at the front and a gold clasp and extender chain.",
     "image": "/uploads/black-spinel-pearl-necklace.jpg",
@@ -20,7 +20,7 @@
     "id": "black-enamel-link-chain",
     "name": "Black Enamel Link Chain",
     "category": "Necklace",
-    "materials": "Gold-tone oval links filled with black enamel",
+    "materials": "Gold PVD steel oval links filled with black enamel, non-tarnish",
     "adBody": "Chunky oval gold links filled with black enamel. A statement chain that sits at the collarbone.",
     "altText": "A gold chain of oval links filled with black enamel, displayed on a black necklace bust.",
     "image": "/uploads/black-enamel-link-chain.jpg",
@@ -34,7 +34,7 @@
     "id": "black-enamel-dot-chain",
     "name": "Black Enamel Dot Chain",
     "category": "Necklace",
-    "materials": "Flat gold-tone links with small black enamel dots",
+    "materials": "Flat gold PVD steel links with small black enamel dots, non-tarnish",
     "adBody": "Flat gold links that catch the light, dotted with black enamel. Fine, light, and easy to layer.",
     "altText": "A fine flat gold chain dotted with small black enamel beads, displayed on a black necklace bust.",
     "image": "/uploads/black-enamel-dot-chain.jpg",
@@ -48,7 +48,7 @@
     "id": "black-enamel-leaf-chain",
     "name": "Black Enamel Leaf Chain",
     "category": "Necklace",
-    "materials": "Gold-tone marquise links with black enamel beads between them",
+    "materials": "Gold PVD steel marquise links with black enamel beads between them, non-tarnish",
     "adBody": "Long leaf-shaped gold links joined by tiny black beads. A flat, shiny chain for every day.",
     "altText": "A gold chain of long leaf-shaped links with small black beads between them, on a black necklace bust.",
     "image": "/uploads/black-enamel-leaf-chain.jpg",
@@ -62,7 +62,7 @@
     "id": "black-cube-bead-chain",
     "name": "Black Cube Bead Chain",
     "category": "Necklace",
-    "materials": "Faceted black cube beads, fine gold-tone wire chain",
+    "materials": "Faceted black cube beads, fine gold PVD steel wire chain, non-tarnish",
     "adBody": "Faceted black cube beads wired by hand onto a fine gold chain. Clean, modern, and light.",
     "altText": "A fine gold chain with faceted black cube beads wired along it, on a black necklace bust.",
     "image": "/uploads/black-cube-bead-chain.jpg",
@@ -76,7 +76,7 @@
     "id": "black-bead-rosary-chain",
     "name": "Black Bead Rosary Chain",
     "category": "Necklace",
-    "materials": "Faceted black beads, gold-tone wire links",
+    "materials": "Faceted black beads, gold PVD steel wire links, non-tarnish",
     "adBody": "Faceted black beads wire-wrapped one by one into a gold rosary-style chain.",
     "altText": "A rosary-style necklace of round faceted black beads linked with gold wire, on a black necklace bust.",
     "image": "/uploads/black-bead-rosary-chain.jpg",
@@ -90,7 +90,7 @@
     "id": "green-aventurine-station-necklace",
     "name": "Green Bead Station Necklace",
     "category": "Necklace",
-    "materials": "Faceted green stone beads, gold-tone ball beads, fine gold-tone chain",
+    "materials": "Faceted green stone beads, gold PVD steel ball beads, fine gold PVD steel chain, non-tarnish",
     "adBody": "Faceted green beads and gold balls spaced along a fine gold chain. Fresh and easy to wear.",
     "altText": "A fine gold chain with faceted mint-green beads alternating with round gold beads, on a black necklace bust.",
     "image": "/uploads/green-aventurine-station-necklace.jpg",
@@ -104,95 +104,11 @@
     "id": "stone-chip-station-necklace",
     "name": "Stone Chip Station Necklace",
     "category": "Necklace",
-    "materials": "Natural stone chips in green, cream, and amber, gold-tone beads, fine gold-tone chain",
+    "materials": "Natural stone chips in green, cream, and amber, gold PVD steel beads, fine gold PVD steel chain, non-tarnish",
     "adBody": "Natural stone chips in green, cream, and amber, spaced along a fine gold chain.",
     "altText": "A fine gold chain with irregular natural stone chips in green, cream, and amber, each between two gold beads, on a black necklace bust.",
     "image": "/uploads/stone-chip-station-necklace.jpg",
     "createdAt": "2026-10-22T18:00:00.000Z",
-    "price": "$11"
-  },
-  {
-    "story": "Five strands of small faceted navy beads, gathered into gold end caps and finished with a soft gold cord.\n\nLittle stone-set flowers sit across the strands like a brooch.",
-    "adHeadline": "Five strands of midnight",
-    "socialCaption": "Navy multistrand necklace with sparkling flower spacers.",
-    "id": "navy-multistrand-necklace",
-    "name": "Navy Multistrand Necklace",
-    "category": "Necklace",
-    "materials": "Faceted navy glass beads, stone-set flower spacers, gold-tone clasps, gold cord with pearl accents",
-    "adBody": "Five strands of faceted navy beads with stone-set flower spacers and a gold cord tie. Made for festive days.",
-    "altText": "Close-up of a five-strand necklace of faceted navy beads with stone-set flower spacers and gold end caps, on a white damask cloth.",
-    "image": "/uploads/navy-multistrand-necklace.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z",
-    "variantLabel": "Photo",
-    "variants": [
-      {
-        "name": "Five strands",
-        "swatch": "#1F2A5A",
-        "image": "/uploads/navy-multistrand-necklace.jpg",
-        "altText": "Close-up of a five-strand necklace of faceted navy beads with stone-set flower spacers and gold end caps, on a white damask cloth."
-      },
-      {
-        "name": "Long strand",
-        "swatch": "#2B3A78",
-        "image": "/uploads/navy-long-strand.jpg",
-        "altText": "A long navy bead necklace laid straight on a white damask cloth."
-      },
-      {
-        "name": "Close up",
-        "swatch": "#3A4A8C",
-        "image": "/uploads/navy-bead-strand.jpg",
-        "altText": "A strand of round navy beads with small gold accents near the clasp, on white damask."
-      }
-    ],
-    "price": "$11"
-  },
-  {
-    "story": "Two strands of glossy black beads that come together at a round gold coin.\n\nA classic shape, strung by hand.",
-    "adHeadline": "A gold coin on black beads",
-    "socialCaption": "Black bead necklace with a gold coin pendant.",
-    "id": "black-bead-coin-necklace",
-    "name": "Black Bead Coin Necklace",
-    "category": "Necklace",
-    "materials": "Black glass beads, gold-tone coin pendant, gold-tone clasp",
-    "adBody": "Glossy black bead strands finished with a round gold coin pendant.",
-    "altText": "A black bead necklace laid on a white damask cloth, with a round gold coin pendant at the bottom.",
-    "image": "/uploads/black-bead-coin-necklace.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z",
-    "price": "$11"
-  },
-  {
-    "story": "Bunches of bead strands, each color its own necklace: coral, green, purple, sky blue, and orange.\n\nEach one is gathered into gold caps and tied off with silk cord and a tassel.",
-    "adHeadline": "Pick your color, layer the rest",
-    "socialCaption": "Layered bead strands in five colors. Wear one or stack them.",
-    "id": "layered-bead-strands",
-    "name": "Layered Bead Strands",
-    "category": "Necklace",
-    "materials": "Glass and stone beads in coral, green, and purple, gold-tone caps, silk cord ties",
-    "adBody": "Multistrand bead necklaces in coral, green, purple, sky blue, and orange, finished with silk cord ties.",
-    "altText": "Three multistrand bead necklaces in coral, green, and purple laid out on a white cloth on the work table.",
-    "image": "/uploads/layered-bead-strands.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z",
-    "variantLabel": "Photo",
-    "variants": [
-      {
-        "name": "Coral, green, purple",
-        "swatch": "#E8735A",
-        "image": "/uploads/layered-bead-strands.jpg",
-        "altText": "Three multistrand bead necklaces in coral, green, and purple laid out on a white cloth on the work table."
-      },
-      {
-        "name": "Sky blue",
-        "swatch": "#4FA9D6",
-        "image": "/uploads/layered-bead-strands-blue.jpg",
-        "altText": "A sky-blue multistrand bead necklace and black bead cords on a white damask cloth."
-      },
-      {
-        "name": "Orange",
-        "swatch": "#E0803A",
-        "image": "/uploads/layered-bead-strands-coral.jpg",
-        "altText": "An orange multistrand bead necklace with a gold clasp, next to green beads and a tassel on the work table."
-      }
-    ],
     "price": "$11"
   },
   {
@@ -202,7 +118,7 @@
     "id": "invisible-chain-necklace",
     "name": "Invisible Chain Necklace",
     "category": "Necklace",
-    "materials": "Fine, near-invisible chain, tiny gold-tone beads, gold-tone clasp",
+    "materials": "Fine, near-invisible chain, tiny gold PVD steel beads, gold PVD steel clasp, non-tarnish",
     "adBody": "An invisible chain necklace: tiny gold beads on a chain so fine they look like they float. Matching bracelet too.",
     "altText": "An invisible chain necklace with tiny gold beads spaced along a very fine chain, laid in a circle on grey felt.",
     "image": "/uploads/invisible-chain-necklace.jpg",
@@ -243,7 +159,7 @@
     "id": "navaratna-bead-drops",
     "name": "Nine Gem Bead Drops",
     "category": "Pendant",
-    "materials": "Glass beads in ruby, emerald, onyx, coral, and pearl colors, gold-tone filigree caps, gold-tone bails",
+    "materials": "Glass beads in ruby, emerald, onyx, coral, and pearl colors, gold PVD steel filigree caps, gold PVD steel bails, non-tarnish",
     "adBody": "Ruby, emerald, black, coral, and pearl beads in gold filigree caps. Slips onto any chain.",
     "altText": "Three bead drops held in a palm: black, ruby, green, coral, and pearl beads stacked in gold filigree caps with gold bails.",
     "image": "/uploads/navaratna-bead-drops.jpg",
@@ -257,7 +173,7 @@
     "id": "temple-pearl-pendant",
     "name": "Temple Pearl Pendant",
     "category": "Pendant",
-    "materials": "Gold-tone temple-style bead, cream pearl, gold-tone bail",
+    "materials": "Gold PVD steel temple-style bead, cream pearl, gold PVD steel bail, non-tarnish",
     "adBody": "A carved temple-style gold bead with a cream pearl drop. Small, rich, and festive.",
     "altText": "A small pendant held in a palm: a carved gold temple-style bead with a cream pearl below it.",
     "image": "/uploads/temple-pearl-pendant.jpg",
@@ -271,7 +187,7 @@
     "id": "pearl-filigree-drops",
     "name": "Pearl Filigree Drops",
     "category": "Earrings",
-    "materials": "Cream pearl beads, gold-tone filigree caps, gold-tone hooks",
+    "materials": "Cream pearl beads, gold PVD steel filigree caps, gold PVD steel hooks, non-tarnish",
     "adBody": "Round cream pearls under gold filigree caps on gold hooks. Classic and easy.",
     "altText": "Close-up of a round cream pearl with a gold filigree cap on a gold hook, held in a hand.",
     "image": "/uploads/pearl-filigree-drops.jpg",
@@ -293,15 +209,15 @@
     ]
   },
   {
-    "story": "Gold wire wrapped around a little cluster of red and pink beads, with two pale pink pearls at the tips.\n\nIt looks like a bunch of berries on your finger.",
-    "adHeadline": "A bunch of berries on your finger",
-    "socialCaption": "Berry bead wire ring, wrapped by hand.",
-    "id": "berry-bead-wire-ring",
-    "name": "Berry Bead Wire Ring",
-    "category": "Ring",
-    "materials": "Gold-tone wire, red and pink glass beads, pale pink pearl beads",
-    "adBody": "A hand-wrapped gold wire ring with a cluster of red and pink beads.",
-    "altText": "A gold wire ring with a cluster of red and pink beads and pale pink pearls, resting on an open palm.",
+    "story": "Gold wire wrapped around a little cluster of red and pink beads, with two pale pink pearls at the tips.\n\nOn the wrist it looks like a small bunch of berries.",
+    "adHeadline": "A bunch of berries at your wrist",
+    "socialCaption": "Berry bead wire bracelet, wrapped by hand.",
+    "id": "berry-bead-wire-bracelet",
+    "name": "Berry Bead Wire Bracelet",
+    "category": "Bracelet",
+    "materials": "Gold PVD steel wire, red and pink glass beads, pale pink pearl beads, non-tarnish",
+    "adBody": "A hand-wrapped gold wire bracelet with a cluster of red and pink beads.",
+    "altText": "A gold wire bracelet with a cluster of red and pink beads and pale pink pearls, held in a palm.",
     "image": "/uploads/berry-bead-wire-ring.jpg",
     "createdAt": "2026-10-22T18:00:00.000Z",
     "variantLabel": "Photo",
@@ -310,15 +226,16 @@
         "name": "In hand",
         "swatch": "#D7263D",
         "image": "/uploads/berry-bead-wire-ring.jpg",
-        "altText": "A gold wire ring with a cluster of red and pink beads and pale pink pearls, resting on an open palm."
+        "altText": "A gold wire bracelet with a cluster of red and pink beads and pale pink pearls, resting on an open palm."
       },
       {
         "name": "Side",
         "swatch": "#E58FA8",
         "image": "/uploads/berry-bead-wire-ring-side.jpg",
-        "altText": "The berry bead wire ring held from the side, showing the gold wire band."
+        "altText": "The berry bead wire bracelet held from the side, showing the gold wire band."
       }
-    ]
+    ],
+    "price": "$8"
   },
   {
     "story": "One bead, two small gold beads beside it, on a cord so fine it disappears on the skin.\n\nOn the wrist, the bead looks like it is floating. Pick the color you like.",
@@ -327,7 +244,7 @@
     "id": "invisible-bracelet",
     "name": "Invisible Bracelet",
     "category": "Bracelet",
-    "materials": "Fine, near-invisible cord, one glass bead, gold-tone beads and clasp",
+    "materials": "Fine, near-invisible cord, one glass bead, gold PVD steel beads and clasp, non-tarnish",
     "adBody": "An invisible bracelet: one colored bead between two gold beads on a cord so fine you barely see it.",
     "altText": "An invisible bracelet: one green bead between two gold beads on a very fine cord, on grey felt.",
     "image": "/uploads/invisible-bracelet-green.jpg",
@@ -350,93 +267,28 @@
     "price": "$6 each"
   },
   {
-    "story": "A slim gold bangle with a pearl set in the middle and small stones on either side.\n\nIt sits neatly on the wrist and goes with everything.",
-    "adHeadline": "Gold at the wrist, a pearl in the middle",
-    "socialCaption": "Pearl bar bangle, worn every day.",
-    "id": "pearl-bar-bangle",
-    "name": "Pearl Bar Bangle",
+    "story": "A 925 silver bangle with a beaded design worked by hand across the front, a pearl at the center.\n\nIt sits neatly on the wrist and goes with everything.",
+    "adHeadline": "Sterling silver, beaded by hand",
+    "socialCaption": "925 silver bangle with a handmade beaded design.",
+    "id": "silver-beaded-bangle",
+    "name": "Silver Beaded Bangle",
     "category": "Bracelet",
-    "materials": "Gold-tone bangle, pearl and stone accents",
-    "adBody": "A slim gold bangle with a pearl at the center. Everyday gold that goes with everything.",
-    "altText": "A slim gold bangle with a pearl in the center, worn on a wrist.",
+    "materials": "925 sterling silver bangle, handmade beaded design",
+    "adBody": "A 925 silver bangle with a handmade beaded design. Everyday silver that goes with everything.",
+    "altText": "A 925 silver bangle with a handmade beaded design and a pearl at the center, worn on a wrist.",
     "image": "/uploads/pearl-bar-bangle.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z"
-  },
-  {
-    "id": "coral-pearl-strand",
-    "name": "Coral Pearl Strand",
-    "category": "Necklace",
-    "materials": "Red coral barrels, white pearls, gold shell charms, gold clasp",
-    "story": "I strung this one bead at a time: a white pearl, a red coral barrel, then a small gold shell that hangs a little lower than the strand. The clasp is gold, and the ends finish with a few small pearls so it sits quietly at the back of the neck.\n\nIt is meant to be seen at the collarbone. Coral, pearl, and gold, nothing else.",
-    "adHeadline": "Coral, pearl, and gold",
-    "adBody": "A gold strand of red coral barrels, white pearls, and small shell charms, worn at the collarbone.",
-    "socialCaption": "New on the bench: red coral, white pearls, and gold shells on one strand. Worn close, clasp at the side.",
-    "altText": "An adult Indian woman in an ivory silk blouse wearing a necklace of red coral barrels, white pearls, and gold shell charms.",
-    "image": "/uploads/coral-pearl-strand-ivory.jpg",
-    "createdAt": "2026-10-17T14:30:00.000Z",
-    "variantLabel": "Portrait",
-    "variants": [
-      {
-        "name": "Gold",
-        "swatch": "#C4A265",
-        "image": "/uploads/coral-pearl-strand-gold.jpg",
-        "altText": "An adult woman with deep brown skin in a gold silk blouse, wearing a necklace of red coral, white pearls, and gold shell charms."
-      },
-      {
-        "name": "Ivory",
-        "swatch": "#F3E6C8",
-        "image": "/uploads/coral-pearl-strand-ivory.jpg",
-        "altText": "An adult Indian woman with her hair in a braid, wearing an ivory silk blouse and a necklace of red coral, white pearls, and gold shell charms."
-      },
-      {
-        "name": "Maroon",
-        "swatch": "#7A2436",
-        "image": "/uploads/coral-pearl-strand-maroon.jpg",
-        "altText": "An adult Indian woman in a maroon silk blouse wearing a necklace of red coral barrels, white pearls, and gold shell charms."
-      },
-      {
-        "name": "Champagne",
-        "swatch": "#E6D3B8",
-        "image": "/uploads/coral-pearl-strand-champagne.jpg",
-        "altText": "An adult East Asian woman in a champagne silk blouse wearing a necklace of red coral, white pearls, and gold shell charms."
-      },
-      {
-        "name": "Blush",
-        "swatch": "#E7C8BE",
-        "image": "/uploads/coral-pearl-strand-blush.jpg",
-        "altText": "An adult woman with fair skin in a pale blush silk blouse wearing a necklace of red coral, white pearls, and gold shell charms."
-      },
-      {
-        "name": "Cream",
-        "swatch": "#F6F1EA",
-        "image": "/uploads/coral-pearl-strand.jpg",
-        "altText": "An adult woman in a cream silk blouse wearing a necklace of red coral barrels, white pearls, and gold shell charms."
-      }
-    ]
-  },
-  {
-    "id": "single-flower-drops",
-    "name": "Single Flower Drops",
-    "category": "Earrings",
-    "price": "$9",
-    "materials": "Enamel flower charms, gold-tone metal, gold french hooks",
-    "story": "One flower on one hook. I lay the charms out on the black felt in every color I have, red daisies, green blossoms, violet petals with a yellow heart, and let the pair choose itself.\n\nThey are the smallest thing I make and the easiest to wear. A little color at the ear, nothing more.",
-    "adHeadline": "One flower, one hook",
-    "adBody": "A single enamel flower charm on a gold french hook, in red, green, violet, pink, and more.",
-    "socialCaption": "The single drops, laid out on the felt. Pick a color; each pair is one small flower on a gold hook.",
-    "altText": "A young woman with curly dark hair in a ponytail, smiling, wearing a small red enamel daisy earring on a gold hook.",
-    "image": "/uploads/single-flower-drops.jpg",
-    "createdAt": "2026-10-07T23:55:00.000Z"
+    "createdAt": "2026-10-22T18:00:00.000Z",
+    "price": "$12"
   },
   {
     "id": "flower-leaf-cluster-drops",
     "name": "Flower & Leaf Cluster Drops",
-    "category": "Earrings",
-    "price": "$12",
-    "materials": "Enamel blossoms and leaves, gold-tone links, gold kidney hooks",
+    "category": "Charms",
+    "price": "$3 – $10",
+    "materials": "PVD steel, non-tarnish",
     "story": "These grow downward like a stem. A pale blossom at the top, a green enamel leaf, then a blue daisy at the end of the line. I link them one at a time with the pliers until the drop hangs straight.\n\nThey move when you turn your head, which is the whole point.",
     "adHeadline": "A stem you can wear",
-    "adBody": "Blossom, leaf, and daisy linked into one gold drop that moves when you do.",
+    "adBody": "Blossom, leaf, and daisy linked into one gold drop that moves when you do. Sold as individual, changeable charms.",
     "socialCaption": "Cluster drops: white blossom, green leaf, blue daisy, linked by hand on a gold kidney hook.",
     "altText": "A young woman with long straight dark hair in a pale blue shirt, in profile, wearing a drop earring of white blossoms, green leaves, and blue daisies.",
     "image": "/uploads/flower-leaf-cluster-drops.jpg",
@@ -445,12 +297,12 @@
   {
     "id": "flower-charm-hoops",
     "name": "Flower Charm Hoops",
-    "category": "Earrings",
-    "price": "$14",
-    "materials": "Gold-tone wire hoops, interchangeable enamel flower charms",
+    "category": "Charms",
+    "price": "$3 – $10",
+    "materials": "PVD steel, non-tarnish",
     "story": "Thin gold hoops, and a handful of flower charms that slide on and off. Pink blossom today, a yellow one tomorrow, a violet four-petal flower or a green daisy when the mood changes.\n\nOne pair of hoops, a different flower whenever you like. These are the ones people ask about.",
     "adHeadline": "Pick today’s flower",
-    "adBody": "Gold hoops with swappable enamel flower charms in pink, yellow, violet, and green.",
+    "adBody": "Gold hoops with swappable enamel flower charms in pink, yellow, violet, and green. Sold as individual, changeable charms.",
     "socialCaption": "Flower charm hoops: one pair of gold hoops, and the charms change. Pink, yellow, violet, green, pick one.",
     "altText": "A young woman with a blonde braid in a lilac sweater, smiling, wearing a thin gold hoop earring with a single pink enamel blossom charm.",
     "image": "/uploads/flower-charm-hoops.jpg",
@@ -486,29 +338,11 @@
   {
     "id": "swap-hoops",
     "name": "Swap Hoops",
-    "category": "Earrings",
-    "priceOptions": [
-      {
-        "label": "Hoops + 1 bead color",
-        "price": "$10"
-      },
-      {
-        "label": "Hoops + 3 bead colors",
-        "price": "$18"
-      },
-      {
-        "label": "Hoops + 5 bead colors (popular)",
-        "price": "$24"
-      },
-      {
-        "label": "Hoops + 10 bead colors",
-        "price": "$35"
-      }
-    ],
-    "materials": "Gold-tone wire hoops, fluted melon beads with gold stripes",
+    "category": "Charms",
+    "materials": "PVD steel, non-tarnish",
     "story": "The hoop opens and the bead slides off, so one pair of hoops can be orange today and sky blue tomorrow. I keep the beads in a row on the felt: orange, hot pink, lime, purple, pink, sky blue, green, red, cream.\n\nStart with one color or take the whole set.",
     "adHeadline": "Change the bead, change the day",
-    "adBody": "Gold hoops with swappable fluted beads, in sets of 1, 3, 5, or 10 colors.",
+    "adBody": "Gold hoops with swappable fluted beads, in sets of 1, 3, 5, or 10 colors. Sold as individual, changeable charms.",
     "socialCaption": "Swap hoops with nine bead colors waiting. The five-color set is the one most people pick.",
     "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a orange round bead with gold stripes.",
     "image": "/uploads/swap-hoops-orange.jpg",
@@ -569,17 +403,18 @@
         "image": "/uploads/swap-hoops-cream.jpg",
         "altText": "A young woman with long dark hair in an ivory camisole, in profile, wearing a thin gold hoop threaded with a cream round bead with gold stripes."
       }
-    ]
+    ],
+    "price": "$3 – $10"
   },
   {
     "id": "pumpkin-bead-drops",
     "name": "Pumpkin Bead Drops",
-    "category": "Earrings",
-    "price": "$12 per pair",
-    "materials": "Fluted melon beads with gold stripes, gold filigree caps, gold french hooks",
+    "category": "Charms",
+    "price": "$3 – $10",
+    "materials": "PVD steel, non-tarnish",
     "story": "A round fluted bead between two gold filigree caps, so it hangs like a small lantern. I make them in green, red, orange, and cream, and every bead has its own gold lines running top to bottom.\n\nThe orange ones always go first in the fall.",
     "adHeadline": "A small lantern at the ear",
-    "adBody": "A fluted bead capped in gold filigree, in green, red, orange, or cream.",
+    "adBody": "A fluted bead capped in gold filigree, in green, red, orange, or cream. Sold as individual, changeable charms.",
     "socialCaption": "Pumpkin bead drops in green, red, orange, and cream. Gold caps top and bottom, gold hook.",
     "altText": "A young woman with long braids in an olive turtleneck, in profile against a mustard wall, wearing a orange fluted bead earring with gold caps.",
     "image": "/uploads/pumpkin-bead-drops.jpg",
@@ -615,12 +450,12 @@
   {
     "id": "tibetan-bead-drops",
     "name": "Tibetan Bead Drops",
-    "category": "Earrings",
-    "price": "$16 per pair",
-    "materials": "Tibetan-style beads with turquoise and coral inlay, gold-tone wire",
+    "category": "Charms",
+    "price": "$3 – $10",
+    "materials": "PVD steel, non-tarnish",
     "story": "The beads are the heavy, detailed kind: dark centers wrapped in twisted gold wire, set with turquoise and coral. I wire-wrap each one into a loop by hand so it hangs cleanly from the hook.\n\nOne is all blue-green stones in a gold cage. One has red and turquoise dots between gold swirls. Both feel old in the hand.",
     "adHeadline": "Turquoise in a gold cage",
-    "adBody": "Inlaid Tibetan-style beads, wire-wrapped by hand into a single drop.",
+    "adBody": "Inlaid Tibetan-style beads, wire-wrapped by hand into a single drop. Sold as individual, changeable charms.",
     "socialCaption": "Tibetan bead drops, wrapped this week. Turquoise, coral, and a lot of twisted gold.",
     "altText": "A young woman with a dark braid in a maroon top, in profile against a stone wall, wearing a drop earring of a gold bead set with turquoise stones.",
     "image": "/uploads/tibetan-bead-drops.jpg",
@@ -628,21 +463,22 @@
   },
   {
     "name": "Throat Blossom",
-    "category": "Pendant",
-    "materials": "Pink enamel, fine gold chain, a tiny clear stone",
+    "category": "Charms",
+    "materials": "PVD steel, non-tarnish",
     "story": "The clasp was already on when I lifted it from the bench. A fine gold chain, and the blossom rests at the hollow of the throat. Pink enamel, gold along every petal, a tiny stone at the heart.\n\nIt is light on purpose. One flower, close to the skin, so an ordinary day has a single bright thing at the collarbone.",
     "adHeadline": "A flower at the throat",
-    "adBody": "A pink enamel blossom on a fine gold chain, worn close to the skin.",
+    "adBody": "A pink enamel blossom on a fine gold chain, worn close to the skin. Sold as individual, changeable charms.",
     "socialCaption": "The pendant, worn. One blossom, gold at the edge, sitting at the hollow of the throat.",
     "altText": "A young woman in a cream silk blouse wearing a pink enamel blossom pendant on a fine gold chain.",
     "id": "blossom-pendant",
     "image": "/uploads/blossom-pendant.jpg",
-    "createdAt": "2026-10-05T19:26:00.000Z"
+    "createdAt": "2026-10-05T19:26:00.000Z",
+    "price": "$3 – $10"
   },
   {
     "name": "First Blossom",
     "category": "Earrings",
-    "materials": "Pink enamel, gold-tone metal, a tiny clear stone",
+    "materials": "Pink enamel, gold PVD steel, a tiny clear stone, non-tarnish",
     "story": "They were still loose on the white bench when the morning light found them. Three pink blossoms, each petal edged in gold. Two hold a tiny clear stone at the heart. One already wears its clasp, ready for a chain. At the edge of the table, a pale daisy the color of the inside of a shell.\n\nI make them small on purpose. A flower you can close your hand around, then wear at the throat on an ordinary Tuesday, so the day has one bright thing in it.",
     "adHeadline": "A blossom you can hold",
     "adBody": "Pink enamel, gold at every edge, and a pale daisy waiting beside them.",
@@ -651,31 +487,5 @@
     "id": "blossom-charms",
     "image": "/uploads/blossom-worn.jpg",
     "createdAt": "2026-10-05T17:41:00.000Z"
-  },
-  {
-    "name": "River Link",
-    "category": "Necklace",
-    "materials": "Hammered gold chain, river stone",
-    "story": "I hammered each link until the gold went matte, then hung a stone I picked up still warm from the bank. It sits low, a small weight you notice when you turn your head.",
-    "adHeadline": "A stone, still warm",
-    "adBody": "Hammered gold and one river stone, made to sit against the collarbone.",
-    "socialCaption": "New on the bench: a hammered gold chain and a grey river stone. The links are uneven on purpose.",
-    "altText": "A young woman with long black hair in an ivory linen top, wearing a hammered gold chain with a grey river-stone pendant, against a sage-green wall.",
-    "id": "linen-necklace",
-    "image": "/uploads/linen-necklace-worn.jpg",
-    "createdAt": "2026-10-01T15:00:00.000Z"
-  },
-  {
-    "name": "Moss Setting",
-    "category": "Ring",
-    "materials": "Hammered silver, green stone",
-    "story": "The band is silver I hammered until the marks stayed. The stone is a rough green, set in a bezel that follows its edges instead of forcing a circle.",
-    "adHeadline": "Green, left rough",
-    "adBody": "A hammered silver ring holding one irregular green stone.",
-    "socialCaption": "This ring keeps the stone's uneven edge. Silver, hammered, and a green that looks wet in window light.",
-    "altText": "A young woman with a black bob in a charcoal sweater, holding up her hand to show a hammered silver ring with a rough green stone.",
-    "id": "river-ring",
-    "image": "/uploads/river-ring-worn.jpg",
-    "createdAt": "2026-10-03T15:00:00.000Z"
   }
 ]
