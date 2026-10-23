@@ -117,9 +117,12 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
               Collection
             </h2>
           </div>
-          <p className="max-w-xs text-sm leading-relaxed text-muted">
-            {site.description}
-          </p>
+          <div className="max-w-xs text-sm leading-relaxed text-muted">
+            <p>{site.description}</p>
+            <p className="mt-2 text-[0.72rem] uppercase tracking-[0.22em] text-gold">
+              {site.setsNote}
+            </p>
+          </div>
         </div>
         {categories.length > 1 ? (
           <div
