@@ -227,8 +227,8 @@
     "category": "Pendant",
     "materials": "Glass beads in ruby, emerald, onyx, coral, and pearl colors, gold PVD steel filigree caps, gold PVD steel bails, non-tarnish",
     "adBody": "Ruby, emerald, black, coral, and pearl beads in gold filigree caps. Slips onto any chain.",
-    "altText": "Three bead drops held in a palm: black, ruby, green, coral, and pearl beads stacked in gold filigree caps with gold bails.",
-    "image": "/uploads/navaratna-bead-drops.jpg",
+    "altText": "An adult woman in a cream silk blouse wearing one bead drop on a fine gold chain: ruby, green, coral, and a cream pearl in gold filigree caps.",
+    "image": "/uploads/navaratna-bead-drops-worn.jpg",
     "createdAt": "2026-10-22T18:00:00.000Z",
     "price": "$10 each"
   },
@@ -241,8 +241,8 @@
     "category": "Pendant",
     "materials": "Gold PVD steel temple-style bead, cream pearl, gold PVD steel bail, non-tarnish",
     "adBody": "A carved temple-style gold bead with a cream pearl drop. Small, rich, and festive.",
-    "altText": "A small pendant held in a palm: a carved gold temple-style bead with a cream pearl below it.",
-    "image": "/uploads/temple-pearl-pendant.jpg",
+    "altText": "An adult woman in a cream silk blouse wearing a carved gold temple bead with a cream pearl on a fine gold chain.",
+    "image": "/uploads/temple-pearl-pendant-worn.jpg",
     "createdAt": "2026-10-22T18:00:00.000Z",
     "price": "$15"
   },
@@ -255,22 +255,22 @@
     "category": "Pendant",
     "materials": "Cream pearl beads, gold PVD steel filigree caps, gold PVD steel hooks, non-tarnish",
     "adBody": "Cream pearls under gold filigree caps, as a pendant, earrings, or the full set.",
-    "altText": "Close-up of a round cream pearl with a gold filigree cap on a gold hook, held in a hand.",
-    "image": "/uploads/pearl-filigree-drops.jpg",
+    "altText": "An adult woman in a cream silk blouse wearing a cream pearl pendant with a gold filigree cap on a fine gold chain.",
+    "image": "/uploads/pearl-filigree-pendant-worn.jpg",
     "createdAt": "2026-10-22T18:00:00.000Z",
     "variantLabel": "Option",
     "variants": [
       {
         "name": "Pendant",
         "swatch": "#EFE3C8",
-        "image": "/uploads/pearl-filigree-drops.jpg",
-        "altText": "A cream pearl pendant with a gold filigree cap on a fine gold loop, held in a hand."
+        "image": "/uploads/pearl-filigree-pendant-worn.jpg",
+        "altText": "An adult woman in a cream silk blouse wearing a cream pearl pendant with a gold filigree cap on a fine gold chain."
       },
       {
         "name": "Earrings",
         "swatch": "#C9A45C",
-        "image": "/uploads/pearl-filigree-drops-hook.jpg",
-        "altText": "A cream pearl earring with a gold filigree cap on a gold hook, held up in a hand."
+        "image": "/uploads/pearl-filigree-earrings-worn.jpg",
+        "altText": "An adult woman in a cream silk blouse wearing a cream pearl earring with a gold filigree cap on a gold hook."
       }
     ],
     "price": "$5 – $8"
@@ -349,22 +349,22 @@
     "category": "Bracelet",
     "materials": "Gold PVD steel wire, red and pink glass beads, pale pink pearl beads, non-tarnish",
     "adBody": "A hand-wrapped gold wire bracelet with a cluster of red and pink beads.",
-    "altText": "A gold wire bracelet with a cluster of red and pink beads and pale pink pearls, held in a palm.",
-    "image": "/uploads/berry-bead-wire-ring.jpg",
+    "altText": "A wrist in a light linen sleeve wearing a dark wire bracelet clustered with red and pink beads and pale pink pearls.",
+    "image": "/uploads/berry-bead-wire-bracelet-worn.jpg",
     "createdAt": "2026-10-22T18:00:00.000Z",
     "variantLabel": "Photo",
     "variants": [
       {
-        "name": "In hand",
+        "name": "Wrist",
         "swatch": "#D7263D",
-        "image": "/uploads/berry-bead-wire-ring.jpg",
-        "altText": "A gold wire bracelet with a cluster of red and pink beads and pale pink pearls, resting on an open palm."
+        "image": "/uploads/berry-bead-wire-bracelet-worn.jpg",
+        "altText": "A wrist in a light linen sleeve wearing a dark wire bracelet clustered with red and pink beads and pale pink pearls."
       },
       {
         "name": "Side",
         "swatch": "#E58FA8",
-        "image": "/uploads/berry-bead-wire-ring-side.jpg",
-        "altText": "The berry bead wire bracelet held from the side, showing the gold wire band."
+        "image": "/uploads/berry-bead-wire-bracelet-side-worn.jpg",
+        "altText": "A different wrist in a sage sleeve, seen from the side, wearing the same wire bracelet with red and pink beads."
       }
     ],
     "price": "$8"
