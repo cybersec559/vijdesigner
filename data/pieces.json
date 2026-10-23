@@ -1,16 +1,26 @@
 [
   {
-    "story": "A fine gold wire choker with a clear stone flower, blue at its center, and a deep blue stone drop below it.\n\nLoose blue drops come with it, so the pendant can change.",
+    "story": "A fine gold wire choker with a clear stone flower, blue at its center, and a deep blue stone drop below it.\n\nThe matching blue drop earrings come with it. Take the whole set, or pick the earrings, pendant, or bracelet on their own.",
     "adHeadline": "Blue stone, gold wire, a flower at the throat",
-    "socialCaption": "Blue pendant set: gold wire choker, flower pendant, and blue drops.",
+    "socialCaption": "Blue pendant set: $45 for the set, or $7 to $15 a piece.",
     "id": "blue-stone-pendant-set",
     "name": "Blue Stone Pendant Set",
     "category": "Pendant",
     "materials": "Gold PVD steel wire choker, deep blue stone drops, clear stone flower, non-tarnish",
-    "adBody": "A gold wire choker with a stone flower and a blue drop pendant, plus loose blue drops to change it.",
-    "altText": "A gold wire choker with a clear stone flower and a blue stone drop, with loose blue drops beside it on grey felt.",
+    "adBody": "A gold wire choker with a stone flower and blue drop pendant, plus matching blue drop earrings. $45 for the set.",
+    "altText": "A gold wire choker with a clear stone flower and a blue stone drop, with matching blue drop earrings on grey felt.",
     "image": "/uploads/blue-stone-pendant-set.jpg",
-    "createdAt": "2026-10-23T18:00:00.000Z"
+    "createdAt": "2026-10-23T18:00:00.000Z",
+    "priceOptions": [
+      {
+        "label": "Full set",
+        "price": "$45"
+      },
+      {
+        "label": "Earrings, pendant, or bracelet on its own",
+        "price": "$7 – $15"
+      }
+    ]
   },
   {
     "story": "A long run of tiny faceted black beads, so small they catch the light like a fine chain.\n\nAt the front, one white pearl sits between gold beads, with two more gold beads spaced out on each side.",
