@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import { addPiece, readPieces } from "@/lib/pieces";
+import { displayPrice } from "@/lib/price";
+import { syncPricedPiece } from "@/lib/shopify-catalog";
 import { isStudioAuthed } from "@/lib/studio-auth";
 import { copySchema, pieceSchema } from "@/lib/types";
 import { imageFromForm, saveUpload } from "@/lib/uploads";
@@ -47,13 +49,37 @@ export async function POST(request: Request) {
     );
   }
 
+  const priceField = form.get("price");
+  const priceText = typeof priceField === "string" ? priceField.trim() : "";
+  let price: string | undefined;
+  if (priceText) {
+    price = displayPrice(priceText);
+    if (!price || price.length > 40) {
+      return NextResponse.json({ error: "Enter a price like $12." }, { status: 400 });
+    }
+  }
+
   const saved = await saveUpload(image.file);
   const piece = pieceSchema.parse({
     ...copy.data,
     id: saved.id,
     image: saved.image,
     createdAt: new Date().toISOString(),
+    ...(price ? { price } : {}),
   });
   await addPiece(piece);
-  return NextResponse.json(piece);
+
+  let shopifyError: string | undefined;
+  if (price) {
+    try {
+      await syncPricedPiece(piece);
+    } catch (cause) {
+      shopifyError =
+        cause instanceof Error
+          ? cause.message
+          : "Shopify could not be updated for this price.";
+    }
+  }
+
+  return NextResponse.json({ piece, shopifyError });
 }

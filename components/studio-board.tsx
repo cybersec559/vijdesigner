@@ -10,7 +10,13 @@ import {
   isFrameId,
   type FrameId,
 } from "@/lib/frames";
-import { copySchema, emptyCopy, type CopyFields, type Piece } from "@/lib/types";
+import {
+  copySchema,
+  emptyCopy,
+  pieceSchema,
+  type CopyFields,
+  type Piece,
+} from "@/lib/types";
 
 const fields = [
   ["name", "Name"],
@@ -43,9 +49,29 @@ type Draft = {
   showcaseStatus: ShowcaseStatus;
   status: DraftStatus;
   error?: string;
+  shopifyError?: string;
   piece?: Piece;
+  price: string;
   fields: CopyFields;
 };
+
+function publishedPiece(
+  body: unknown,
+): { piece: Piece; shopifyError?: string } | null {
+  if (!body || typeof body !== "object") {
+    return null;
+  }
+  const record = body as { piece?: unknown; shopifyError?: unknown };
+  const piece = pieceSchema.safeParse(record.piece);
+  if (!piece.success) {
+    return null;
+  }
+  return {
+    piece: piece.data,
+    shopifyError:
+      typeof record.shopifyError === "string" ? record.shopifyError : undefined,
+  };
+}
 
 function errorFromBody(body: unknown, fallback: string): string {
   if (
@@ -124,6 +150,7 @@ export function StudioBoard() {
           frame: "earrings" as const,
           showcaseStatus: "idle" as const,
           status: "idle" as const,
+          price: "",
           fields: { ...emptyCopy },
         })),
         ...current,
@@ -284,17 +311,25 @@ export function StudioBoard() {
     for (const [key] of fields) {
       body.set(key, copy.data[key]);
     }
+    if (draft.price.trim()) {
+      body.set("price", draft.price.trim());
+    }
     const response = await fetch("/api/pieces", { method: "POST", body });
     const payload: unknown = await response.json().catch(() => null);
-    if (!response.ok) {
+    const published = publishedPiece(payload);
+    if (!response.ok || !published) {
       patchDraft(localId, {
         status: "error",
         error: errorFromBody(payload, "Could not publish this piece."),
       });
       return;
     }
-    const piece = payload as Piece;
-    patchDraft(localId, { status: "published", piece, error: undefined });
+    patchDraft(localId, {
+      status: "published",
+      piece: published.piece,
+      shopifyError: published.shopifyError,
+      error: undefined,
+    });
     router.refresh();
   }
 
@@ -457,12 +492,30 @@ export function StudioBoard() {
                   );
                 })}
               </div>
+              <label className="mt-3 block text-sm">
+                Price
+                <input
+                  value={draft.price}
+                  placeholder="$12"
+                  disabled={draft.status === "published"}
+                  onChange={(event) =>
+                    patchDraft(draft.localId, { price: event.target.value })
+                  }
+                  className="mt-1 w-full rounded-2xl border border-line bg-background px-3 py-2"
+                />
+              </label>
+              <p className="mt-1 text-xs text-muted">
+                Item price only. Leave blank if this piece is not for sale.
+                Shipping is added at checkout.
+              </p>
               {draft.error ? (
                 <p className="mt-3 text-sm text-clay">{draft.error}</p>
               ) : null}
               {draft.status === "published" && draft.piece ? (
                 <p className="mt-3 text-sm">
-                  On the gallery.{" "}
+                  {draft.piece.price && !draft.shopifyError
+                    ? "On the gallery, and in the shop."
+                    : "On the gallery."}{" "}
                   <Link
                     href={`/pieces/${draft.piece.id}`}
                     className="underline decoration-gold underline-offset-4"
@@ -470,6 +523,9 @@ export function StudioBoard() {
                     Open {draft.piece.name}
                   </Link>
                 </p>
+              ) : null}
+              {draft.shopifyError ? (
+                <p className="mt-2 text-sm text-clay">{draft.shopifyError}</p>
               ) : null}
               <div className="mt-4 flex flex-wrap gap-3">
                 <button

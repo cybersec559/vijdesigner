@@ -21,7 +21,7 @@ Open [http://127.0.0.1:3456](http://127.0.0.1:3456).
 | `/cart` | Bag and Shopify checkout |
 | `/studio` | Password gate, then the upload board |
 
-Shopify env vars come from the Vercel Marketplace integration (`SHOPIFY_STORE_DOMAIN`, `SHOPIFY_STOREFRONT_ACCESS_TOKEN`). Pull them with `vercel env pull`.
+Shopify storefront env vars come from the Vercel Marketplace integration (`SHOPIFY_STORE_DOMAIN`, `SHOPIFY_STOREFRONT_ACCESS_TOKEN`). Pull them with `vercel env pull`. A priced publish also needs `SHOPIFY_ADMIN_ACCESS_TOKEN` (`write_products`, `read_products`, `read_publications`, `write_publications`) so the piece is created or updated in Shopify and Add to cart can appear.
 
 Set `STUDIO_PASSWORD` in `.env.local` before signing into the studio. Copy generation also needs `AI_GATEWAY_API_KEY`. Without that key, the studio still lets you type the copy and publish. Generate returns a clear error until the key is present and the dev server is restarted.
 
