@@ -84,15 +84,6 @@ export default function TermsPage() {
         </p>
       </section>
       <section>
-        <h2>California Proposition 65</h2>
-        <p className="mt-4">
-          Fashion jewelry can expose a person in California to listed chemicals,
-          including lead and cadmium. The warning on the piece page and in the
-          bag is the warning for that purchase. Wash your hands after handling a
-          piece, and do not let children mouth it.
-        </p>
-      </section>
-      <section>
         <h2>Responsibility</h2>
         <p className="mt-4">
           We are responsible for the piece matching the description we published

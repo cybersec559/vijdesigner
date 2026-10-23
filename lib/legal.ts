@@ -21,6 +21,3 @@ export const shippingDisclosure =
 
 export const returnsDisclosure =
   "Unworn pieces can be returned within 14 days after delivery. Earrings made to pass through a piercing are final sale unless they arrive damaged or we sent the wrong piece.";
-
-export const prop65Warning =
-  "This product can expose you to chemicals including lead and cadmium, which are known to the State of California to cause cancer and birth defects or other reproductive harm.";
