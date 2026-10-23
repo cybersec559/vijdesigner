@@ -272,6 +272,71 @@
     "price": "$5 – $8"
   },
   {
+    "story": "Tibetan beads from my own bead box, each one hung as a pendant: an Om, a spiral oval, a coral teardrop, turquoise, coral, and lapis.\n\nPick the shape you like and wear it on an invisible chain or any chain you have.",
+    "adHeadline": "Pick your Tibetan bead",
+    "socialCaption": "Tibetan bead pendants: Om, spiral, teardrop, turquoise, coral, or lapis. $4 each.",
+    "id": "tibetan-bead-pendants",
+    "name": "Tibetan Bead Pendants",
+    "category": "Pendant",
+    "materials": "Tibetan beads with brass, turquoise, and coral inlay, gold PVD steel bail, non-tarnish",
+    "adBody": "Tibetan bead pendants in six shapes, from an Om to a coral teardrop. Wear one on an invisible chain.",
+    "altText": "A full box of Tibetan beads in every shape: Om, spiral oval, teardrop, turquoise, coral, lapis, and black-and-gold.",
+    "image": "/uploads/tibetan-bead-box-full.jpg",
+    "createdAt": "2026-10-23T20:00:00.000Z",
+    "price": "$4 each",
+    "variantLabel": "Bead",
+    "variants": [
+      {
+        "name": "Full bead box",
+        "swatch": "#8F6B2E",
+        "image": "/uploads/tibetan-bead-box-full.jpg",
+        "altText": "A full box of Tibetan beads in every shape: Om, spiral oval, teardrop, turquoise, coral, lapis, and black-and-gold."
+      },
+      {
+        "name": "Om",
+        "swatch": "#C9A45C",
+        "image": "/uploads/tibetan-bead-om.jpg",
+        "altText": "A round Tibetan bead with a gold Om symbol framed by red coral and turquoise chips."
+      },
+      {
+        "name": "Spiral oval",
+        "swatch": "#D7262E",
+        "image": "/uploads/tibetan-bead-spiral.jpg",
+        "altText": "An oval Tibetan bead with a gold spiral at the center, red coral dots, and turquoise chips."
+      },
+      {
+        "name": "Teardrop",
+        "swatch": "#B5453A",
+        "image": "/uploads/tibetan-bead-teardrop.jpg",
+        "altText": "A teardrop Tibetan bead with a red coral center inside gold arches set with turquoise."
+      },
+      {
+        "name": "Turquoise cage",
+        "swatch": "#2EB8C4",
+        "image": "/uploads/tibetan-bead-turquoise.jpg",
+        "altText": "A round Tibetan bead with turquoise stones and red coral set in twisted gold wire."
+      },
+      {
+        "name": "Coral",
+        "swatch": "#C8352B",
+        "image": "/uploads/tibetan-bead-coral.jpg",
+        "altText": "A rondelle Tibetan bead set with red coral chips and a gold rim of small beads."
+      },
+      {
+        "name": "Lapis",
+        "swatch": "#2B3A9C",
+        "image": "/uploads/tibetan-bead-lapis.jpg",
+        "altText": "A round blue lapis Tibetan bead with red coral set inside gold rings."
+      },
+      {
+        "name": "Invisible chain",
+        "swatch": "#C9A45C",
+        "image": "/uploads/invisible-chain-necklace.jpg",
+        "altText": "The invisible chain the bead can hang on: a very fine chain with tiny gold beads, laid in a circle on grey felt."
+      }
+    ]
+  },
+  {
     "story": "Gold wire wrapped around a little cluster of red and pink beads, with two pale pink pearls at the tips.\n\nOn the wrist it looks like a small bunch of berries.",
     "adHeadline": "A bunch of berries at your wrist",
     "socialCaption": "Berry bead wire bracelet, wrapped by hand.",
@@ -599,6 +664,48 @@
         "swatch": "#B5453A",
         "image": "/uploads/tibetan-bead-drops-bead-box.jpg",
         "altText": "A box of Tibetan bead charms in turquoise, coral, black, and brass to choose from."
+      },
+      {
+        "name": "Om",
+        "swatch": "#C9A45C",
+        "image": "/uploads/tibetan-bead-om.jpg",
+        "altText": "A round Tibetan bead with a gold Om symbol framed by red coral and turquoise chips."
+      },
+      {
+        "name": "Spiral oval",
+        "swatch": "#D7262E",
+        "image": "/uploads/tibetan-bead-spiral.jpg",
+        "altText": "An oval Tibetan bead with a gold spiral at the center, red coral dots, and turquoise chips."
+      },
+      {
+        "name": "Teardrop",
+        "swatch": "#B5453A",
+        "image": "/uploads/tibetan-bead-teardrop.jpg",
+        "altText": "A teardrop Tibetan bead with a red coral center inside gold arches set with turquoise."
+      },
+      {
+        "name": "Turquoise cage",
+        "swatch": "#2EB8C4",
+        "image": "/uploads/tibetan-bead-turquoise.jpg",
+        "altText": "A round Tibetan bead with turquoise stones and red coral set in twisted gold wire."
+      },
+      {
+        "name": "Coral",
+        "swatch": "#C8352B",
+        "image": "/uploads/tibetan-bead-coral.jpg",
+        "altText": "A rondelle Tibetan bead set with red coral chips and a gold rim of small beads."
+      },
+      {
+        "name": "Lapis",
+        "swatch": "#2B3A9C",
+        "image": "/uploads/tibetan-bead-lapis.jpg",
+        "altText": "A round blue lapis Tibetan bead with red coral set inside gold rings."
+      },
+      {
+        "name": "Full bead box",
+        "swatch": "#8F6B2E",
+        "image": "/uploads/tibetan-bead-box-full.jpg",
+        "altText": "A full box of Tibetan beads in every shape: Om, spiral oval, teardrop, turquoise, coral, lapis, and black-and-gold."
       },
       {
         "name": "Invisible chain",
