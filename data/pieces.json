@@ -161,41 +161,6 @@
     "price": "$11"
   },
   {
-    "story": "Bunches of bead strands, each color its own necklace: coral, green, purple, sky blue, and orange.\n\nEach one is gathered into gold caps and tied off with silk cord and a tassel.",
-    "adHeadline": "Pick your color, layer the rest",
-    "socialCaption": "Layered bead strands in five colors. Wear one or stack them.",
-    "id": "layered-bead-strands",
-    "name": "Layered Bead Strands",
-    "category": "Necklace",
-    "materials": "Glass and stone beads in coral, green, and purple, gold-tone caps, silk cord ties",
-    "adBody": "Multistrand bead necklaces in coral, green, purple, sky blue, and orange, finished with silk cord ties.",
-    "altText": "Three multistrand bead necklaces in coral, green, and purple laid out on a white cloth on the work table.",
-    "image": "/uploads/layered-bead-strands.jpg",
-    "createdAt": "2026-10-22T18:00:00.000Z",
-    "variantLabel": "Photo",
-    "variants": [
-      {
-        "name": "Coral, green, purple",
-        "swatch": "#E8735A",
-        "image": "/uploads/layered-bead-strands.jpg",
-        "altText": "Three multistrand bead necklaces in coral, green, and purple laid out on a white cloth on the work table."
-      },
-      {
-        "name": "Sky blue",
-        "swatch": "#4FA9D6",
-        "image": "/uploads/layered-bead-strands-blue.jpg",
-        "altText": "A sky-blue multistrand bead necklace and black bead cords on a white damask cloth."
-      },
-      {
-        "name": "Orange",
-        "swatch": "#E0803A",
-        "image": "/uploads/layered-bead-strands-coral.jpg",
-        "altText": "An orange multistrand bead necklace with a gold clasp, next to green beads and a tassel on the work table."
-      }
-    ],
-    "price": "$11"
-  },
-  {
     "story": "A chain so fine it disappears on the skin, with tiny gold beads set along it, far apart, like stars.\n\nI make it as a necklace and as a matching invisible bracelet, so you can wear them together.",
     "adHeadline": "Gold that floats at your neck",
     "socialCaption": "Invisible chain necklace: the chain disappears, the gold beads float.",
